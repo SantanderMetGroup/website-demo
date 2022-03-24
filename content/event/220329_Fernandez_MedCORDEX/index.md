@@ -1,7 +1,7 @@
 ---
-title: Example Event
+title: Results from the EURO-CORDEX CMIP6 GCM selection task team
 
-event: Wowchemy Conference
+event: Med-CORDEX Workshop on CORDEX-CMIP6
 event_url: https://example.org
 
 location: Wowchemy HQ
@@ -24,8 +24,8 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: '2017-01-01T00:00:00Z'
 
-authors: []
-tags: []
+authors: [jfernandez]
+tags: [CORDyS]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -36,7 +36,7 @@ image:
 
 url_code: ''
 url_pdf: ''
-url_slides: ''
+url_slides: 'https://docs.google.com/presentation/d/1ME8y7unnCzhuP1kgvWhgMhY0S2zAz-gi_Qe4-yDNvKM/edit?usp=sharing'
 url_video: ''
 
 # Markdown Slides (optional).
