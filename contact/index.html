@@ -769,7 +769,7 @@
     
 
     <div class="mb-3">
-      <form name="contact" method="POST" netlify netlify-honeypot="_gotcha"  >
+      <form name="contact" method="POST" netlify netlify-honeypot="_gotcha" data-netlify-recaptcha="true" >
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">Name</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
@@ -786,6 +786,8 @@
         <div class="d-none">
           <label>Do not fill this field unless you are a bot: <input name="_gotcha"></label>
         </div>
+        
+          <div class="form-group" data-netlify-recaptcha="true"></div>
         
         <button type="submit" class="btn btn-primary px-3 py-2 w-100">Send</button>
       </form>
@@ -813,22 +815,17 @@
       
       <li>
         <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address">450 Serra Mall, Stanford, CA 94305</span>
+        <span id="person-address">Avenida de los Castros s/n, Santander, Cantabria 39005</span>
       </li>
     
 
     
     <li>
       <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
-      <span>Enter Building 1 and take the stairs to Office 200 on Floor 2</span>
+      <span>Ground level floor</span>
     </li>
     
 
-    
-    <li>
-      <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
-      <span>Monday 10:00 to 13:00<br>Wednesday 09:00 to 10:00</span>
-    </li>
     
 
     
@@ -846,9 +843,9 @@
   
   <div class="d-none">
     <input id="map-provider" value="mapnik">
-    <input id="map-lat" value="37.4275">
-    <input id="map-lng" value="-122.1697">
-    <input id="map-dir" value="450 Serra Mall, Stanford, CA 94305">
+    <input id="map-lat" value="43.47158">
+    <input id="map-lng" value="-3.80220">
+    <input id="map-dir" value="Avenida de los Castros s/n, Santander, Cantabria 39005">
     <input id="map-zoom" value="15">
     <input id="map-api-key" value="">
   </div>
