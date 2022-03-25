@@ -25,7 +25,10 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: [jfernandez]
-tags: [CORDyS]
+tags: 
+  - EURO-CORDEX
+  - Global Climate Model
+  - Regional Climate Model
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -51,7 +54,8 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [cordys]
+projects: 
+  - cordys
 ---
 
 Slides can be added in a few ways:
