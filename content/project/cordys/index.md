@@ -15,12 +15,35 @@ summary: >
   the dissemination and publication of results and data products in the CORDEX
   community and ESGF infrastructure.
 
-# id is an invented variable (jf), not part of hugo
-id: PID2020-116595RB-I00
 tags:
-  - CORDEX
+  - EURO-CORDEX
+  - CMIP6
   - Regional Climate Model
-  - Statistical Downscaling
-date: 2021-01-01
+  - Statistical downscaling
+  - Statistical emulator
+  - Climate Information Distillation
+date: 2021-01-01T00:00:00
 external_link: https://www.meteo.unican.es/cordys
+authors: 
+  - Fernández, J.
+  - Cofiño, A.S.
+  - Bedia, J.
+  - Casanueva, A.
+  - Manzanas, R.
+  - Frías, M.D.
+  - Cimadevilla-Alvarez, E.
+  - Fernández-Quiruelas, V.
+# extra tags:
+id: PID2020-116595RB-I00
+status: In progress
+category: Regular project
+type: National project
+funder: Ministerio de Ciencia e Innovación / Agencia Estatal de Investigación
+funder_program: 
+collab_entities: 
+  - Universidad de Buenos Aires
+  - NORCE Research
+institution: 
+  - IFCA
+  - UC
 ---
