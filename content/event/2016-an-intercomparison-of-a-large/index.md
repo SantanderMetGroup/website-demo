@@ -17,7 +17,7 @@ summary: 'An intercomparison of a large ensemble of statistical downscaling meth
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2016
+date: 2016-01-01T00:00:00
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
