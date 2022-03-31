@@ -9,8 +9,7 @@ def tolist(text):
   return('\n  - '+'\n  - '.join(text.split(' | ')))
 
 def render_dates(text):
-  dates = [x[3:]+'-'+x[0:2] for x in text.split(' - ')]
-  return(dates[0] + '-01T00:00:00')
+  return(text + '-01-01T00:00:00')
 
 def cleanxml(text):
   return(re.sub('.*>(.*)<.*', '\\1', text))
@@ -38,7 +37,7 @@ for item in data['items']:
   item['event'] = cleanxml(item[d['event']])
   item['date'] = item[d['date']]
   item['tags'] = tolist(item[d['tags']])
-  dirname = unidecode.unidecode('-'.join(item['title'].lower().split(' ')[:5])).replace(':','').replace('.','')
+  dirname = item[d['date']]+'-'+unidecode.unidecode('-'.join(item['title'].lower().split(' ')[:5])).replace(':','').replace('.','').replace(',','')
   pathname = 'content/event/' + dirname
   os.makedirs(pathname, exist_ok = True)
 
