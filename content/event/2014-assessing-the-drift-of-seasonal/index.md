@@ -25,13 +25,13 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Manzanas, R.
-  - Fernández, J.
-  - Magariño, M.E.
-  - Gutiérrez, J.M.
-  - Doblas-Reyes, F.J.
-  - Nikulin, G.
-  - Buontempo, C.
+  - R. Manzanas
+  - jesus-fernandez
+  - M.E. Magariño
+  - jose-manuel-gutierrez
+  - F.J. Doblas-Reyes
+  - G. Nikulin
+  - C. Buontempo
 tags: 
   - Seasonal forecast
   - Drift

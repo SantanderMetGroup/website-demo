@@ -25,7 +25,7 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Gutiérrez, J.M.
+  - jose-manuel-gutierrez
   - the VALUE team
 tags: 
   - Statistical downscaling

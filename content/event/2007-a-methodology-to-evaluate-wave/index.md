@@ -25,12 +25,12 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Camus, P.
-  - Vidal, C.
-  - Méndez, F.
-  - Espejo, A.
-  - Izaguirre, C.
-  - Gutiérrez, J.M.
+  - P. Camus
+  - C. Vidal
+  - F. Méndez
+  - A. Espejo
+  - C. Izaguirre
+  - jose-manuel-gutierrez
 tags: 
   - 
 

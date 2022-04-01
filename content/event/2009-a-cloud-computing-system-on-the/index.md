@@ -25,16 +25,16 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Fernández-Quiruelas, V.
-  - Cofiño, A.S.
-  - Fernández, J.
-  - Diaz, M.A
-  - Ramos, R
-  - Prieta, F
-  - Rubio, M
-  - Priego, R
-  - Rodriguez, F
-  - Alba, J.J
+  - valvanuz-fernandez
+  - antonio-s-cofino
+  - jesus-fernandez
+  - M.A Diaz
+  - R Ramos
+  - F Prieta
+  - M Rubio
+  - R Priego
+  - F Rodriguez
+  - J.J Alba
 tags: 
   - Cloud computing
   - Virtualization

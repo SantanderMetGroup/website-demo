@@ -25,11 +25,11 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Bedia, J.
-  - San-Martín, D.
-  - Herrera, S.
-  - Iturbide, M.
-  - Gutiérrez, J.M.
+  - J. Bedia
+  - D. San-Martín
+  - S. Herrera
+  - M. Iturbide
+  - jose-manuel-gutierrez
 tags: 
   - bias correction
   - metadata

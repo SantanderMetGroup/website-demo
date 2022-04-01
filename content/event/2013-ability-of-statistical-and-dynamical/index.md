@@ -25,11 +25,11 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Casanueva, A.
+  - A. Casanueva
   - Kotlarski S.
-  - Herrera, S.
-  - Fernández, J.
-  - Gutiérrez, J.M.
+  - S. Herrera
+  - jesus-fernandez
+  - jose-manuel-gutierrez
 tags: 
   - daily precipitation
   - Statistical downscaling

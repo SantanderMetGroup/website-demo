@@ -25,9 +25,9 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Cofiño, A.S.
-  - Blanco, C.
-  - Fernández-Quiruelas, V.
+  - antonio-s-cofino
+  - C. Blanco
+  - valvanuz-fernandez
 tags: 
   - HPC
   - LRMS

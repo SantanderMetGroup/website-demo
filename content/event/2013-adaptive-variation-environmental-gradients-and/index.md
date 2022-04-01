@@ -25,18 +25,18 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Grivet, D.
-  - Serra-Varela, MJ.
-  - Rodríguez-Quilón, I.
-  - Jaramillo-Correa, J.P.
-  - Vincenot, L.
-  - Bedia, J.
-  - Herrera, S.
-  - Mayol, M.
-  - Gonzalo, J.
-  - Alía, R.
-  - Vendramin, G.G.
-  - González-Martínez, S.C.
+  - D. Grivet
+  - MJ. Serra-Varela
+  - I. Rodríguez-Quilón
+  - J.P. Jaramillo-Correa
+  - L. Vincenot
+  - J. Bedia
+  - S. Herrera
+  - M. Mayol
+  - J. Gonzalo
+  - R. Alía
+  - G.G. Vendramin
+  - S.C. González-Martínez
 tags: 
   - species distribution models
 

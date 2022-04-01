@@ -25,9 +25,9 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Bedia, J.
-  - Herrera, S.
-  - Gutiérrez, J.M.
+  - J. Bedia
+  - S. Herrera
+  - jose-manuel-gutierrez
 tags: 
   - Fire Danger
   - fire weather index

@@ -25,10 +25,10 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Ancell, R.
-  - Cofiño, A.S.
-  - Gutiérrez, J.M.
-  - Rodríguez, M.A.
+  - R. Ancell
+  - antonio-s-cofino
+  - jose-manuel-gutierrez
+  - M.A. Rodríguez
 tags: 
   - Statistical downscaling
 

@@ -25,10 +25,10 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Fernández, J.
-  - Fernández-Quiruelas, V.
-  - Cofiño, A.S.
-  - Fernández, C.
+  - jesus-fernandez
+  - valvanuz-fernandez
+  - antonio-s-cofino
+  - C. Fernández
 tags: 
   - WRF model
   - GRID computing

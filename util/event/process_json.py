@@ -3,10 +3,29 @@ import os
 import re
 import unidecode
 
+namedict = {
+  'Cofiño, A.S.': 'antonio-s-cofino',
+  'Fernández, J.': 'jesus-fernandez',
+  'Fernández-Quiruelas, V.': 'valvanuz-fernandez',
+  'Gutiérrez, J.M.': 'jose-manuel-gutierrez',
+}
+
 def tolist(text):
-  items = text.split(' | ')
-  items = [' '.join(list(reversed(i.split(',')))) for i in items]
   return('\n  - '+'\n  - '.join(text.split(' | ')))
+
+def tonamelist(text):
+  items = text.split(' | ')
+  rval = ''
+  for i in items:
+    if i in namedict:
+      rval += '\n  - ' + namedict[i]
+    else:
+      if ',' in i:
+        surn, name = tuple(i.split(',')[:2])
+        rval += '\n  - ' + name.strip() + ' ' + surn.strip()
+      else:
+        rval += '\n  - ' + i
+  return(rval)
 
 def render_dates(text):
   return(text + '-01-01T00:00:00')
@@ -30,7 +49,7 @@ d = dict(
 )
 
 for item in data['items']:
-  item['authors'] = tolist(item[d['authors']])
+  item['authors'] = tonamelist(item[d['authors']])
   item['title'] = cleanxml(item[d['title']])
   item['summary'] = cleanxml(item[d['summary']])
   item['abstract'] = item[d['abstract']]
