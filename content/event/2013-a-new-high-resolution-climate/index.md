@@ -25,12 +25,12 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Iturbide, M.
-  - Bedia, J.
-  - Herrera, S.
-  - Gutiérrez, J.M.
-  - del Hierro, O.
-  - Pinto, M.
+  - M. Iturbide
+  - J. Bedia
+  - S. Herrera
+  - jose-manuel-gutierrez
+  - O. del Hierro
+  - M. Pinto
 tags: 
   - Observed climate
   - Regional climate scenarios

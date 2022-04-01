@@ -25,10 +25,10 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Casanueva, A.
-  - Fernández, J.
-  - García-Díez, M.
-  - Magariño, M.E.
+  - A. Casanueva
+  - jesus-fernandez
+  - M. García-Díez
+  - M.E. Magariño
 tags: 
   - Africa
   - WRF model

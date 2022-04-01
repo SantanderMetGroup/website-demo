@@ -25,12 +25,12 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Casanueva, A.
-  - Herrera, S.
-  - Fernández, J.
+  - A. Casanueva
+  - S. Herrera
+  - jesus-fernandez
   - Kotlarski
   - S.
-  - Gutiérrez, J.M.
+  - jose-manuel-gutierrez
 tags: 
   - Precipitation
   - added value

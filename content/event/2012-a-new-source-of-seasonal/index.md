@@ -25,10 +25,10 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Brands, S.
-  - Manzanas, R.
-  - Herrera, S.
-  - Gutiérrez, J.M.
+  - S. Brands
+  - R. Manzanas
+  - S. Herrera
+  - jose-manuel-gutierrez
 tags: 
   - Insolation
   - Wind speed

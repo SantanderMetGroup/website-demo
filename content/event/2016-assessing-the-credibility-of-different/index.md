@@ -25,9 +25,9 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Iturbide, M.
-  - Bedia, J.
-  - Gutiérrez, J.M.
+  - M. Iturbide
+  - J. Bedia
+  - jose-manuel-gutierrez
 tags: 
   - species distribution models
 

@@ -25,10 +25,10 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Hallerberg, S.
-  - Frías, M.D.
-  - Fernández, J.
-  - Gutiérrez, J.M.
+  - S. Hallerberg
+  - M.D. Frías
+  - jesus-fernandez
+  - jose-manuel-gutierrez
 tags: 
   - Extreme analysis
 

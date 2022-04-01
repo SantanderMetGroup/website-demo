@@ -25,11 +25,11 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Casanueva, A.
-  - Herrera, S.
-  - Fernández, J.
-  - Frías, M.D.
-  - Gutiérrez, J.M.
+  - A. Casanueva
+  - S. Herrera
+  - jesus-fernandez
+  - M.D. Frías
+  - jose-manuel-gutierrez
 tags: 
   - Dynamical downscaling
   - percentiles

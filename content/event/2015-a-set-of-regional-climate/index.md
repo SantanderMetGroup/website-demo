@@ -25,18 +25,18 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Fernández, J.
-  - Fita, L.
-  - García-Díez, M.
-  - Montávez, J.P.
-  - Jiménez-Guerrero, P.
-  - Domínguez, M.
-  - Romera, R.
-  - López de la Franca, N.
-  - Sánchez, E.
-  - Liguori, G.
-  - Cabos, W. D.
-  - Gaertner, M. A.
+  - jesus-fernandez
+  - L. Fita
+  - M. García-Díez
+  - J.P. Montávez
+  - P. Jiménez-Guerrero
+  - M. Domínguez
+  - R. Romera
+  - N. López de la Franca
+  - E. Sánchez
+  - G. Liguori
+  - W. D. Cabos
+  - M. A. Gaertner
 tags: 
   - Regional climate scenarios
   - Dynamical downscaling

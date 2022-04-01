@@ -25,12 +25,12 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Karali, A.
-  - Giannakopoulos, C.
-  - Frías, M.D.
-  - Hatzaki, M.
-  - Roussos, A.
-  - Casanueva, A.
+  - A. Karali
+  - C. Giannakopoulos
+  - M.D. Frías
+  - M. Hatzaki
+  - A. Roussos
+  - A. Casanueva
 tags: 
   - fire weather index
   - wild fires

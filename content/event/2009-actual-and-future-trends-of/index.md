@@ -25,9 +25,9 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Taboada, J.
-  - Brands, S.
-  - Lorenzo, N.
+  - J. Taboada
+  - S. Brands
+  - N. Lorenzo
 tags: 
   - Temperature
   - Analogs

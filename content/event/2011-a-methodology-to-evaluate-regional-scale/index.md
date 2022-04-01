@@ -25,14 +25,14 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - Menéndez, M.
-  - Tomás, A.
-  - Camus, P.
-  - García-Díez, M.
-  - Fita, L.
-  - Fernández, J.
-  - Méndez, F. J.
-  - Losada, I. J.
+  - M. Menéndez
+  - A. Tomás
+  - P. Camus
+  - M. García-Díez
+  - L. Fita
+  - jesus-fernandez
+  - F. J. Méndez
+  - I. J. Losada
 tags: 
   - wind energy
   - offshore wind
