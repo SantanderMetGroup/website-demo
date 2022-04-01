@@ -24,7 +24,8 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
 
-authors: [jfernandez]
+authors: 
+  - jesus-fernandez
 tags: 
   - EURO-CORDEX
   - Global Climate Model

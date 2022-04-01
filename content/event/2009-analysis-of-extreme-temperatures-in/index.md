@@ -25,9 +25,9 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
+  - Jesús Fernández
   - Hallerberg, S.
   - Frías, M.D.
-  - Fernández, J.
   - Gutiérrez, J.M.
 tags: 
   - Extreme analysis
