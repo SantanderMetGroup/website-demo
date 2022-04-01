@@ -65,7 +65,6 @@ sql = '''
         t1.field_conf_contrib_type_value  AS contrib_type         ,
         t1.field_urlabstract_url          AS contrib_abstract_url ,
         t1.field_urlabstract_title        AS contrib_abstract_urltitle ,
-        f4.field_doi_value                AS contrib_doi, 
         n2.title                          AS conf_title ,
         t2.field_conf_type_value          AS conf_type , 
         f1.field_city_value               AS conf_city ,
@@ -97,8 +96,6 @@ sql = '''
         content_field_subdeadline f2
             INNER JOIN
         content_field_web         f3
-            LEFT JOIN
-        content_field_doi         f4
     ON
         n1.nid                    = r1.nid AND
         n1.uid                    = u1.uid AND
@@ -109,8 +106,7 @@ sql = '''
         t1.field_noderef_conf_nid = t2.nid AND
         t1.field_noderef_conf_nid = f1.nid AND
         t1.field_noderef_conf_nid = f2.nid AND
-        t1.field_noderef_conf_nid = f3.nid AND
-        t1.field_noderef_conf_nid = f4.nid
+        t1.field_noderef_conf_nid = f3.nid
     WHERE 
         n1.type = 'conf_contrib'
 '''
