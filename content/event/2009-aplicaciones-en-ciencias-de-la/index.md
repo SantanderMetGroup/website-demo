@@ -17,7 +17,7 @@ summary: 'Aplicaciones en Ciencias de la Tierra: vo.meteo.es-ngi.eu'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2009
+date: 2009-01-01T00:00:00
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 

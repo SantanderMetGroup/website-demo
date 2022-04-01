@@ -17,7 +17,7 @@ summary: 'Aplicación de Métodos de Clasificación al Downscaling Estadístico'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2001
+date: 2001-01-01T00:00:00
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 

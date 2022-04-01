@@ -35,7 +35,7 @@ for item in data['items']:
   item['summary'] = cleanxml(item[d['summary']])
   item['abstract'] = item[d['abstract']]
   item['event'] = cleanxml(item[d['event']])
-  item['date'] = item[d['date']]
+  item['date'] = render_dates(item[d['date']])
   item['tags'] = tolist(item[d['tags']])
   dirname = item[d['date']]+'-'+unidecode.unidecode('-'.join(item['title'].lower().split(' ')[:5])).replace(':','').replace('.','').replace(',','')
   pathname = 'content/event/' + dirname
