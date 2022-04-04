@@ -25,7 +25,7 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - A. Casanueva
+  - ana-casanueva
   - jesus-fernandez
   - M. García-Díez
   - M.E. Magariño

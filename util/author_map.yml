@@ -1,0 +1,976 @@
+# sqlite3 util/mdmdrupal.sqlite -csv -header 'select * from term_data' \
+#   > util/mdmdrupal-term_data.csv
+# cat util/mdmdrupal-term_data.csv \
+#   | awk -vFPAT='([^,]*)|("[^"]+")' '$2==2 {print $3}' \
+#   | tr -d '"' | sort | uniq | sed -e 's/\(.*\)/\"\1\":/' \
+#   > util/author_map.yml
+#
+#   Then, edit manually to correct for errors:
+".. .": "et al."
+"...": "et al."
+"·": ""
+"A.": ""
+"Abarca, R.":
+"Abaurrea, J.":
+"Abbas, F.":
+"A. Brookshaw":
+"A. Dalla Marta":
+"Adinolfi": "Adinolfi, M."
+"Adrees, M.":
+"A. Heureux":
+"Ahrens": "Ahrens, B."
+"Alasdair Hunter": "Hunter, A."
+"Alba, J.J": "Alba, J.J."
+"Aldred, R.":
+"Alexander, L.V.":
+"Alexandridis T.": "Alexandridis, T."
+"Alfaro, M.":
+"Alía, R.":
+"Alias": "Alias, A."
+"Alias, A.":
+"Allan, R.J.":
+"Aloisio, G.":
+"Alonso de Val, F. J.":
+"Alouane, T.":
+"Alpert, P.":
+"A.L. St Clair":
+"Alvarado, A.":
+"Alvarez-Guerra, M.":
+"Amekudzi":
+"Anaya, E":
+"Anca Brookshaw": "Brookshaw, A."
+"Ancell, R.":
+"Anders": "Anders, I."
+"Anders, I.":
+"and M. A. Gaertner": "Gaertner, M.A."
+"and others.": "et al."
+"Angelos Charalambidis": "Charalambidis, A."
+"Antonella, S.":
+"Antonio Cofiño": "antonio-s-cofino"
+"Antonio S. Cofiño": "antonio-s-cofino"
+"Antonio S. Coﬁno": "antonio-s-cofino"
+"A. R.": ""
+"Araya-Osses, D.":
+"Arce, E.":
+"Arribas C.":
+"Arteche, J.L.":
+"A.S. Cofiño": "antonio-s-cofino"
+"A.S. French":
+"A. Soret":
+"Asrar, G.":
+"Augustin Colette": "Colette, A."
+"Ayuso, S. M.":
+"Azimian, A.":
+"B.": ""
+"Baeza, C.":
+"B. Ahmad":
+"Balmaceda Huarte, R.": "Balmaceda-Huarte, R."
+"Balmaseda, M.":
+"Ban": "Ban, N."
+"Ban, N.":
+"Baño, J.": "jorge-bano"
+"Baño-Medina, J.": "jorge-bano"
+"Barreiro, M.":
+"Barrero J.P.":
+"Barrero J.P. López-Perea E.M.": "López-Perea, E.M."
+"Bärring, L.":
+"Barriopedro D.":
+"Bartholy, J.":
+"Basconcillo": "Basconcillo, J."
+"Basconcillo, J.":
+"Bastin": "Bastin, S."
+"Bastin S.": "Bastin, S."
+"Bastin, S.":
+"Batbold, A.":
+"Bautista": "Bautista, E."
+"Bautista, E.":
+"Bedia J.": "joaquin-bedia"
+"Bedia, J.": "joaquin-bedia"
+"Belda, M.":
+"Belusic": "Belusic, D."
+"Belusic, D.":
+"Benali, A.":
+"Benestad, R.":
+"Beniston, M.":
+"Bermejo": "Bermejo, M."
+"Bermejo, M.":
+"Berthou": "Berthou, S."
+"Berthou, S.":
+"Bettolli M. L.": "Bettolli, M.L."
+"Bettolli, M. L.": "Bettolli, M.L."
+"Beven K.J.":
+"Beyerle, U.":
+"B. Frühb": "Früh, B."
+"Bhend, J.":
+"B. Khan":
+"Blanco, C.": carlos-blanco
+"Blanco Real": carlos-blanco
+"Blanco Real, J. C.": carlos-blanco
+"Blázquez, J.":
+"Blower, J.":
+"B. M.": ""
+"Boberg, F.":
+"Bosshard, T.":
+"Boulagouas W.":
+"Brands": "Brands, S."
+"Brands, S.":
+"Brisson": "Brisson, E."
+"Brisson, E.":
+"Brockington, D.":
+"Brogli, R.":
+"Brookshaw, A.":
+"Bruen, M.":
+"Brunet, M.":
+"Bruschi, V.":
+"Büchner, M.":
+"Buonomo, E.":
+"Buontempo, C.":
+"Burgstall":
+"Burgstall, A.":
+"Burgstall, B.":
+"Busqué":
+"Busque, J.":
+"Busqué J.":
+"C.": ""
+"Cabos, W. D.": "Cabos, W.D."
+"Cabrerizo, E": "Cabrerizo, E."
+"Cabrerizo, E.":
+"Cada, Ch.":
+"Cagigal":
+"Caillaud C.":
+"Calmanti, S.":
+"Camara, C.":
+"Camia, A.":
+"Camus, P.":
+"Canales, I.":
+"Cano, R.":
+"Cardoso":
+"Cardoso R. M.": "Cardoso, R.M."
+"Cardoso, R.M": "Cardoso, R.M."
+"Cardoso, R. M.": "Cardoso, R.M."
+"Cardoso, R.M.":
+"Careto, J.A.M.":
+"Carlos A. Meneses Agudo":
+"Carlos Blanco": carlos-blanco
+"Carlos Blanco Real": carlos-blanco
+"Carneiro Rodrigues, D.":
+"Carrillo, M.":
+"Casado, M.J.":
+"Casanueva A.": ana-casanueva
+"Casanueva, A.": ana-casanueva
+"Castillo, E.":
+"Castro, M.":
+"Catalina, C.A.":
+"Celaya-Crespo, C.":
+"Celaya-Crespo, P.":
+"C.E. Ndehedehe":
+"Cerezo-Mota, R.":
+"Ceron, J.P.":
+"C.  Fernández-Quiruelas": valvanuz-fernandez
+"Chaib R.":
+"Challinor, A.":
+"Chan":
+"Chan, S.":
+"Cherif I.":
+"Cherif, I.":
+"Choi, G.":
+"Chou, S.":
+"Christensen": "Christensen, O.B."
+"Christensen, O. B.": "Christensen, O.B."
+"Christensen, O.B.":
+"Chuvieco, E.":
+"Cimadevilla-Alvarez, E.": ezequiel-cimadevilla
+"Ciszak, M.":
+"Ciuha U.":
+"Ciuha, U.":
+"Clayer, F.":
+"Cobo, A.":
+"Cofiño, A.S.": antonio-s-cofino
+"Cohen, J.":
+"Colette, A.":
+"Collantes, I.":
+"Comer, R.":
+"Coﬁño, A. S.":
+"Coﬁño, A.S.":
+"Coppola":
+"Coppola, E.":
+"Cózar, R.":
+"Črepinšek Z.":
+"Črepinšek, Z.":
+"Crisci, A.":
+"C.Spirig":
+"C. Spirig":
+"Cvijanovic, I.":
+"D.":
+"Daniel Rábago Gómez": "Rábago-Gómez, D."
+"Daniel San-Martı́n": "San-Martín, D."
+"Danilo José Mendes Predoso":
+"Danioel Rábago Gómez": "Rábago-Gómez, D."
+"da Rocha R. P.": "da Rocha, R.P."
+"da Rocha, R. P.": "da Rocha, R.P."
+"David Sordo Veci":
+"David Stephenson":
+"D. Bojovic":
+"D.B. Stephenson":
+"de Cerff, W.S.":
+"del Hierro, O.":
+"del Jesús":
+"Demissie, T.":
+"Demory, M. E.":
+"Denvil, S.":
+"de Oliveira, P.T,":
+"Dequè, M.":
+"de Vreede, E.":
+"de Vries":
+"de Vries, H.":
+"Deza, R.R.":
+"Diamando Vlachogiannis":
+"Diaz, M.A":
+"Díez, E.":
+"Díez-Sierra":
+"Díez-Sierra, J.":
+"di Liberto, F.":
+"Djebabra M.":
+"Doblas-Reyes, F.": "Doblas-Reyes, F.J."
+"Doblas-Reyes, F. J.": "Doblas-Reyes, F.J."
+"Doblas-Reyes, F.J.":
+"Dobler, A.":
+"Domínguez, M.":
+"Donat, M.G.":
+"Dosio":
+"Dosio, A.":
+"Doyle, C.":
+"Doyle, M.":
+"Driouech, F.":
+"D. San-Martín":
+"Dubois, C.":
+"Dubois, G.":
+"Dubrovsky, M.":
+"Dubus, L.":
+"Du, H.":
+"Duran":
+"Duran, G. A.":
+"E.":
+"Echavarría, P.":
+"E. de Eyto":
+"Eduardo Penabad":
+"Eiras-Barça J":
+"Eiras J":
+"E. J.":
+"E. Jennings":
+"Eleni Katragkou":
+"Encinas, A.H.":
+"E. Sánchez":
+"ESCENA team":
+"EspÃƒÂ­rito-Santo, F.":
+"EspÃ­rito-Santo, F.":
+"Espejo, A.":
+"Espinosa J.M.":
+"Espírito-Santo, F.":
+"ESTCENA team":
+"Esther García Fernández":
+"et al.":
+"F.": ""
+"Fallon, P.":
+"Falloon, P.":
+"Fealy, R.":
+"Febres J.D.":
+"Feijoo, M.":
+"Fenandez-Quiruelas, V.": valvanuz-fernandez
+"Fenández-Tejería S.":
+"Fenández-Tejería, S.":
+"FernÃƒÂ¡ndez, J.": jesus-fernandez
+"Fernández": jesus-fernandez
+"Fernández, C.":
+"Fernández, F.": jesus-fernandez
+"Fernández-Ferrero, A.":
+"Fernandez-Granja": juan-antonio-fernandez
+"Fernández-Granja, J.A.": juan-antonio-fernandez
+"Fernández J.": jesus-fernandez
+"Fernández, J.": jesus-fernandez
+"FernÃ¡ndez, J.": jesus-fernandez
+"Fernández, J. M.":
+"Fernández-Quiruelas, V.": valvanuz-fernandez
+"Ferrer i Marco, F.":
+"Fiore, S.":
+"Fiorucci, P.":
+"Fischer":
+"Fischer, A.":
+"Fischer, A.M.":
+"Fischer, Knutti, R.": "Knutti, R."
+"Fita, L.":
+"Fiwa, L.":
+"F.J. Doblas-Reyes": "Doblas-Reyes, F.J."
+"F. J. Méndez":
+"Flouris, A.D.":
+"Foley, M.":
+"Fontaneda I.":
+"Fox, P.":
+"FrÃ­as, M.D.":
+"Francés, E.":
+"Franco, F.":
+"French, A.S.":
+"Frías M.D.": maria-dolores-frias
+"Frías, M.D": maria-dolores-frias
+"Frías, M.D.": maria-dolores-frias
+"Frisius":
+"Frisius, T.":
+"Frochoso, M.":
+"Fučkar, N.":
+"Fuente, I.":
+"Fuente, M.":
+"Fujibe, F.":
+"G.":
+"G. A.":
+"Gaertner, M. A.": "Gaertner, M.A."
+"Gaitán, E.":
+"Gallardo, J.":
+"Galván, A.":
+"Garber, A.":
+"García-Bustamante, E.":
+"García-Casado, L.A.":
+"García-Codrón, J.C":
+"García-Díez M.": "García-Díez, M."
+"García-Díez, M.":
+"García‐Díez, M.":
+"García-Herrero S.":
+"García, M.": "García-Díez, M."
+"García-Moya, J.A.":
+"García-Pineda, L.S":
+"García-Torre, F.":
+"Garmendia, C":
+"Gašparac":
+"Gašparac, G.":
+"Germann, U.":
+"Giannakopoulos, C.":
+"Giannaros, T. M.": "Giannaros, T.M."
+"Giannaros, T.M.":
+"Giorgi": "Giorgi, F."
+"Giorgi, F.":
+"G. Liguori":
+"G. Liguori and M.A. Gaertner": "Gaertner, M.A."
+"G. Liguori and M. Á. Gaertner": "Gaertner, M.A."
+"G. Nikulin":
+"Gobiet, A.":
+"Goergen": "Goergen, K."
+"Goergen, K.":
+"Goergen,K.": "Goergen, K."
+"Gogorcena, M.A.":
+"Golding, N.":
+"Golding. N.":
+"Gómez Giménez, M.":
+"González, A.":
+"González-Martínez, S.C.":
+"Gonzalez-Reviriego, N.":
+"Gonzalez-Reviriego,N.": "Gonzalez-Reviriego, N."
+"González-Rouco, J.F.":
+"Gonzalo, J.":
+"Gouveia, C.":
+"Graafland, C.E.": lisette-graafland
+"Grillakis, M.":
+"Grivet, D.":
+"G. Rogan":
+"Guémez, J.":
+"GutiÃƒÂ©rrez, J.M.": jose-manuel-gutierrez
+"GutiÃ©rrez, J.M.": jose-manuel-gutierrez
+"Gutierrez": jose-manuel-gutierrez
+"Gutierrez, J. M.": jose-manuel-gutierrez
+"Gutiérrez J.M.": jose-manuel-gutierrez
+"Gutiérrez, J.M.": jose-manuel-gutierrez
+"Güttler, I.":
+"H.": ""
+"Haarsma, R.":
+"Hadi, A.S.":
+"Halenka, T.":
+"Hallerberg, S.":
+"Haloui, Z.":
+"Hansen, J.":
+"Hänsler, A.":
+"Hatzaki, M.":
+"Haugen":
+"Haugen, J. E.":
+"He, H.S.":
+"Hemri, S.":
+"Henia, L.":
+"Hernandez-Machado A.":
+"Herrera, S.": sixto-herrera
+"Hertig":
+"Hertig, E.":
+"H. Farah":
+"Hilario": "Hilario, F."
+"Hilario, F.":
+"H. J.": ""
+"Hodnebrog": "Hodnebrog, O."
+"Hodnebrog, O.":
+"Hou, W.":
+"Huth, R.":
+"Hyodae S":
+"I.":
+"Ibarra-Berastegi, G.":
+"I. Christel":
+"Iglesias I":
+"Ingwersen": "Ingwersen, J."
+"Ingwersen, J.":
+"Ingwersen,J.": "Ingwersen, J."
+"Ioannis T":
+"Iparragirre I.":
+"Iraklis Klampanos":
+"Isotta, F.":
+"Iturbide":
+"Iturbide, M.":
+"Ivanissevich, M.L.":
+"Izaguirre": "Izaguirre, C."
+"Izaguirre, C.":
+"Izús, G.G.":
+"J.":
+"J.A.":
+"Jackson-Blake, L.":
+"Jacob, D.":
+"Jacobeit, J.":
+"Jaczewski, A.":
+"Jaime Díez González-Pardo":
+"Jakubiak, B.":
+"J. Alvar-Beltrán":
+"Jaramillo-Correa, J.P.":
+"Javier de la Dehesa":
+"J. Baño": jorge-bano
+"J. Bedia": joaquin-bedia
+"J. Bhend": "Bhend, J."
+"J.D.": ""
+"J. E.": ""
+"Jerez, S.":
+"Jessica Keune":
+"Jesús Fernández": jesus-fernandez
+"J.Fernández": jesus-fernandez
+"J. Fernández": jesus-fernandez
+"Jiménez-Guerrero, P.":
+"J.M.": ""
+"J.M.Gutiérrez": jose-manuel-gutierrez
+"J.M. Gutiérrez": jose-manuel-gutierrez
+"Joaquin Bedia": joaquin-bedia
+"Joaquı́n Bedia": joaquin-bedia
+"Jonas Bhend": "Bhend, J."
+"Jones, C.":
+"Jones, J.":
+"Jorge Baño": jorge-bano
+"Jorge Baño-Medina": jorge-bano
+"José Carlos Blanco Real": carlos-blanco
+"Jose Manuel Gutiérrez": jose-manuel-gutierrez
+"José Ney Gandica Cárdenas":
+"J. P. Montávez": "Montávez, J.P."
+"J.P. Montávez": "Montávez, J.P."
+"Juanillo": "Juanillo, E."
+"Juanillo, E.":
+"Jury": "Jury, M."
+"Jury M.": "Jury, M."
+"Jury, M.":
+"K.": ""
+"Kagoyire, C.":
+"Kahana, R.":
+"Kajfež Bogataj L.": "Kajfež Bogataj L."
+"Kajfež Bogataj, L.":
+"Kanamaru, H.":
+"Kantz, H.":
+"Karakostas, T.":
+"Karali, A.":
+"Karem, T.":
+"Kartsios":
+"Kartsios S.":
+"Kartsios, S.":
+"Karypidou, M.":
+"Karypidou M. C.":
+"Kasampalis D.":
+"Kasampalis, D.":
+"Katragkou": "Katragkou, E."
+"Katragkou E.": "Katragkou, E."
+"Katragkou, E": "Katragkou, E."
+"Katragkou, E.":
+"Keeley, J.":
+"Kendon":
+"Kendon, E. J.":
+"Kershaw, P.":
+"Keuler":
+"Keuler, K.":
+"Keune, J.":
+"K. Fröhlich":
+"Kganyago, M.":
+"Kingma, B.R.M.":
+"Kjellstrom, T.":
+"Klaus Goergen":
+"Knist, S.":
+"Knutti":
+"Koizumi":
+"Koizumi, T.":
+"Kok, K.":
+"Kotlarski":
+"Kotlarski S.":
+"Kotlarski, S.":
+"Kotlarsk, S.":
+"Kotlasrki, S.":
+"Koutroulis, A.":
+"Koutsias, N.":
+"Kozjek K.":
+"Kozjek. K.":
+"Kreienkamp, F":
+"Krichak, S.O.":
+"Kruger, A.":
+"L.":
+"Laneve G.":
+"Laneve, G.":
+"Lange":
+"Lange, S.":
+"Laura Romero Pulido":
+"Lavin-Gullon":
+"Lavin-Gullon, A.":
+"Legasa, M.":
+"Legasa, M.N.":
+"Lehmann, A.":
+"Lemke, B.":
+"Lenderink":
+"Lenderink, G.":
+"Leutwyler":
+"Leutwyler, D.":
+"L. Fita":
+"Liggins, F.":
+"Liguori, G.":
+"Limbo":
+"Limbo, C.":
+"Liniger, M.A.":
+"Lippmann, T.":
+"L.K.":
+"Llasat, C:":
+"Llasat, M.C.":
+"Ll. Lledó":
+"Llopart, M.":
+"López":
+"López de la Franca, N.":
+"Lopez Garcia, Alvaro":
+"López-García J.R.":
+"López, J.M.":
+"López-Moreno, J.I.":
+"López, O.":
+"López, P.":
+"López-Perea E.M":
+"Lorente, R.":
+"Lorenz":
+"Lorenzo":
+"Lorenzo N":
+"Lorenzo N.":
+"Lorenzo, N.":
+"Lorenz T.":
+"Lorenz, T.":
+"Losada, I.":
+"Losada, I. J.":
+"Losada, T.":
+"Lucas, D.D.":
+"Lucero":
+"Lucero, A.":
+"Lucio, P.S.":
+"Luengo, F.":
+"Lukas Poorthuis":
+"Lussana, C.":
+"Lüterbacher, J.":
+"M.":
+"Machado":
+"Machado, L.":
+"Magariño, M.":
+"Magariño M.E.":
+"Magariño, M. E.":
+"Magariño, M.E.":
+"Maialen Iturbide":
+"Majumdar, S.":
+"M.A. Liniger":
+"Manzanas, R.":
+"Maraun":
+"Maraun, D.":
+"Maraun, M.":
+"Marcé, R.":
+"Marcos, R.":
+"Marcos Valle":
+"Marcos Valle Miñón":
+"Mares, I.":
+"Marı́a Dolores Frı́as":
+"Mario Santa Cruz López":
+"Mariscal M.A.":
+"Markel García-Díez":
+"Mark Liniger":
+"Marsh, K.":
+"Marta Bruno Soares":
+"Martin, E.":
+"Martínez-Vega, J.":
+"Martín, M.P.":
+"Mashiyi, N.":
+"Mayer, S.":
+"Mayol, M.":
+"M. Bermejo":
+"M.C. Llasat":
+"M.D. Frías":
+"M. Dillane":
+"MDM":
+"M. Domínguez":
+"Medina, R.":
+"Mekjavić I.B.":
+"Mekjavić, I.B.":
+"Melonek, M.":
+"M.E. Magariño":
+"Méndez, F.":
+"Méndez F.J.":
+"Méndez, F. J.":
+"Menéndez, M.":
+"Mercado-Bettín, D.":
+"Mercogliano":
+"Mercogliano, P.":
+"Messeri, A.":
+"M. García Diez":
+"M. H.":
+"Middleham, R.":
+"Miguel Martínez-Conde Salamanca":
+"Miguel Traspuesto Abascal":
+"Miguez-Macho G":
+"Mikel Legasa Ríos":
+"Milovac":
+"Milovac J.":
+"Milovac, J.":
+"Mínguez R.":
+"Mínguez, R.":
+"Minondo":
+"Mirasso, C.":
+"Mirones":
+"M. Iturbide":
+"M.Kolax":
+"M. Kolax":
+"Mohamadi F.":
+"Mohino, E.":
+"Molina Edesa, M.":
+"Molina, M.":
+"Montávez":
+"Montávez, J.P.":
+"Moore, T.N.":
+"Morabito, M.":
+"Morán-Tejeda, E.":
+"Moreno, J.M.":
+"Moshou D.":
+"Moshou, D.":
+"Mota, B.":
+"Moufouma-Okia, W.":
+"Moufouma‐Okia, W.":
+"M. Terrado":
+"M. Turco":
+"Muñoz Bascones S.":
+"M. Usman":
+"N.":
+"Nandintsetseg, B.":
+"Navarro, J.":
+"Nicolau Manubens":
+"Nieto, S.":
+"Nikulin, G.":
+"Noel, T.":
+"Norlingh, M.D.":
+"Noti, P.":
+"Nurmi, P.":
+"Nybo, L.":
+"O.":
+"O. B.":
+"O.E. Adeyeri":
+"Olmo, M. E.":
+"Olmo, M. E.,":
+"Orfila, B.":
+"Orlandini, S.":
+"Ortin, S.":
+"Ovakoglou G.":
+"Ovakoglou, G.":
+"Oviedo, L.M.":
+"P.":
+"Pagé, C":
+"Palacio Hoz, Aida":
+"Palomino, J.A.":
+"Paneque, M.":
+"Panitz":
+"Panitz, H. J.":
+"Pattnayak, K.":
+"Pazó":
+"Pazó, D.":
+"Pedro Soares":
+"Penabad, E.":
+"Pereira, M.":
+"Pereira, M.G.":
+"Pérez, J.C.":
+"Pesquera, L.":
+"Petitdidier, M.":
+"Petrie, R.":
+"Pichelli":
+"Pichelli, E.":
+"Pinto, M.":
+"P. Jiménez-Guerrero":
+"P. M. M.":
+"P.M.M. Soares":
+"Pogačar T.":
+"Pogačar, T.":
+"Pohlmann, H.":
+"Pongracz, R.":
+"Pons, M.R.":
+"Poorthuis, L.":
+"Pozo":
+"P. Quintana-Seguí":
+"Pradas M.":
+"Preko":
+"Priego, R":
+"Prieta, F":
+"Primo, C.":
+"Pritchard, R.":
+"Prodhomme, C.":
+"Provenzale, A.":
+"Pruneda, E.R.":
+"Pryor, M.":
+"Pytharoulis I.":
+"Quindos, L.":
+"Quintana-Seguí":
+"Quintana-Seguí, P.":
+"Qu, Z.":
+"R.":
+"Rábago, D.":
+"Raffa":
+"Raffaele, F.":
+"Raffa, M.":
+"Rajczak, J.":
+"Ramos":
+"Ramos A":
+"Ramos A.":
+"Ramos, P.":
+"Ramos, R":
+"R. Ancell":
+"Rasilla, D.":
+"Räty, O":
+"Reder A.":
+"Rehman, S.":
+"Remedio":
+"Remedio, A. R.":
+"Revelli, J.":
+"Revuelto, J.":
+"Rianna, G.":
+"Ribalaygua, J.":
+"Rieiro, I.":
+"Rinke, K.":
+"Rita Margarida Cardoso":
+"Rivas, V.":
+"R. Jr.":
+"R.M.":
+"R.Manzanas":
+"R. Manzanas":
+"R. Marce":
+"R.M. Cardoso":
+"R. Minguez":
+"Roberts, M. J.":
+"Rob Lokers":
+"RodrÃ­guez-Puebla, C.":
+"Rodrigo Manzanas":
+"Rodrigo Manzanas and José Manuel Gutiérrez":
+"Rodríguez, E.":
+"Rodriguez, F":
+"Rodríguez-Fonseca, B.":
+"Rodríguez, I.":
+"Rodríguez, J.J.":
+"Rodríguez, M.A.":
+"Rodriguez-Puebla,C.":
+"Rodríguez-Puebla, C.":
+"Rodríguez-Quilón, I.":
+"Roessler, R.":
+"Roldán, A.M.":
+"Román‐Figueroa, C.":
+"Romera, R.":
+"Romero, R.":
+"Rosa Cánovas, J.J.":
+"Rossa, A.":
+"Roulin, E.":
+"Roussos, A.":
+"Rowan Fealy":
+"R. Poole":
+"R. Romera":
+"R. Soldan":
+"Rubio, M":
+"Ruiz":
+"Ruiz, J.":
+"Ruiz, P.":
+"Rusticucci, M.":
+"S.":
+"Sáenz, J.":
+"Sainz, C.":
+"Salinger, J.":
+"Sample, J.":
+"Samuelsson, P.":
+"Sánchez, E.":
+"Sánchez-Gómez, E.":
+"Sandoval":
+"Sandoval, R. Jr.":
+"San-Martín, D.":
+"San-Martín, R.M.":
+"San-Matín, D.":
+"San-Miguel-Ayanz, J.":
+"Sanna, A.":
+"Santos, C.":
+"Santos e Silva, C.M.":
+"S. Asharaf":
+"Sauter, T.":
+"S. Brands":
+"S. Calmanti":
+"Schaer, C.":
+"Schär":
+"Schär, C.":
+"Schneider":
+"Schneider, C.":
+"Schröter. K.":
+"Schwichtenberg, H.":
+"Schwierz, C.":
+"Scutari, M":
+"Sebastian, K.":
+"Sebastian Knist":
+"Seddon, J.":
+"Seed, A.":
+"Sergio Natal Pérez":
+"Serra-Varela, MJ.":
+"S. Hemri":
+"S.Herrera":
+"S. Herrera":
+"Shikhani, M.":
+"Shonk, J.":
+"Sierra":
+"Simmer, C.":
+"Sixto Herrera":
+"Soares":
+"Soares, M.B":
+"Soares, P.":
+"Soares, P. M.":
+"Soares P.M.M.":
+"Soares, P. M. M.":
+"Soares, P.M.M.":
+"Sobolowski":
+"Sobolowski S.":
+"Sobolowski, S.":
+"Soerland, S. L.":
+"Solís":
+"Solís, A.":
+"Solman, S.":
+"Sordo, C.M.":
+"Sousa, P.":
+"Sousa, P.M.":
+"Spirig, Ch.":
+"Spyros Andronopoulos":
+"Srivastava, A.":
+"Srnec":
+"Srnec, L.":
+"S. Siegert":
+"Stambaugh, M.C.":
+"Stanley, S.":
+"Stasinos Konstantopoulos":
+"Steensen":
+"Steensen, B. M.":
+"Stefan Siegert":
+"Stegehuis, A.":
+"Stephan Hemri":
+"Stephanie Mayer":
+"Stephens, A.":
+"Stocchi":
+"Stocchi, P.":
+"Suárez Beltrán, J.":
+"Suárez J.":
+"Sushama, L.":
+"Switnek, M.":
+"Sylla, M.B.":
+"Szabó, P.":
+"Szendro, I.":
+"Szepszo, G.":
+"Szturc, J.":
+"T.":
+"Taboada, J.":
+"Taboada J.J.":
+"Taboada, J.J.":
+"Tafur-García, E.":
+"Taylor, I.":
+"Teichmann, C.":
+"Terrence MJ":
+"The esTcena team":
+"the VALUE team":
+"T. Moore":
+"Tölle":
+"Tölle, M. H.":
+"Tomás, A.":
+"Toniazzo, T.":
+"Toral, R.":
+"Torralba, V.":
+"Tourigny, E.":
+"Trigo, R.":
+"Trigo, R. M.":
+"Trigo, R.M.":
+"Truhetz":
+"Truhetz, H.":
+"Tuni, M.":
+"Turco, M.":
+"U.Hansson":
+"U. Hansson":
+"Ummenhofer CC":
+"Urbieta, I.":
+"Urbieta, I.R.":
+"Uribe, J.M.":
+"V.":
+"VALUE Team":
+"Valvanuz Fernandez-Quiruelas":
+"Valvanuz Fernández Quiruelas":
+"Vangelis Karkaletsis":
+"van Meigaard, E.":
+"van Meijgaard, E.":
+"van Vloten":
+"Vanya, C.":
+"Vasquez, H.":
+"Vautard, R.":
+"Vautard,R.":
+"V.  Cofiño":
+"Vega":
+"Vega, M.":
+"Vehviläinen, B.":
+"Vendramin, G.G.":
+"Vergara-Temprado":
+"Vergara-Temprado, J.":
+"Vianna Cuadra, S.":
+"Vidal, C.":
+"Viguri, J.R.":
+"Vilar, L.":
+"Vincenot, L.":
+"Viterbo, P.":
+"Voces, J.":
+"Volpi, D.":
+"von Hardenberg, J.":
+"Vrac, M.":
+"Wang, S.":
+"Warach-Sagi, K.":
+"Warrach-Sagi":
+"Warrach-Sagi, K.":
+"Warrach‐Sagi, K.":
+"W. D. Cabos":
+"WD. Cabos":
+"Weber, R.":
+"Weisheimer, A.":
+"Wibig, J.":
+"Wibig, T.":
+"WIdmann, M.":
+"Wilcke, R.":
+"Wilding, J.":
+"Wio, H.":
+"Wulfmeyer":
+"Wulfmeyer, V.":
+"Wu, Z.":
+"Xoplaki, E.":
+"Xystrakis, F.":
+"Yabi, I.":
+"Yagüe, C.":
+"Yagüe,C.":
+"Yang, W.":
+"Yebra, M.":
+"Young-Oh K":
+"Zander":
+"Zander, M.":
+"Zaninovic, K.":
+"Zappa, M.":
+"Zavala, G.":
+"Zhai, P.":
+"Zong, S.":
+"Zorita, E.":

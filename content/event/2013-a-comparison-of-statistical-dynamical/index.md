@@ -27,7 +27,7 @@ publishDate: '2022-03-24T00:00:00Z'
 authors: 
   - jose-manuel-gutierrez
   - M. Turco
-  - S. Herrera
+  - sixto-herrera
 tags: 
   - Statistical downscaling
   - Dynamical downscaling

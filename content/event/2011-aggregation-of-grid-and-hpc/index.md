@@ -26,7 +26,7 @@ publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
   - antonio-s-cofino
-  - C. Blanco
+  - carlos-blanco
   - valvanuz-fernandez
 tags: 
   - Grid

@@ -25,9 +25,9 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - J. Bedia
+  - joaquin-bedia
   - D. San-Martín
-  - S. Herrera
+  - sixto-herrera
   - M. Iturbide
   - jose-manuel-gutierrez
 tags: 

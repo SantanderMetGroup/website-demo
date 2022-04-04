@@ -35,8 +35,8 @@ authors:
   - N. López de la Franca
   - E. Sánchez
   - G. Liguori
-  - W. D. Cabos
-  - M. A. Gaertner
+  - W.D. Cabos
+  - M.A. Gaertner
 tags: 
   - Dynamical downscaling
   - Regional climate scenarios

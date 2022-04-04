@@ -3,31 +3,27 @@ import os
 import re
 import sqlite3
 import unidecode
+import yaml
 
 SQLITE_FILE = 'util/mdmdrupal.sqlite'
 
-namedict = {
-  'Cofiño, A.S.': 'antonio-s-cofino',
-  'Fernández, J.': 'jesus-fernandez',
-  'Fernández-Quiruelas, V.': 'valvanuz-fernandez',
-  'Gutiérrez, J.M.': 'jose-manuel-gutierrez',
-}
+with open('util/author_map.yml') as fp:
+  namedict = yaml.load(fp, Loader=yaml.FullLoader)
+# Drop None's from name dictionary
+namedict = {k: v for k, v in namedict.items() if v is not None}
 
 def tolist(text):
   return('\n  - '+'\n  - '.join(text))
 
-def tonamelist(text):
-  items = text
+def tonamelist(lst):
   rval = ''
-  for i in items:
-    if i in namedict:
-      rval += '\n  - ' + namedict[i]
+  for i in lst:
+    fullname = namedict[i] if i in namedict else i
+    if ',' in fullname:
+      surn, name = tuple(fullname.split(',')[:2])
+      rval += '\n  - ' + name.strip() + ' ' + surn.strip()
     else:
-      if ',' in i:
-        surn, name = tuple(i.split(',')[:2])
-        rval += '\n  - ' + name.strip() + ' ' + surn.strip()
-      else:
-        rval += '\n  - ' + i
+      rval += '\n  - ' + fullname
   return(rval)
 
 CONTRIB_SQL = '''

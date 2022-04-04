@@ -26,8 +26,8 @@ publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
   - M. Iturbide
-  - J. Bedia
-  - S. Herrera
+  - joaquin-bedia
+  - sixto-herrera
   - jose-manuel-gutierrez
   - O. del Hierro
   - M. Pinto

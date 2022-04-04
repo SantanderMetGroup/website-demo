@@ -34,7 +34,7 @@ authors:
   - M Rubio
   - R Priego
   - F Rodriguez
-  - J.J Alba
+  - J.J. Alba
 tags: 
   - GRID computing
   - Virtualization

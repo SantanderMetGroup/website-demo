@@ -25,7 +25,7 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - C.  Fernández-Quiruelas
+  - valvanuz-fernandez
   - V.  Cofiño
 tags: 
   - Grid

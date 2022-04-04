@@ -26,7 +26,7 @@ publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
   - M. Iturbide
-  - J. Bedia
+  - joaquin-bedia
   - jose-manuel-gutierrez
 tags: 
   - species distribution models

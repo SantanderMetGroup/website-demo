@@ -29,7 +29,7 @@ authors:
   - jose-manuel-gutierrez
   - D. San-Martín
   - S. Brands
-  - S. Herrera
+  - sixto-herrera
 tags: 
   - Statistical downscaling
   - robustness

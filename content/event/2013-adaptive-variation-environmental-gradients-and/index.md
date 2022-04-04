@@ -30,8 +30,8 @@ authors:
   - I. Rodríguez-Quilón
   - J.P. Jaramillo-Correa
   - L. Vincenot
-  - J. Bedia
-  - S. Herrera
+  - joaquin-bedia
+  - sixto-herrera
   - M. Mayol
   - J. Gonzalo
   - R. Alía

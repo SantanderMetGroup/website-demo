@@ -26,7 +26,7 @@ publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
   - S. Hallerberg
-  - M.D. Frías
+  - maria-dolores-frias
   - jesus-fernandez
   - jose-manuel-gutierrez
 tags: 

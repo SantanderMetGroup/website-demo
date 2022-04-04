@@ -25,9 +25,9 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - A. Casanueva
+  - ana-casanueva
   - Kotlarski S.
-  - S. Herrera
+  - sixto-herrera
   - jesus-fernandez
   - jose-manuel-gutierrez
 tags: 

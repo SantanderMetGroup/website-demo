@@ -25,8 +25,8 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
-  - A. Casanueva
-  - S. Herrera
+  - ana-casanueva
+  - sixto-herrera
   - jesus-fernandez
   - Kotlarski
   - S.

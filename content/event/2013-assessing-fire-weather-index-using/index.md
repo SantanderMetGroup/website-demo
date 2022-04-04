@@ -27,10 +27,10 @@ publishDate: '2022-03-24T00:00:00Z'
 authors: 
   - A. Karali
   - C. Giannakopoulos
-  - M.D. Frías
+  - maria-dolores-frias
   - M. Hatzaki
   - A. Roussos
-  - A. Casanueva
+  - ana-casanueva
 tags: 
   - Statistical downscaling
   - wild fires
