@@ -2,7 +2,7 @@
 title: 'Actual and future trends of extreme values of temperature for the NW Iberian Peninsula'
 
 event: '9th European Conference on Applications of Meteorology (ECAM)'
-event_url: http://meetings.copernicus.org/ems2009/index.html
+event_url: 'http://meetings.copernicus.org/ems2009/index.html'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2009-09-28T00:00:00
-date_end: 2009-10-02T00:00:00
+date: '2009-09-28T00:00:00'
+date_end: '2009-10-02T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -45,7 +45,7 @@ featured: false
 
 url_code: ''
 url_pdf: 'files/private/Abstract.pdf'
-url_slides: 'None'
+url_slides: ''
 url_video: ''
 
 # Markdown Slides (optional).
@@ -64,13 +64,18 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: international
-conf_deadline: 2009-05-08T00:00:00
-contrib_type: oral
-contrib_entities: ['IFCA', 'MeteoGalicia', 'Universidade de Vigo']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: 'international'
+conf_deadline: '2009-05-08T00:00:00'
+contrib_type: 'oral'
+contrib_institutions: 
+  - IFCA
+  - MeteoGalicia
+  - Universidade de Vigo
+contrib_research_lines: 
+  - Climate change and regional scenarios
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 It is now very well established that yearly averaged temperatures are increasing due to anthropogenic climate change. In the area of Galicia (NW Spain) this trend has also been determined. The main objective of this work is to assess actual and future trends of different extreme indices of temperature, which are of crucial importance for many impact studies.

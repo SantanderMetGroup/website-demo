@@ -2,7 +2,7 @@
 title: 'Ability of statistical and dynamical downscaling approaches to reproduce mean and heavy precipitation at different spatial scales over Europe'
 
 event: 'International Conference on Regional Climate - CORDEX 2013'
-event_url: http://cordex2013.wcrp-climate.org/
+event_url: 'http://cordex2013.wcrp-climate.org/'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2013-11-04T00:00:00
-date_end: 2013-11-07T00:00:00
+date: '2013-11-04T00:00:00'
+date_end: '2013-11-07T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -64,13 +64,20 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: 
-conf_deadline: 2013-04-17T00:00:00
-contrib_type: oral
-contrib_entities: ['IFCA', 'Predictia', 'UC', 'Institute for Atmospheric and Climate Science', 'ETH Zurich']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: ''
+conf_deadline: '2013-04-17T00:00:00'
+contrib_type: 'oral'
+contrib_institutions: 
+  - IFCA
+  - Predictia
+  - UC
+  - Institute for Atmospheric and Climate Science
+  - ETH Zurich
+contrib_research_lines: 
+  - Climate change and regional scenarios
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 The present study compares statistical downscaling methods (SDMs) and dynamical downscaling with nested regional climate models (RCMs) at different target spatial scales over two European regions. All downscaling products were developed in the framework of Euro-CORDEX and use the ERA-Interim reanalysis as boundary conditions (in RCMs) and as large-scale predictor data (in SDMs). Downscaled precipitation is evaluated at two horizontal resolutions (0.11º and 0.44º)  using simulations from the Euro-CORDEX RCM ensemble and SDS methods trained against gridded observational data. The objectives of the work are: (1) to compare both downscaling methodologies, to identify their respective strengths and weaknesses at (2) different spatial scales and considering (3) mean and heavy daily precipitation, and (4) to assess the impact of bias correction methods.

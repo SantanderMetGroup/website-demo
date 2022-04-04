@@ -149,6 +149,19 @@ def populate_from_vocabularies(contrib, sql, field):
   for row in conn.execute(sql, contrib):
     dic = dict(row)
     contrib[field].append(dic['name'])
+
+def clean_text_entries(dic):
+  for key in dic:
+    if type(dic[key]) == type('string'):
+      dic[key] = dic[key].replace("'", "\\'").strip()
+    if dic[key] is None:
+      dic[key] = ''
+
+def remove_odd_chars(text, odd_chars='.,:()'):
+  rval = unidecode.unidecode(text)
+  for char in odd_chars:
+    rval = rval.replace(char, '')
+  return(rval)
   
 conn = sqlite3.connect(SQLITE_FILE)
 conn.row_factory = sqlite3.Row  
@@ -166,11 +179,17 @@ for contrib_row in conn.execute(CONTRIB_SQL):
   ## Populate research activities
   populate_from_vocabularies(contrib, RESEARCH_SQL, 'contrib_research')
 
+  clean_text_entries(contrib)
+
+  if not contrib['contrib_title'].startswith('A'):
+    continue
+
   contrib['authors'] = tonamelist(contrib['contrib_authors'])
   contrib['tags'] = tolist(contrib['contrib_keywords'])
   contrib['research_lines'] = tolist(contrib['contrib_research'])
+  contrib['institutions'] = tolist(contrib['contrib_entities'])
   contrib['projects'] = tolist(contrib['contrib_projects'])
-  dirname = str(contrib['contrib_year'])+'-'+unidecode.unidecode('-'.join(contrib['contrib_title'].lower().split(' ')[:5])).replace(':','').replace('.','').replace(',','')
+  dirname = str(contrib['contrib_year']) + '-' + remove_odd_chars('-'.join(contrib['contrib_title'].strip().lower().split(' ')[:5]))
   pathname = 'content/event/' + dirname
   os.makedirs(pathname, exist_ok = True)
 
@@ -179,7 +198,7 @@ for contrib_row in conn.execute(CONTRIB_SQL):
 title: '{contrib_title}'
 
 event: '{conf_title}'
-event_url: {conf_web}
+event_url: '{conf_web}'
 
 #location: Venue
 address:
@@ -194,8 +213,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: {conf_startdate}
-date_end: {conf_enddate}
+date: '{conf_startdate}'
+date_end: '{conf_enddate}'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -233,13 +252,14 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: {conf_type}
-conf_deadline: {conf_deadline}
-contrib_type: {contrib_type}
-contrib_entities: {contrib_entities}
-contrib_doi: {contrib_doi}
-contrib_abstract_url: {contrib_abstract_url}
-contrib_abstract_urltitle: {contrib_abstract_urltitle}
+conf_type: '{conf_type}'
+conf_deadline: '{conf_deadline}'
+contrib_type: '{contrib_type}'
+contrib_institutions: {institutions}
+contrib_research_lines: {research_lines}
+contrib_doi: '{contrib_doi}'
+contrib_abstract_url: '{contrib_abstract_url}'
+contrib_abstract_urltitle: '{contrib_abstract_urltitle}'
 ---
 
 {contrib_body}

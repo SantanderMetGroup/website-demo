@@ -2,7 +2,7 @@
 title: 'Adaptive variation, environmental gradients and demography in maritime pine: from genes to phenotypes and niches'
 
 event: 'EcoGenes: Adapting to Global Change in the Mediterranean Hotspot'
-event_url: http://ebdecogenes.ebd.csic.es/
+event_url: 'http://ebdecogenes.ebd.csic.es/'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2013-09-18T00:00:00
-date_end: 2013-09-20T00:00:00
+date: '2013-09-18T00:00:00'
+date_end: '2013-09-20T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -50,7 +50,7 @@ featured: false
 
 url_code: ''
 url_pdf: 'files/pdfs/2013_AGCM_Grivet_et_al.pdf'
-url_slides: 'None'
+url_slides: ''
 url_video: ''
 
 # Markdown Slides (optional).
@@ -69,13 +69,16 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: project
-conf_deadline: None
-contrib_type: poster
-contrib_entities: []
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: 'project'
+conf_deadline: ''
+contrib_type: 'poster'
+contrib_institutions: 
+  - 
+contrib_research_lines: 
+  - 
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 Current and future species responses to predicted environmental changes are embedded in demographic and evolutionary processes that occurred in the past. Therefore, understanding range-wide patterns and interactions between environmental change, demography and evolution taking place in the past is essential for developing future management strategies.

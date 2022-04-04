@@ -2,7 +2,7 @@
 title: 'Aggregation of Grid and HPC resources for running huge experiments in climate and weather prediction'
 
 event: 'EGU General Assembly 2011'
-event_url: http://meetingorganizer.copernicus.org/EGU2011/sessionprogramme
+event_url: 'http://meetingorganizer.copernicus.org/EGU2011/sessionprogramme'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2011-04-03T00:00:00
-date_end: 2011-04-08T00:00:00
+date: '2011-04-03T00:00:00'
+date_end: '2011-04-08T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -63,13 +63,16 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: international
-conf_deadline: 2011-01-10T00:00:00
-contrib_type: poster
-contrib_entities: ['UC']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: 'international'
+conf_deadline: '2011-01-10T00:00:00'
+contrib_type: 'poster'
+contrib_institutions: 
+  - UC
+contrib_research_lines: 
+  - GRID computing in Earth Sciences
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 The explosion of computer power during the last two decades has increased the number and types of computational resources a researcher has access to. The heterogeneity of architectures and systems along with the different configuration schemas has led to a situation where users find very complicated taking advantage of all the resources available.
@@ -87,4 +90,3 @@ Moreover, as Gridway doesn’t provide access to non Grid resources, new GridWay
 As an application of this tool it has been integrated into the WRF4G framework. WRF is high demanding application of HPC resources. WRF4G is a framework that allows the management of the execution of huge experiments, consisting in thousands of jobs (HTC). With this tool we are providing a homogeneous access to Grid and non-Grid resources to the WRF4G users. 
 
 The Earth Sciences community, in particular Climate & Weather community, is high demanding HPC user community, therefore it will benefit from this unification of Grid and non-Grid resources.
-

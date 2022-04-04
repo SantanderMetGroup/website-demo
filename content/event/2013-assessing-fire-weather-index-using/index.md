@@ -2,7 +2,7 @@
 title: 'Assessing Fire Weather Index using statistical downscaling and spatial interpolation techniques in Greece'
 
 event: 'EGU General Assembly 2013'
-event_url: http://www.egu2013.eu/
+event_url: 'http://www.egu2013.eu/'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2013-04-07T00:00:00
-date_end: 2013-04-12T00:00:00
+date: '2013-04-07T00:00:00'
+date_end: '2013-04-12T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -46,7 +46,7 @@ featured: false
 
 url_code: ''
 url_pdf: 'files/pdfs/2013_karali_EGU.pdf'
-url_slides: 'None'
+url_slides: ''
 url_video: ''
 
 # Markdown Slides (optional).
@@ -65,13 +65,17 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: international
-conf_deadline: None
-contrib_type: poster
-contrib_entities: ['UC', 'NOA']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: 'international'
+conf_deadline: ''
+contrib_type: 'poster'
+contrib_institutions: 
+  - UC
+  - NOA
+contrib_research_lines: 
+  - Statistical downscaling and local weather forecast
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 Forest fires have always been present in the Mediterranean ecosystems, thus they constitute a major ecological

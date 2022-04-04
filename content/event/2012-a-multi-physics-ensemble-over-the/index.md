@@ -1,8 +1,8 @@
 ---
 title: 'A multi-physics ensemble over the CORDEX-Africa domain'
 
-event: '1st CORDEX WRF workshop and CORWES/WRF4G hands on tutorial '
-event_url: 
+event: '1st CORDEX WRF workshop and CORWES/WRF4G hands on tutorial'
+event_url: ''
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2012-10-08T00:00:00
-date_end: 2012-10-12T00:00:00
+date: '2012-10-08T00:00:00'
+date_end: '2012-10-12T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -43,7 +43,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'None'
+url_pdf: ''
 url_slides: 'files/posters/2012_Casanueva_WorkshopCORWES.pdf'
 url_video: ''
 
@@ -63,14 +63,18 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: workshop
-conf_deadline: None
-contrib_type: oral
-contrib_entities: ['IFCA', 'UC']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: 'workshop'
+conf_deadline: ''
+contrib_type: 'oral'
+contrib_institutions: 
+  - IFCA
+  - UC
+contrib_research_lines: 
+  - Climate change and regional scenarios
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 WRF (Weather Research and Forecasting) model is a state of the art regional model whose use has spread worldwide. This kind of models solves the atmospheric circulation equations for a resolution higher than the Global Circulation Models (GCMs). Due to the coarse resolution of the latter, Regional Climate Models (RCMs) as WRF try to better represent climate for specific regions. WRF is a very flexible model and several different configurations can be selected changing the different parameterizations. For this reason,  each configuration can be considered as a different model and the biases of the different configurations are as large as those corresponding to different RCMs (Vautard et al. 2012). Nowadays many research groups have run their own configurations, but analysing the sensitivity of the model to each configuration for each region is a relevant issue, since results can change significantly.
-We focus our analysis on the African domain, which is the  CORDEX  priority. Our study is motivated by the need to find the best set of parameterizations for Africa concerning temperature and precipitation. 
+We focus our analysis on the African domain, which is the  CORDEX  priority. Our study is motivated by the need to find the best set of parameterizations for Africa concerning temperature and precipitation.

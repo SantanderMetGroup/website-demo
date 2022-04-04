@@ -2,7 +2,7 @@
 title: 'Activities of the Santander MetGroup in relation to M5S, GCM, RCM, ESD and OBS'
 
 event: 'Workshop on the Assessment, Analysis and Integration of Climate Information Conflicts'
-event_url: http://www.wcrp-climate.org/index.php/distillation-about
+event_url: 'http://www.wcrp-climate.org/index.php/distillation-about'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2014-10-29T00:00:00
-date_end: 2014-10-31T00:00:00
+date: '2014-10-29T00:00:00'
+date_end: '2014-10-31T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -60,13 +60,19 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: workshop
-conf_deadline: None
-contrib_type: invited
-contrib_entities: ['IFCA', 'UC']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: 'workshop'
+conf_deadline: ''
+contrib_type: 'invited'
+contrib_institutions: 
+  - IFCA
+  - UC
+contrib_research_lines: 
+  - Climate change and regional scenarios
+  - Numerical weather and climate modelling
+  - Statistical downscaling and local weather forecast
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 Summary of the Santander MetGroup activity, as hosting group of the workshop.

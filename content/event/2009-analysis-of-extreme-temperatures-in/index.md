@@ -2,7 +2,7 @@
 title: 'Analysis of Extreme Temperatures in Iberia: Observations and RCM Simulations from the ENSEMBLES Project'
 
 event: 'SETA 2009. Spatial Extremes, Theory and Applications'
-event_url: http://seta.ceaul.fc.ul.pt/
+event_url: 'http://seta.ceaul.fc.ul.pt/'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2009-04-06T00:00:00
-date_end: 2009-04-08T00:00:00
+date: '2009-04-06T00:00:00'
+date_end: '2009-04-08T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -41,7 +41,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'None'
+url_pdf: ''
 url_slides: 'files/posters/2009_Poster_SETA.pdf'
 url_video: ''
 
@@ -61,13 +61,17 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: 
-conf_deadline: 2009-03-10T00:00:00
-contrib_type: poster
-contrib_entities: ['IFCA', 'UC']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: ''
+conf_deadline: '2009-03-10T00:00:00'
+contrib_type: 'poster'
+contrib_institutions: 
+  - IFCA
+  - UC
+contrib_research_lines: 
+  - 
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 The study of climate extremes is an active research topic with huge socioeconomic impacts (see Easterling et al 2000 and references therein). Most of the results published in the literature are based on univariate GEV or POT models, applied to either observations (Brown et al. 2008) or global (Goubana and Li, 2007) and regional (Frei et al. 2006) simulations. These studies have reported different trends in the temperature and precipitation extremes for the 20th century and future climate scenarios in different regions of interest. In the present work, we use state-of-the-art observed and simulated data over Europe, developed in the ENSEMBLES project (www.ensembles-eu.org), to analyze and compare the observed and simulated temperature extremes in the Iberian peninsula. In particular, we consider the ENSEMBLES gridded observations and the ensemble of RCM simulations with a common resolution of 25km. In the future, we plan to study the effect of spatial dependence in the obtained results using appropriate multivariate techniques.
@@ -83,4 +87,3 @@ Frei, C., R. Schöll, S. Fukutome, J. Schmidli, and P. L. Vidale (2006), Future 
 scenarios from regional climate models, J. Geophys. Res., 111, D06105, doi:10.1029/2005JD005965.
 
 Goubanova, K. and L. Li (2007) Extremes in temperature and precipitation around the Mediterranean basin in an ensemble of future climate scenario simulation. Global and Planetary Change, 57, 27-42.
-

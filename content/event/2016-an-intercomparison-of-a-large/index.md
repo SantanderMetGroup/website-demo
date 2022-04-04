@@ -2,7 +2,7 @@
 title: 'An intercomparison of a large ensemble of statistical downscaling methods for Europe: Overall results from the VALUE perfect predictor cross-validation experiment'
 
 event: 'EGU General Assembly 2016'
-event_url: http://www.egu2016.eu
+event_url: 'http://www.egu2016.eu'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2016-04-17T00:00:00
-date_end: 2016-04-22T00:00:00
+date: '2016-04-17T00:00:00'
+date_end: '2016-04-22T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -40,7 +40,7 @@ featured: false
 
 url_code: ''
 url_pdf: 'files/pdfs/EGU2016-gutierrez.pdf'
-url_slides: 'None'
+url_slides: ''
 url_video: ''
 
 # Markdown Slides (optional).
@@ -59,13 +59,16 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: 
-conf_deadline: None
-contrib_type: oral
-contrib_entities: ['IFCA']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: ''
+conf_deadline: ''
+contrib_type: 'oral'
+contrib_institutions: 
+  - IFCA
+contrib_research_lines: 
+  - Statistical downscaling and local weather forecast
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 VALUE is an open European network to validate and compare downscaling methods for climate change research (http://www.value-cost.eu). A key deliverable of VALUE is the development of a systematic validation framework to enable the assessment and comparison of both dynamical and statistical downscaling methods. This framework is based on a user-focused validation tree, guiding the selection of relevant validation indices and performance measures for different aspects of the validation (marginal, temporal, spatial, multi-variable). Moreover, several experiments have been designed to isolate specific points in the downscaling procedure where problems may occur (assessment of intrinsic performance, effect of errors inherited from the global models, effect of non-stationarity, etc.). The list of downscaling experiments includes 1) cross-validation with perfect predictors, 2) GCM predictors –aligned with EURO-CORDEX experiment– and 3) pseudo reality predictors (see Maraun et al. 2015, Earth’s Future, 3, doi:10.1002/2014EF000259, for more details). The results of these experiments are gathered, validated and publicly distributed through the VALUE validation portal, allowing for a comprehensive community-open downscaling intercomparison study.

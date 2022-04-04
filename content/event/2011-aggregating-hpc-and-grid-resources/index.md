@@ -1,8 +1,8 @@
 ---
 title: 'Aggregating HPC and Grid resources using GridWay metascheduler'
 
-event: 'The 2011 International Conference on Computational Science and Its Applications (ICCSA 2011) '
-event_url: http://www.iccsa.org/
+event: 'The 2011 International Conference on Computational Science and Its Applications (ICCSA 2011)'
+event_url: 'http://www.iccsa.org/'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2011-06-20T00:00:00
-date_end: 2011-06-23T00:00:00
+date: '2011-06-20T00:00:00'
+date_end: '2011-06-23T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -44,7 +44,7 @@ featured: false
 
 url_code: ''
 url_pdf: 'files/pdfs/2011_Blanco_ICCSA.pdf'
-url_slides: 'None'
+url_slides: ''
 url_video: ''
 
 # Markdown Slides (optional).
@@ -63,13 +63,16 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: international
-conf_deadline: 2011-01-31T00:00:00
-contrib_type: submitted
-contrib_entities: ['UC']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: 'international'
+conf_deadline: '2011-01-31T00:00:00'
+contrib_type: 'submitted'
+contrib_institutions: 
+  - UC
+contrib_research_lines: 
+  - GRID computing in Earth Sciences
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 The emergence of Grid initiatives to create seamless access to geographically distributed heterogeneous resources has not reached all computing infrastructures. In particular, systems with high capacity computing power like HPC are not commonly accessible through any Grid middleware. This paper tries to establish the requirements for providing researchers with a tool that allow them to access Grid and non-Grid computing resources in a seamlessly manner. In order to make a proof of concept, a prototype based on the GridWay metascheduler is presented.

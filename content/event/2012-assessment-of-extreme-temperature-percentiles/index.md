@@ -2,7 +2,7 @@
 title: 'Assessment of extreme temperature percentiles by means of Regional Climate Models'
 
 event: '6th ICTP Workshop on the Theory & Use ofREGional Climate Models'
-event_url: http://cdsagenda5.ictp.it/askArchive.php?base=agenda&categ=a11161&id=a11161/announcement
+event_url: 'http://cdsagenda5.ictp.it/askArchive.php?base=agenda&categ=a11161&id=a11161/announcement'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2012-05-07T00:00:00
-date_end: 2012-05-18T00:00:00
+date: '2012-05-07T00:00:00'
+date_end: '2012-05-18T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -65,13 +65,16 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: workshop
-conf_deadline: 2012-02-15T00:00:00
-contrib_type: oral
-contrib_entities: ['UC']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: 'workshop'
+conf_deadline: '2012-02-15T00:00:00'
+contrib_type: 'oral'
+contrib_institutions: 
+  - UC
+contrib_research_lines: 
+  - Climate change and regional scenarios
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 The study of extreme events has become of great interest in the recent years due to their direct impact on society. Extremes can be evaluated both by using extreme value theory or deriving extreme indicators, which are usually based on statistics on the tail of the probability distribution. Some of the most commonly used indicators are based on percentiles. In this study we calculate the most extreme percentiles in maximum (90p, 95p and 99p) and minimum (1p, 5p and 10p) temperature derived from the application of dynamical downscaling methods in the Iberian Peninsula. We analyze the regional climate models (RCMs) of the ENSEMBLES (EU-funded) and ESCENA (strategic action of Plan Nacional de I+D+i 2008-2011 funded by the Spanish government) projects.

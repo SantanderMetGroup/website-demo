@@ -2,7 +2,7 @@
 title: 'Assessing the drift of seasonal forecasts'
 
 event: 'EGU General Assembly 2014'
-event_url: http://www.egu2014.eu/
+event_url: 'http://www.egu2014.eu/'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2014-04-27T00:00:00
-date_end: 2014-05-02T00:00:00
+date: '2014-04-27T00:00:00'
+date_end: '2014-05-02T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -65,13 +65,20 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: 
-conf_deadline: 2014-01-16T00:00:00
-contrib_type: poster
-contrib_entities: ['IFCA', 'UC', 'IC3', 'SMHI', 'UK Met Office']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: ''
+conf_deadline: '2014-01-16T00:00:00'
+contrib_type: 'poster'
+contrib_institutions: 
+  - IFCA
+  - UC
+  - IC3
+  - SMHI
+  - UK Met Office
+contrib_research_lines: 
+  - Seasonal forecasting
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 The systematic drift (bias dependence on the forecast lead-time) present in state-of-the-art coupled general circulation models is an inherent feature of global seasonal forecasts. Usually, anomalies (relative to the model climatology) obtained from an ensemble of hindcasts are used to correct this drift. However, this procedure has not been systematically explored across different forecasting systems so far. Moreover, costly approaches for seasonal impacts forecasting, such as dynamical downscaling, would benefit from  drift removal strategies involving smaller ensemble sizes.

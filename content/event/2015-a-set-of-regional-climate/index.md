@@ -2,7 +2,7 @@
 title: 'A set of regional climate change scenarios over Spain: ESCENA Project'
 
 event: 'Avances en la detección y proyecciones del cambio climático en España a la luz del 5º informe del IPCC'
-event_url: http://www.climaes2015.urv.cat
+event_url: 'http://www.climaes2015.urv.cat'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2015-03-11T00:00:00
-date_end: 2015-03-13T00:00:00
+date: '2015-03-11T00:00:00'
+date_end: '2015-03-13T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -50,7 +50,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'None'
+url_pdf: ''
 url_slides: 'files/posters/poster_fernandez_2015_CLIMATEESescena.pdf'
 url_video: ''
 
@@ -70,13 +70,20 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: national
-conf_deadline: 2014-12-15T00:00:00
-contrib_type: poster
-contrib_entities: ['UC', 'Universidad de Castilla-La Mancha', 'Universidad de Murcia', 'Universidad de Alcalá de Henares']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: 'national'
+conf_deadline: '2014-12-15T00:00:00'
+contrib_type: 'poster'
+contrib_institutions: 
+  - UC
+  - Universidad de Castilla-La Mancha
+  - Universidad de Murcia
+  - Universidad de Alcalá de Henares
+contrib_research_lines: 
+  - Climate change and regional scenarios
+  - Numerical weather and climate modelling
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 ESCENA (http://proyectoescena.uclm.es) was part of the Spanish Strategic action on energy and

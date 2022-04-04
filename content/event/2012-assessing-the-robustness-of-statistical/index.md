@@ -2,7 +2,7 @@
 title: 'Assessing the robustness of statistical downscaling techniques for their application under climate change conditions'
 
 event: '12th Annual Meeting of the European Meteorological Society (EMS) and the 9th European Conference on Applied Climatology (ECAC)'
-event_url: http://ems2012.eu
+event_url: 'http://ems2012.eu'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2012-09-10T00:00:00
-date_end: 2012-09-14T00:00:00
+date: '2012-09-10T00:00:00'
+date_end: '2012-09-14T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -67,13 +67,16 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: international
-conf_deadline: 2012-04-26T00:00:00
-contrib_type: oral
-contrib_entities: ['IFCA']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: 'international'
+conf_deadline: '2012-04-26T00:00:00'
+contrib_type: 'oral'
+contrib_institutions: 
+  - IFCA
+contrib_research_lines: 
+  - 
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 In this study, the applicability of statistical downscaling (SD) methods for use in climate change studies is assessed. To this aim, we introduce a new score to estimate the robustness of these methods to warming and drying climate conditions, as given by anomalously warm/dry years in the observational record. This score is applied to assess the relative performance of twelve different methods (from the analog, weather typing, weather generator, regression and GLM families) for downscaling temperatures and precipitation in Spain. Since the temperatures in the observed warm years are significantly underestimated by the analog and weather generator approaches, special care has to be taken when applying them to GCM scenario runs. This is demonstrated by relating the robustness-score to the mean relative warming obtained from applying the SD-methods to the A1B scenario run (2071-2100) from the ECHAM5 Global Climate Model.

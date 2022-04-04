@@ -1,8 +1,8 @@
 ---
 title: 'Aplicaciones en Ciencias de la Tierra: vo.meteo.es-ngi.eu'
 
-event: ' 3ª Reunión Plenaria Red Española de e-Ciencia'
-event_url: http://www.e-ciencia.es/FichaEvento.jsp?externos=null&IDEvento=19
+event: '3ª Reunión Plenaria Red Española de e-Ciencia'
+event_url: 'http://www.e-ciencia.es/FichaEvento.jsp?externos=null&IDEvento=19'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2009-10-29T00:00:00
-date_end: 2009-10-30T00:00:00
+date: '2009-10-29T00:00:00'
+date_end: '2009-10-30T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -43,7 +43,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'None'
+url_pdf: ''
 url_slides: 'files/private/vo.meteo.es-ngi.eu.ppt'
 url_video: ''
 
@@ -63,14 +63,20 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: project
-conf_deadline: None
-contrib_type: invited
-contrib_entities: ['UC', 'CESGA', 'USC', 'MeteoGalicia']
-contrib_doi: None
-contrib_abstract_url: http://www.e-ciencia.es/indico/contributionDisplay.py?contribId=22&sessionId=10&confId=11
-contrib_abstract_urltitle: Ciencias de la Tierra
+conf_type: 'project'
+conf_deadline: ''
+contrib_type: 'invited'
+contrib_institutions: 
+  - UC
+  - CESGA
+  - USC
+  - MeteoGalicia
+contrib_research_lines: 
+  - GRID computing in Earth Sciences
+  - Numerical weather and climate modelling
+contrib_doi: ''
+contrib_abstract_url: 'http://www.e-ciencia.es/indico/contributionDisplay.py?contribId=22&sessionId=10&confId=11'
+contrib_abstract_urltitle: 'Ciencias de la Tierra'
 ---
 
 Revisón de la situación actual del Área de Aplicaciones, concretamente Ciencias de a Tierra, en la Red Española de eCiencia. En esta presentación se repasa las actividades realizadas durante el último año de las aplicaciones y pilotos desplegadas en la Red, y concretamene la creación de la VO vo.meteo.es-ngi.eu.
-

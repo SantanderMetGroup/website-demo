@@ -2,7 +2,7 @@
 title: 'A methodology to evaluate wave energy resources in shallow waters'
 
 event: '7th European Wave and Tidal Energy Conference'
-event_url: http://www.ewtec2007.com.pt/
+event_url: 'http://www.ewtec2007.com.pt/'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2007-09-11T00:00:00
-date_end: 2007-09-14T00:00:00
+date: '2007-09-11T00:00:00'
+date_end: '2007-09-14T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -44,7 +44,7 @@ featured: false
 
 url_code: ''
 url_pdf: 'files/pdfs/2007_camus_EWTEC.pdf'
-url_slides: 'None'
+url_slides: ''
 url_video: ''
 
 # Markdown Slides (optional).
@@ -63,13 +63,16 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: 
-conf_deadline: None
-contrib_type: oral
-contrib_entities: []
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: ''
+conf_deadline: ''
+contrib_type: 'oral'
+contrib_institutions: 
+  - 
+contrib_research_lines: 
+  - 
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 A global frame for the determination of shallow water wave energy resources is developed. The methodology steps are: a) calibration of a wave reanalysis data base; b) classification of the sea states by means of the Self-Organizing Maps technique to obtain the number of sea states representatives of the wave climate in deep waters; c) propagation of the selected sea states using any state-ofthe-art wave propagation model and propagation of the whole reanalysis data base using an interpolation scheme; d) application of different statistical models to define energy resources.

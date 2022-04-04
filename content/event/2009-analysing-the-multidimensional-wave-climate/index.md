@@ -1,8 +1,8 @@
 ---
 title: 'Analysing the multidimensional wave climate with self  organizing maps'
 
-event: 'OCEANS ´09 IEEE, Balancing technology with future needs '
-event_url: http://www.oceans09ieeebremen.org/
+event: 'OCEANS ´09 IEEE, Balancing technology with future needs'
+event_url: 'http://www.oceans09ieeebremen.org/'
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2009-05-11T00:00:00
-date_end: 2009-05-14T00:00:00
+date: '2009-05-11T00:00:00'
+date_end: '2009-05-14T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -44,7 +44,7 @@ featured: false
 
 url_code: ''
 url_pdf: 'files/private/2009_Oceans_Mendez.pdf'
-url_slides: 'None'
+url_slides: ''
 url_video: ''
 
 # Markdown Slides (optional).
@@ -63,13 +63,19 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: international
-conf_deadline: 2009-01-11T00:00:00
-contrib_type: oral
-contrib_entities: ['UC', 'Instituto de Hidráulica de Cantabria (IHC)']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: 'international'
+conf_deadline: '2009-01-11T00:00:00'
+contrib_type: 'oral'
+contrib_institutions: 
+  - UC
+  - Instituto de Hidráulica de Cantabria (IHC)
+contrib_research_lines: 
+  - Climate change and regional scenarios
+  - Data mining and artificial intelligence: Bayesian and Neural networks
+  - Statistical downscaling and local weather forecast
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 The  term  “wave  climate”  usually  refers  to  the  statistical  distribution  of  several oceanographical geophysical variables. Components of  the wave  climate are variables such as wind velocity, W, wind direction, θW, significant wave height, Hs, peak period, Tp,  and  mean  wave  direction,  θ.  Usually,  the  classical  analysis  of  the  long-term distribution  of  wave  climate  is  addressed  using  just  one  variable  (f.i.,  long-term distribution  of  significant  wave  height)  or  at  most  bidimensionally  (f.i.,  the bidimensional distribution of Hs and Tp). It is clear that the joint probability distribution of these five variables (Hs, Tp, θ, W, θW) is not easy to able to cope with. However, this problem  is  solved  applying  a  non-linear  clustering  algorithm,  namely  the  Self Organizing Maps  (SOM),  a  neural  network  technique  capable  of  classifying  the  high dimensional input reanalysis data in a low number of centroids (clusters) in an ordered sheet shape representation (Camus et al, 2007). The neurons are connected  to adjacent elements  by  a  neighbourhood  relation. A multidimensional  histogram  of  the  sea  state parameters is obtained allowing an easy further treatment of the classified sea states.  

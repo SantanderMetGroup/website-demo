@@ -2,7 +2,7 @@
 title: 'Aplicación de Métodos de Clasificación al Downscaling Estadístico'
 
 event: 'V Simposio Nacional de Predicción'
-event_url: 
+event_url: ''
 
 #location: Venue
 address:
@@ -17,8 +17,8 @@ summary: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2001-11-20T00:00:00
-date_end: 2001-11-23T00:00:00
+date: '2001-11-20T00:00:00'
+date_end: '2001-11-23T00:00:00'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -42,7 +42,7 @@ featured: false
 
 url_code: ''
 url_pdf: 'files/private/2001_Ancell_Vsimp.pdf'
-url_slides: 'None'
+url_slides: ''
 url_video: ''
 
 # Markdown Slides (optional).
@@ -61,13 +61,17 @@ projects: []
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
-conf_type: national
-conf_deadline: None
-contrib_type: oral
-contrib_entities: ['AEMET', 'UC']
-contrib_doi: None
-contrib_abstract_url: 
-contrib_abstract_urltitle: 
+conf_type: 'national'
+conf_deadline: ''
+contrib_type: 'oral'
+contrib_institutions: 
+  - AEMET
+  - UC
+contrib_research_lines: 
+  - Statistical downscaling and local weather forecast
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---
 
 En este artículo se analizan diversas alternativas para la predicción probabilística de meteoros utilizando el método de análogos, y se presentan resultados de validación en la red principal de estaciones del INM en las diversas cuencas peninsulares. En primer lugar se comparan distintas especificaciones (tamaño de la rejilla y rango horario) del vector 4D que define el “estado de la atmósfera” en base a las predicciones de un modelo numérico. Seguidamente, se describe la forma más conveniente de comprimir esta información, eliminando redundancias, utilizando componentes principales. A continuación, se analizan distintas técnicas de clasificación para obtener un conjunto de estados de la atmósfera análogos a uno dado, de entre aquellos disponibles en una base de datos de estados históricos (reanálisis). Finalmente, se muestra la forma de mejorar la resolución de una predicción realizada por el modelo numérico a partir de la estadística de los meteoros locales observados en las fechas correspondientes a los análogos hallados para el estado definido por la predicción.
