@@ -2,23 +2,23 @@
 title: 'Aplicaciones en Ciencias de la Tierra: vo.meteo.es-ngi.eu'
 
 event: ' 3ª Reunión Plenaria Red Española de e-Ciencia'
-#event_url: https://example.org
+event_url: http://www.e-ciencia.es/FichaEvento.jsp?externos=null&IDEvento=19
 
-location: Virtual event
-#address:
+#location: Venue
+address:
 #  street: 450 Serra Mall
-#  city: Stanford
+  city: Valencia
 #  region: CA
 #  postcode: '94305'
-#  country: United States
+  country: Spain
 
-summary: 'Aplicaciones en Ciencias de la Tierra: vo.meteo.es-ngi.eu'
+summary: ''
 #abstract: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2009-01-01T00:00:00
-#date_end: '2030-06-01T15:00:00Z'
+date: 2009-10-29T00:00:00
+date_end: 2009-10-30T00:00:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -37,13 +37,14 @@ tags:
 # Is this a featured talk? (true/false)
 featured: false
 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+# Image caption
+#image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+#  focal_point: Right
 
 url_code: ''
-url_pdf: ''
-url_slides: ''
+url_pdf: 'None'
+url_slides: 'files/private/vo.meteo.es-ngi.eu.ppt'
 url_video: ''
 
 # Markdown Slides (optional).
@@ -59,6 +60,17 @@ slides:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+
+# Extra metadata
+#   Not in hugo/wowchemy templates
+conf_type: project
+conf_deadline: None
+contrib_type: invited
+contrib_entities: ['UC', 'CESGA', 'USC', 'MeteoGalicia']
+contrib_doi: None
+contrib_abstract_url: http://www.e-ciencia.es/indico/contributionDisplay.py?contribId=22&sessionId=10&confId=11
+contrib_abstract_urltitle: Ciencias de la Tierra
 ---
 
-<p>Revisón de la situación actual del Área de Aplicaciones, concretamente Ciencias de a Tierra, en la Red Española de eCiencia. En esta presentación se repasa las actividades realizadas durante el último año de las aplicaciones y pilotos desplegadas en la Red, y concretamene la creación de la VO vo.meteo.es-ngi.eu.</p>
+Revisón de la situación actual del Área de Aplicaciones, concretamente Ciencias de a Tierra, en la Red Española de eCiencia. En esta presentación se repasa las actividades realizadas durante el último año de las aplicaciones y pilotos desplegadas en la Red, y concretamene la creación de la VO vo.meteo.es-ngi.eu.
+

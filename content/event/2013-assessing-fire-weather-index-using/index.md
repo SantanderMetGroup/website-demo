@@ -2,23 +2,23 @@
 title: 'Assessing Fire Weather Index using statistical downscaling and spatial interpolation techniques in Greece'
 
 event: 'EGU General Assembly 2013'
-#event_url: https://example.org
+event_url: http://www.egu2013.eu/
 
-location: Virtual event
-#address:
+#location: Venue
+address:
 #  street: 450 Serra Mall
-#  city: Stanford
+  city: Vienna
 #  region: CA
 #  postcode: '94305'
-#  country: United States
+  country: Austria
 
-summary: 'Assessing Fire Weather Index using statistical downscaling and spatial interpolation techniques in Greece'
+summary: ''
 #abstract: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2013-01-01T00:00:00
-#date_end: '2030-06-01T15:00:00Z'
+date: 2013-04-07T00:00:00
+date_end: 2013-04-12T00:00:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -32,20 +32,21 @@ authors:
   - A. Roussos
   - A. Casanueva
 tags: 
-  - fire weather index
-  - wild fires
   - Statistical downscaling
+  - wild fires
+  - fire weather index
 
 # Is this a featured talk? (true/false)
 featured: false
 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+# Image caption
+#image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+#  focal_point: Right
 
 url_code: ''
-url_pdf: ''
-url_slides: ''
+url_pdf: 'files/pdfs/2013_karali_EGU.pdf'
+url_slides: 'None'
 url_video: ''
 
 # Markdown Slides (optional).
@@ -61,27 +62,37 @@ slides:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+
+# Extra metadata
+#   Not in hugo/wowchemy templates
+conf_type: international
+conf_deadline: None
+contrib_type: poster
+contrib_entities: ['UC', 'NOA']
+contrib_doi: None
+contrib_abstract_url: 
+contrib_abstract_urltitle: 
 ---
 
-<p>Forest fires have always been present in the Mediterranean ecosystems, thus they constitute a major ecological<br />
-and socio-economic issue. The last few decades though, the number of forest fires has significantly increased, as<br />
-well as their severity and impact on the environment. Local fire danger projections are often required when dealing<br />
-with wild fire research. In the present study the application of statistical downscaling and spatial interpolation<br />
-methods was performed to the Canadian Fire Weather Index (FWI), in order to assess forest fire risk in Greece.<br />
-The FWI is used worldwide (including the Mediterranean basin) to estimate the fire danger in a generalized fuel<br />
-type, based solely on weather observations. The meteorological inputs to the FWI System are noon values of<br />
-dry-bulb temperature, air relative humidity, 10m wind speed and precipitation during the previous 24 hours.<br />
-The statistical downscaling methods are based on a statistical model that takes into account empirical relationships<br />
-between large scale variables (used as predictors) and local scale variables. In the framework<br />
-of the current study the statistical downscaling portal developed by the Santander Meteorology Group<br />
-(<a href="https://www.meteo.unican.es/downscaling" title="https://www.meteo.unican.es/downscaling">https://www.meteo.unican.es/downscaling</a>) in the framework of the EU project CLIMRUN (<a href="http://www.climrun.eu" title="www.climrun.eu">www.climrun.eu</a>)<br />
-was used to downscale non standard parameters related to forest fire risk.<br />
-In this study, two different approaches were adopted. Firstly, the analogue downscaling technique was directly<br />
-performed to the FWI index values and secondly the same downscaling technique was performed indirectly through<br />
-the meteorological inputs of the index. In both cases, the statistical downscaling portal was used considering the<br />
-ERA-Interim reanalysis as predictands due to the lack of observations at noon.<br />
-Additionally, a three-dimensional (3D) interpolation method of position and elevation, based on Thin Plate Splines<br />
-(TPS) was used, to interpolate the ERA-Interim data used to calculate the index. Results from this method were<br />
-compared with the statistical downscaling results obtained from the portal.<br />
-Finally, FWI was computed using weather observations obtained from the Hellenic National Meteorological Service,<br />
-mainly in the south continental part of Greece and a comparison with the previous results was performed.</p>
+Forest fires have always been present in the Mediterranean ecosystems, thus they constitute a major ecological
+and socio-economic issue. The last few decades though, the number of forest fires has significantly increased, as
+well as their severity and impact on the environment. Local fire danger projections are often required when dealing
+with wild fire research. In the present study the application of statistical downscaling and spatial interpolation
+methods was performed to the Canadian Fire Weather Index (FWI), in order to assess forest fire risk in Greece.
+The FWI is used worldwide (including the Mediterranean basin) to estimate the fire danger in a generalized fuel
+type, based solely on weather observations. The meteorological inputs to the FWI System are noon values of
+dry-bulb temperature, air relative humidity, 10m wind speed and precipitation during the previous 24 hours.
+The statistical downscaling methods are based on a statistical model that takes into account empirical relationships
+between large scale variables (used as predictors) and local scale variables. In the framework
+of the current study the statistical downscaling portal developed by the Santander Meteorology Group
+(https://www.meteo.unican.es/downscaling) in the framework of the EU project CLIMRUN (www.climrun.eu)
+was used to downscale non standard parameters related to forest fire risk.
+In this study, two different approaches were adopted. Firstly, the analogue downscaling technique was directly
+performed to the FWI index values and secondly the same downscaling technique was performed indirectly through
+the meteorological inputs of the index. In both cases, the statistical downscaling portal was used considering the
+ERA-Interim reanalysis as predictands due to the lack of observations at noon.
+Additionally, a three-dimensional (3D) interpolation method of position and elevation, based on Thin Plate Splines
+(TPS) was used, to interpolate the ERA-Interim data used to calculate the index. Results from this method were
+compared with the statistical downscaling results obtained from the portal.
+Finally, FWI was computed using weather observations obtained from the Hellenic National Meteorological Service,
+mainly in the south continental part of Greece and a comparison with the previous results was performed.

@@ -2,23 +2,23 @@
 title: 'Adaptive variation, environmental gradients and demography in maritime pine: from genes to phenotypes and niches'
 
 event: 'EcoGenes: Adapting to Global Change in the Mediterranean Hotspot'
-#event_url: https://example.org
+event_url: http://ebdecogenes.ebd.csic.es/
 
-location: Virtual event
-#address:
+#location: Venue
+address:
 #  street: 450 Serra Mall
-#  city: Stanford
+  city: Sevilla
 #  region: CA
 #  postcode: '94305'
-#  country: United States
+  country: Spain
 
-summary: 'Adaptive variation, environmental gradients and demography in maritime pine: from genes to phenotypes and niches'
+summary: ''
 #abstract: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2013-01-01T00:00:00
-#date_end: '2030-06-01T15:00:00Z'
+date: 2013-09-18T00:00:00
+date_end: 2013-09-20T00:00:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -43,13 +43,14 @@ tags:
 # Is this a featured talk? (true/false)
 featured: false
 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+# Image caption
+#image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+#  focal_point: Right
 
 url_code: ''
-url_pdf: ''
-url_slides: ''
+url_pdf: 'files/pdfs/2013_AGCM_Grivet_et_al.pdf'
+url_slides: 'None'
 url_video: ''
 
 # Markdown Slides (optional).
@@ -65,8 +66,20 @@ slides:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+
+# Extra metadata
+#   Not in hugo/wowchemy templates
+conf_type: project
+conf_deadline: None
+contrib_type: poster
+contrib_entities: []
+contrib_doi: None
+contrib_abstract_url: 
+contrib_abstract_urltitle: 
 ---
 
-<p>Current and future species responses to predicted environmental changes are embedded in demographic and evolutionary processes that occurred in the past. Therefore, understanding range-wide patterns and interactions between environmental change, demography and evolution taking place in the past is essential for developing future management strategies.</p>
-<p>Maritime pine, an ecologically and economically important tree species, lives in a highly heterogeneous environment, and is hence of great interest to assess its adaptive potential to foreseen changes in the Mediterranean forests, i.e. increase in aridity and recent land-use change. </p>
-<p>Combining various complementary approaches and looking at three distinct level of variation (gene, phenotype, and nice) we investigate adaptive patterns in this conifer at its distribution scale.</p>
+Current and future species responses to predicted environmental changes are embedded in demographic and evolutionary processes that occurred in the past. Therefore, understanding range-wide patterns and interactions between environmental change, demography and evolution taking place in the past is essential for developing future management strategies.
+
+Maritime pine, an ecologically and economically important tree species, lives in a highly heterogeneous environment, and is hence of great interest to assess its adaptive potential to foreseen changes in the Mediterranean forests, i.e. increase in aridity and recent land-use change. 
+
+Combining various complementary approaches and looking at three distinct level of variation (gene, phenotype, and nice) we investigate adaptive patterns in this conifer at its distribution scale.

@@ -2,23 +2,23 @@
 title: 'Activities of the Santander MetGroup in relation to M5S, GCM, RCM, ESD and OBS'
 
 event: 'Workshop on the Assessment, Analysis and Integration of Climate Information Conflicts'
-#event_url: https://example.org
+event_url: http://www.wcrp-climate.org/index.php/distillation-about
 
-location: Virtual event
-#address:
+#location: Venue
+address:
 #  street: 450 Serra Mall
-#  city: Stanford
+  city: Santander
 #  region: CA
 #  postcode: '94305'
-#  country: United States
+  country: Spain
 
-summary: 'Activities of the Santander MetGroup in relation to M5S, GCM, RCM, ESD and OBS'
+summary: ''
 #abstract: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2014-01-01T00:00:00
-#date_end: '2030-06-01T15:00:00Z'
+date: 2014-10-29T00:00:00
+date_end: 2014-10-31T00:00:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -34,13 +34,14 @@ tags:
 # Is this a featured talk? (true/false)
 featured: false
 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+# Image caption
+#image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+#  focal_point: Right
 
 url_code: ''
-url_pdf: ''
-url_slides: ''
+url_pdf: 'files/pdfs/290940_Fernandez.pdf'
+url_slides: 'files/posters/290940_Fernandez.pdf'
 url_video: ''
 
 # Markdown Slides (optional).
@@ -56,6 +57,16 @@ slides:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+
+# Extra metadata
+#   Not in hugo/wowchemy templates
+conf_type: workshop
+conf_deadline: None
+contrib_type: invited
+contrib_entities: ['IFCA', 'UC']
+contrib_doi: None
+contrib_abstract_url: 
+contrib_abstract_urltitle: 
 ---
 
-<p>Summary of the Santander MetGroup activity, as hosting group of the workshop.</p>
+Summary of the Santander MetGroup activity, as hosting group of the workshop.

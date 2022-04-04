@@ -2,23 +2,23 @@
 title: 'A methodology to evaluate regional-scale offshore wind energy resources.'
 
 event: 'OCEANS’11 IEEE Santander Conference'
-#event_url: https://example.org
+event_url: http://www.oceans11ieeesantander.org/
 
-location: Virtual event
-#address:
+#location: Venue
+address:
 #  street: 450 Serra Mall
-#  city: Stanford
+  city: Santander
 #  region: CA
 #  postcode: '94305'
-#  country: United States
+  country: Spain
 
-summary: 'A methodology to evaluate regional-scale offshore wind energy resources.'
+summary: ''
 #abstract: ''
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2011-01-01T00:00:00
-#date_end: '2030-06-01T15:00:00Z'
+date: 2011-06-06T00:00:00
+date_end: 2011-06-09T00:00:00
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -34,21 +34,22 @@ authors:
   - F. J. Méndez
   - I. J. Losada
 tags: 
-  - wind energy
-  - offshore wind
-  - MARUCA
   - SEAWIND
+  - MARUCA
+  - offshore wind
+  - wind energy
 
 # Is this a featured talk? (true/false)
 featured: false
 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
+# Image caption
+#image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+#  focal_point: Right
 
 url_code: ''
-url_pdf: ''
-url_slides: ''
+url_pdf: 'files/pdfs/2011_menendez_et_al_OCEANS.pdf'
+url_slides: 'None'
 url_video: ''
 
 # Markdown Slides (optional).
@@ -64,6 +65,16 @@ slides:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+
+# Extra metadata
+#   Not in hugo/wowchemy templates
+conf_type: international
+conf_deadline: 2011-04-11T00:00:00
+contrib_type: oral
+contrib_entities: ['UC', 'Environmental Hydraulics Institute (IH Cantabria)']
+contrib_doi: None
+contrib_abstract_url: http://meteo.macc.unican.es/files/pdfs/2011_menendez_et_al_OCEANS.pdf
+contrib_abstract_urltitle: 2011_menendez_et_al_OCEANS.pdf
 ---
 
-<p>The economic viability of offshore wind farms depends on the favorable wind conditions. It is, however, a challenge to study winds in the marine atmospheric environment. A common problem is the data collection since the wind dataset requires enough spatial and temporal resolution. Numerical hindcast (reanalysis) constitutes an alternative to disperse instrumental observations although two considerations should be studied in the reanalysis for regional purposes: the domain and the spatial resolution and a validation-calibration procedure using instrumental data. Accordingly, the wind resource process can be described by the following cascade activities: the coarse spatial wind fields from global meteorological experiments; the regional winds from a dynamic downscaling coupled to the global reanalysis fields; the validation and calibration procedures by using instrumental observations; and, finally, the characterization of winds for evaluation of the wind resource. This work proposes a methodology to study wind energy resources in a regional offshore area and shows the application along the offshore Spanish coast.</p>
+The economic viability of offshore wind farms depends on the favorable wind conditions. It is, however, a challenge to study winds in the marine atmospheric environment. A common problem is the data collection since the wind dataset requires enough spatial and temporal resolution. Numerical hindcast (reanalysis) constitutes an alternative to disperse instrumental observations although two considerations should be studied in the reanalysis for regional purposes: the domain and the spatial resolution and a validation-calibration procedure using instrumental data. Accordingly, the wind resource process can be described by the following cascade activities: the coarse spatial wind fields from global meteorological experiments; the regional winds from a dynamic downscaling coupled to the global reanalysis fields; the validation and calibration procedures by using instrumental observations; and, finally, the characterization of winds for evaluation of the wind resource. This work proposes a methodology to study wind energy resources in a regional offshore area and shows the application along the offshore Spanish coast.
