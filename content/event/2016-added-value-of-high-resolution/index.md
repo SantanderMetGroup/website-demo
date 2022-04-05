@@ -28,8 +28,7 @@ authors:
   - ana-casanueva
   - sixto-herrera
   - jesus-fernandez
-  - Kotlarski
-  - S.
+  - S. Kotlarski
   - jose-manuel-gutierrez
 tags: 
   - Regional Climate Model

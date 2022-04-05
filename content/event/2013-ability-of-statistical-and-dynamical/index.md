@@ -26,7 +26,7 @@ publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
   - ana-casanueva
-  - Kotlarski S.
+  - S. Kotlarski
   - sixto-herrera
   - jesus-fernandez
   - jose-manuel-gutierrez

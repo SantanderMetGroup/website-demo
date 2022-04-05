@@ -25,6 +25,8 @@ def tomappedlist(lst, mapdict):
     if ',' in fullname: # is an author name
       surn, name = tuple(fullname.split(',')[:2])
       rval += '\n  - ' + name.strip() + ' ' + surn.strip()
+    elif fullname == '': # skip empty entries (e.g. mapped to blank string)
+      continue
     else:
       rval += '\n  - ' + fullname
   return(rval)
