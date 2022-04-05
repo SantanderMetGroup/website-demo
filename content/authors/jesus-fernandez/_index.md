@@ -2,6 +2,9 @@
 # Display name
 title: Jesús Fernández
 
+# Custom keyword (e.g. to be used by md2bib.py)
+short_name: J. Fernandez
+
 # Is this the primary user of the site?
 superuser: false
 
