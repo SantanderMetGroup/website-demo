@@ -47,8 +47,8 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/2012_Manzanas_AEC_Salamanca.pdf'
-url_slides: 'files/posters/2012_Manzanas_AEC_Salamanca_poster.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/2012_Manzanas_AEC_Salamanca.pdf'
+url_slides: 'https://meteo.unican.es/files/posters/2012_Manzanas_AEC_Salamanca_poster.pdf'
 url_video: ''
 
 # Markdown Slides (optional).

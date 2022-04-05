@@ -1,0 +1,555 @@
+# # sqlite3 util/mdmdrupal.sqlite -csv -header 'select * from term_data' \
+#   > util/mdmdrupal-term_data.csv
+# cat util/mdmdrupal-term_data.csv \
+#   | awk -vFPAT='([^,]*)|("[^"]+")' '$2==8 {print $3}' \
+#   | tr -d '"' | sort | uniq | sed -e 's/\(.*\)/\"\1\":/'
+#   > util/keyword_map.yml
+#
+#   Then, group them manually:
+".":
+"action plans":
+"added value":
+"Africa":
+"alpine vegetation":
+"Análisis de Tendencia":
+"Analogs":
+"annual cycle":
+"Anonymous peer review":
+"aprendizaje automatico":
+"AR6":
+"Artificial intelligence":
+"Artificial neural Networks": 
+"Association factors":
+"Atmospheric River":
+"Atmospheric Rivers": "Atmospheric River"
+"autumn":
+"avalanches":
+"Barotropic model":
+"Bayesian network":
+"Bayesian networks":
+"Bayes nets":
+"Belief network":
+"bias":
+"bias adjustment":
+"bias correction": "bias adjustment"
+"Big Data Europe":
+"Biometeorología":
+"Blocking":
+"Bred vectors":
+"C3S":
+"calibration":
+"Calidad del Aire":
+"CAM model":
+"Cantabria":
+"capa limite":
+"Case mix":
+"cathment-lake models":
+"Central Australia":
+"CERES":
+"CF":
+"CF metadata":
+"chaos and noise":
+"Chaos control":
+"Chaos-game representation":
+"Chaos synchronization":
+"Characteristic vectors":
+"Chile":
+"Chitral River Basin":
+"circulation indices":
+"Classificatin and Regression Tree":
+"Climate":
+"climate4R":
+"Climate change":
+"Climate change impacts":
+"Climate change projections":
+"climate change signal": "Climate change"
+"Climate classification":
+"climate data":
+"CDS":
+"climate data store": "CDS"
+"Climate envelope":
+"Climate Envelope Models":
+"climate impact indices":
+"climate indices": "climate impact indices"
+"climate network":
+"Climate prediction":
+"Climate services":
+"Climate simulation":
+"climate variability":
+"climate worflows":
+"climatic change": "Climate change"
+"climatology":
+"Cloud computing":
+"CMIP5":
+"CMIP6":
+"Co-evaluation":
+"co-inercia":
+"complex networks":
+"computer vision":
+"computing":
+"convection-permitting": 
+"convection-resolving": "convection-permitting"
+"convention":
+"convolutional neural networks":
+"Convolutional neural networks (CNNs)": "convolutional neural networks"
+"Copernicus": "C3S"
+"CORDEX":
+"CORDEX-CORE":
+"CORDEX domains":
+"CORDEX-FPS":
+"CORDEX-FPS SESA":
+"CORDEX-WRF. EUROCORDEX": "CORDEX-WRF"
+"CORINE":
+"COST-731":
+"COVID-19":
+"Crop productivity":
+"cumulus":
+"daily data":
+"daily precipitation":
+"daily scale":
+"data access":
+"Data assimilation":
+"Data mining":
+"data provenance":
+"data science":
+"DCI":
+"Decadal prediction":
+"decision making":
+"Deep learning":
+"DEMETER":
+"distillation":
+"distributed computing infrastructures":
+"downscaling":
+"downscaling estadístico":
+"Drift":
+"DRM":
+"DRM4G":
+"Drought":
+"Droughts": "Drought"
+"dry":
+"Dynamical downscaling":
+"Dynamical scaling":
+"Early-warning system":
+"Earth System Model":
+"Earth system modelling": "Earth System Model"
+"Eastern Africa":
+"ECMWF EPS":
+"ecological modeling":
+"Ecological Modelling": "ecological modeling"
+"ECOMS UDG":
+"El Niño": "ENSO"
+"El Niño-driven skill": "ENSO-driven skill"
+"El Niño teleconnections": "ENSO teleconnections"
+"emulators":
+"Energy resources":
+"ensemble":
+"ensemble forecasting":
+"ensemble of oportunity":
+"Ensemble Prediction":
+"Ensemble Prediction Sistems": "Ensemble Prediction"
+"ensemble recalibration":
+"ENSEMBLES":
+"ensemble size":
+"ensemble spread":
+"ENSO":
+"ENSO-driven skill":
+"ENSO-NAO combination":
+"ENSO predictability seasonal dry autumn multimodel skill":
+"ENSO teleconnections":
+"Enviromental impact":
+"environmental research":
+"E-OBS":
+"Error growth":
+"ESCENA":
+"Escenarios-PNACC":
+"eScience": "e-Science"
+"e-Science":
+"ESGF":
+"esquemas": ""
+"Euro-CORDEX": "EURO-CORDEX"
+"EUROCORDEX": "EURO-CORDEX"
+"EUROCORDEX RCM": "Regional Climate Model"
+"Europe":
+"European climate anomalies":
+"European climate services":
+"European wintertime precipitation":
+"Europe precipitation":
+"evaluation":
+"Evaporation":
+"Expert systems":
+"exploit":
+"Extrapolation":
+"extratropical cyclones":
+"Extreme": "extremes"
+"Extreme analysis":
+"extreme events":
+"extreme indicators": "Extreme indices"
+"Extreme indices":
+"extreme precipitation":
+"extreme precipitation indicators":
+"extremes": 
+"extremes indicators":
+"extreme values":
+"Extremos de precipitación":
+"Fagus sylvatica":
+"failure detection":
+"Feature selection":
+"Feedbacks":
+"fenómenos adversos":
+"fire-climate relationships":
+"Fire Danger":
+"Fire Risk":
+"fire weather index":
+"forecast":
+"forecast association":
+"forecast quality":
+"forecast reliability":
+"forecast skill":
+"Formative assessment":
+"Fractals":
+"Functional networks":
+"FWI": "fire weather index"
+"galerna":
+"GateWay":
+"Generalized Linear Models (GLMs)": "Generalized Linear Model"
+"Genetic algorithms":
+"GEV":
+"Ghana":
+"GLDAS":
+"Global Climate Model":
+"global validation":
+"Globus":
+"Grid": "Grid computing"
+"GRID computing": "Grid computing"
+"gridded dataset":
+"gridded observations":
+"Gridded precipitation":
+"Grid ESGF":
+"GridWay":
+"GRID workflow":
+"HBV-light":
+"HDF5":
+"Health":
+"healthcare": "Health"
+"Healthcare performance":
+"heat-health":
+"heat stress":
+"heat warnings":
+"heat watnings": "heat warnings"
+"Heatwaves":
+"Heat waves": "Heatwaves"
+"heavy precipitation":
+"high- performance computing": "high-performance computing"
+"high-performance computing":
+"high-resolution":
+"hindcast":
+"hindcast length":
+"historical trends":
+"Homogeneization":
+"hot days":
+"HPC": "high-performance computing"
+"Humidity":
+"HWSD":
+"hybrid computing infrastructures":
+"Hydrological impacts":
+"hydrological model":
+"hydrological modeling": "hydrological model"
+"hydrological projections":
+"hydrologic modeling": "hydrological model"
+"Hydrology":
+"IFS Fractal":
+"imbibition":
+"imeteo":
+"impact community":
+"impact models":
+"industria":
+"Initial Shock":
+"Insolation":
+"Insurance":
+"Internal variability":
+"Interpolation":
+"intrusion":
+"IPCC":
+"j2ee":
+"Kilometer-scale resolution":
+"k-Means":
+"Kolmogorov-Smirnov Test":
+"Koppen climate":
+"KPZ":
+"kriging":
+"labour productivity":
+"LA FEEDBACKS":
+"lake model":
+"lake modeling": "lake model"
+"Land-atmosphere":
+"land management":
+"Land use":
+"Liapunov vectors":
+"Limited Area Models":
+"Linguistic analysis":
+"Localization":
+"Local prediction":
+"Logarithmic bred vectors":
+"long term jobs":
+"Lorenz96":
+"Lorenz'96 Model":
+"LRM": "LRMS"
+"LRMS": 
+"machine learning":
+"Mackey–Glass system":
+"Madrid Central":
+"Malawi":
+"manufacturing line":
+"MARS":
+"MARUCA":
+"master":
+"Mathematics":
+"max":
+"Maximum Temperature":
+"mean and heavy precipitation":
+"Med-CORDEX":
+"Mediterranean":
+"Mediterranean basin":
+"mesoescala":
+"metadata":
+"metascheduler":
+"Meteorología":
+"Minimum Temperature":
+"Missing data":
+"MM5 model":
+"Mobile apps":
+"model data archives":
+"model data repository":
+"model drift":
+"model evaluation":
+"modelos climáticos globales": 
+"Model validation":
+"Monsoonal precipitation":
+"monthly forecast":
+"Moodle":
+"MOSAICC":
+"moving windows":
+"multidomain overlaps":
+"multifisica": "multi-physics"
+"multimodel": "Multi-model ensemble"
+"Multimodel combination":
+"Multi-model ensemble simulations": "Multi-model ensemble"
+"Multimodel Skill":
+"multiphysics": "multi-physics"
+"multi-physics":
+"Multiple Logistic Regression":
+"multisite":
+"Multivariate Adaptive Regression Splines":
+"Multivariate statistics":
+"MVL": "MVL diagram"
+"MVL diagram":
+"NAO":
+"netCDF":
+"netCDF4":
+"network":
+"Neural networks":
+"NEX-GDDP GCMs":
+"Noise":
+"Nonlinear circuits":
+"northern Spain":
+"NWP":
+"Object Store":
+"observational uncertainty":
+"observed changes":
+"Observed climate":
+"observed climate change":
+"offshore":
+"offshore resources":
+"offshore wind":
+"oncology":
+"parametrizaciones":
+"patrones de teleconexión":
+"PBL":
+"PCA":
+"PDF score":
+"PDF-score":
+"percentiles":
+"perfect prognosis":
+"Peru":
+"PET":
+"Philippines":
+"physical parameterizations":
+"Planetary Boundary Layer": PBL
+"Planetary Bounday Layer": PBL
+"plant prediction":
+"postprocess":
+"Precipitation":
+"precipitation indices":
+"Predictability":
+"Probabilistic forecast":
+"Probabilistic visualization":
+"process-based validation":
+"process-conditioning":
+"prometeo":
+"proxy variables":
+"proyecciones cambio climático":
+"pseudoabsences":
+"python":
+"Q-Q Mapping":
+"quality control":
+"R":
+"radiation":
+"radiotherapy":
+"radon":
+"random forest":
+"Rank diagram":
+"RCA":
+"RCM":
+"RCM Ensemble":
+"RCM reinizialization":
+"RCMs":
+"Reanalysis":
+"Reanalysis. APHRODITE":
+"Reanalysis uncertainty":
+"reforecast":
+"Regional climate change scenarios":
+"Regional Climate Model":
+"Regional Climate Modelling": "Regional Climate Model"
+"regional climate models": "Regional Climate Model"
+"Regional climate projections":
+"Regional climate scenario": "Regional climate projections"
+"Regional climate scenarios": "Regional climate projections"
+"Regional impacts":
+"regional uncertainty":
+"Regresión Lineal":
+"reinitialization":
+"reliability":
+"reproducibility":
+"reservoir computing":
+"Resource Description Framework":
+"Road maintenance":
+"robustness":
+"R package":
+"R packages": "R package"
+"R-software":
+"SAI":
+"scanner":
+"Scientific Gateway":
+"seasonal":
+"Seasonal climate prediction":
+"Seasonal forecast": "Seasonal climate prediction"
+"Seasonal forecasting": "Seasonal climate prediction"
+"seasonal forecasts": "Seasonal climate prediction"
+"seasonal predictability":
+"Seasonal prediction": "Seasonal climate prediction"
+"SEAWIND":
+"security":
+"Self-Organizing Maps":
+"SemaGrow":
+"señales climáticas":
+"Senegal":
+"sensibilidad":
+"sensitivity":
+"sensitivity analysis":
+"series temporales":
+"simulación numérica":
+"Singular Vectors":
+"skill":
+"Snow":
+"Soan River Basin":
+"SOC":
+"software":
+"SOI":
+"soil":
+"soil moisture":
+"Soil texture":
+"South America":
+"Southeastern South America":
+"Space-time chaos":
+"Spain":
+"Spain02":
+"Spatial Analysis":
+"spatial disorder":
+"Spatial patterns":
+"Spatiotemporal chaos":
+"Spatiotemporal chaosl":
+"Specied distribution modeling":
+"species distribution models":
+"SSH":
+"SST":
+"stakeholders":
+"Statistical and Dynamical Downscaling":
+"Statistical correction":
+"Statistical downscaling":
+"Statistical forecasting":
+"Statistical techniques":
+"Stochastic Resonance":
+"STREAM2":
+"Streamflow prediction":
+"structure learning":
+"Sugarcane":
+"Support Vector Machines":
+"surface fluxes":
+"System 2":
+"Systematic Error":
+"TDS":
+"técnicas de clustering":
+"Teleconnection patterns":
+"teleconnections":
+"teledeteccion":
+"Temperature":
+"temporal variability":
+"TERN dataset version 1.0.2":
+"The Alps":
+"THREDDS Data Server":
+"Time series":
+"tipos de tiempo":
+"tourism":
+"Tráfico":
+"Transferability":
+"Transpiration":
+"Tree-based models":
+"trend":
+"trend analysis":
+"trends":
+"Tropical Cyclones":
+"Tropical Droughts":
+"UK":
+"uncertainty":
+"undefined":
+"urban heat island":
+"User  Data Gateway":
+"Validación Cruzada":
+"VALUE experiment":
+"variability":
+"variance decompositio.climate change":
+"Vecinos Cercanos":
+"Virtualization":
+"visualizeR":
+"vulnerability":
+"water management":
+"water quality":
+"water quality management":
+"Water scarcity":
+"Water use efficiency":
+"Wave Climate":
+"WCRP international experiments":
+"Weather generator":
+"weather radar":
+"Weather roulette":
+"weather types":
+"web 2.0":
+"web portals":
+"Wheat":
+"wheather types": "weather types"
+"wild fires":
+"wind":
+"wind energy":
+"Wind farm":
+"Wind speed":
+"Wintertime precipitation SAI":
+"workflow":
+"WRF": "WRF model"
+"WRF4G":
+"WRF4SG":
+"WRF model":
+"WRFnc extract and join":
+"WRF WRF4G":
+"WS-PGRADE/gUSE":
+"Zarr":
+"Zipf law":

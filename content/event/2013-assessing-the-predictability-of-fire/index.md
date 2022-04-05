@@ -33,7 +33,7 @@ tags:
   - fire weather index
   - Reanalysis
   - Multivariate Adaptive Regression Splines
-  - Generalized Linear Models (GLMs)
+  - Generalized Linear Model
   - wild fires
 
 # Is this a featured talk? (true/false)
@@ -45,7 +45,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/2013_Bedia_FUME_finalPM.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/2013_Bedia_FUME_finalPM.pdf'
 url_slides: ''
 url_video: ''
 

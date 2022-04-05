@@ -31,7 +31,7 @@ authors:
   - jesus-fernandez
   - jose-manuel-gutierrez
 tags: 
-  - EUROCORDEX RCM
+  - Regional Climate Model
   - Statistical downscaling
   - daily precipitation
 
@@ -44,8 +44,8 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/Euro-CORDEX_topic_SDMvsRCM_FINAL.pdf'
-url_slides: 'files/posters/2013_Casanueva_CORDEX.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/Euro-CORDEX_topic_SDMvsRCM_FINAL.pdf'
+url_slides: 'https://meteo.unican.es/files/posters/2013_Casanueva_CORDEX.pdf'
 url_video: ''
 
 # Markdown Slides (optional).

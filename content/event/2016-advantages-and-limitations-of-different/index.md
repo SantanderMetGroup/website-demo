@@ -29,11 +29,11 @@ authors:
   - jose-manuel-gutierrez
   - A. Weisheimer
 tags: 
-  - Seasonal forecasting
+  - Seasonal climate prediction
   - Precipitation
   - Philippines
   - Statistical downscaling
-  - bias correction
+  - bias adjustment
   - reliability
 
 # Is this a featured talk? (true/false)
@@ -45,7 +45,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/2016_Manzanas_ICCSCS_Exeter.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/2016_Manzanas_ICCSCS_Exeter.pdf'
 url_slides: ''
 url_video: ''
 

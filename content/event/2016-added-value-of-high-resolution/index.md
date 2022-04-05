@@ -32,7 +32,7 @@ authors:
   - S.
   - jose-manuel-gutierrez
 tags: 
-  - EUROCORDEX RCM
+  - Regional Climate Model
   - Statistical downscaling
   - added value
   - Precipitation
@@ -46,7 +46,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/2016_Casanueva_CORDEX.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/2016_Casanueva_CORDEX.pdf'
 url_slides: ''
 url_video: ''
 

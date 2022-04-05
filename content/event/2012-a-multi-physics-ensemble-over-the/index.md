@@ -44,7 +44,7 @@ featured: false
 
 url_code: ''
 url_pdf: ''
-url_slides: 'files/posters/2012_Casanueva_WorkshopCORWES.pdf'
+url_slides: 'https://meteo.unican.es/files/posters/2012_Casanueva_WorkshopCORWES.pdf'
 url_video: ''
 
 # Markdown Slides (optional).

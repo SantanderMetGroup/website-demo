@@ -39,7 +39,7 @@ authors:
   - M.A. Gaertner
 tags: 
   - Dynamical downscaling
-  - Regional climate scenarios
+  - Regional climate projections
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -51,7 +51,7 @@ featured: false
 
 url_code: ''
 url_pdf: ''
-url_slides: 'files/posters/poster_fernandez_2015_CLIMATEESescena.pdf'
+url_slides: 'https://meteo.unican.es/files/posters/poster_fernandez_2015_CLIMATEESescena.pdf'
 url_video: ''
 
 # Markdown Slides (optional).

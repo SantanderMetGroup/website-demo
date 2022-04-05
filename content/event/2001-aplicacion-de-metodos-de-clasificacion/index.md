@@ -41,7 +41,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/private/2001_Ancell_Vsimp.pdf'
+url_pdf: 'https://meteo.unican.es/files/private/2001_Ancell_Vsimp.pdf'
 url_slides: ''
 url_video: ''
 

@@ -44,7 +44,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/private/Abstract.pdf'
+url_pdf: 'https://meteo.unican.es/files/private/Abstract.pdf'
 url_slides: ''
 url_video: ''
 

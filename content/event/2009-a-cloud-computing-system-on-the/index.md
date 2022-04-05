@@ -36,7 +36,7 @@ authors:
   - F Rodriguez
   - J.J. Alba
 tags: 
-  - GRID computing
+  - Grid computing
   - Virtualization
   - Cloud computing
 
@@ -49,7 +49,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/private/cloud-computing-on-the-grid.pdf'
+url_pdf: 'https://meteo.unican.es/files/private/cloud-computing-on-the-grid.pdf'
 url_slides: ''
 url_video: ''
 

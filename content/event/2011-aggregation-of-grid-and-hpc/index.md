@@ -29,10 +29,10 @@ authors:
   - carlos-blanco
   - valvanuz-fernandez
 tags: 
-  - Grid
+  - Grid computing
   - GridWay
   - LRMS
-  - HPC
+  - high-performance computing
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -43,8 +43,8 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/EGU2011-13194-1.pdf'
-url_slides: 'files/posters/2011_CofinoAS_EGU.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/EGU2011-13194-1.pdf'
+url_slides: 'https://meteo.unican.es/files/posters/2011_CofinoAS_EGU.pdf'
 url_video: ''
 
 # Markdown Slides (optional).

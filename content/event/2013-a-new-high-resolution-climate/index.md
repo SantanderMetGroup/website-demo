@@ -33,7 +33,7 @@ authors:
   - M. Pinto
 tags: 
   - Observed climate
-  - Regional climate scenarios
+  - Regional climate projections
   - species distribution models
   - Regional impacts
 
@@ -46,8 +46,8 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/Iturbide_et_al_2013.pdf'
-url_slides: 'files/posters/Iturbide_et_al_2013.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/Iturbide_et_al_2013.pdf'
+url_slides: 'https://meteo.unican.es/files/posters/Iturbide_et_al_2013.pdf'
 url_video: ''
 
 # Markdown Slides (optional).

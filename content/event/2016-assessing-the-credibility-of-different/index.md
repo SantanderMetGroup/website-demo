@@ -40,7 +40,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/ecosummit_iturbide.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/ecosummit_iturbide.pdf'
 url_slides: ''
 url_video: ''
 

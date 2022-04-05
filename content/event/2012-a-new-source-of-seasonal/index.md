@@ -44,7 +44,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/2012_Brands_AEC2012_RSAI.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/2012_Brands_AEC2012_RSAI.pdf'
 url_slides: ''
 url_video: ''
 

@@ -33,8 +33,8 @@ authors:
 tags: 
   - Regional Climate Model
   - Global Climate Model
-  - bias correction
-  - climate change signal
+  - bias adjustment
+  - Climate change
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -45,8 +45,8 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/2015_Casanueva_climate-es.pdf'
-url_slides: 'files/posters/2015_Casanueva_CLIMATE-ES.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/2015_Casanueva_climate-es.pdf'
+url_slides: 'https://meteo.unican.es/files/posters/2015_Casanueva_CLIMATE-ES.pdf'
 url_video: ''
 
 # Markdown Slides (optional).

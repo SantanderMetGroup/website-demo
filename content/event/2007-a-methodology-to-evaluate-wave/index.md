@@ -32,7 +32,6 @@ authors:
   - C. Izaguirre
   - jose-manuel-gutierrez
 tags: 
-  - 
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -43,7 +42,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/2007_camus_EWTEC.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/2007_camus_EWTEC.pdf'
 url_slides: ''
 url_video: ''
 

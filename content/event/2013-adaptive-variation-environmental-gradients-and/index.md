@@ -49,7 +49,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/2013_AGCM_Grivet_et_al.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/2013_AGCM_Grivet_et_al.pdf'
 url_slides: ''
 url_video: ''
 

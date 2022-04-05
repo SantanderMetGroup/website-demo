@@ -34,7 +34,7 @@ authors:
   - C. Buontempo
 tags: 
   - Drift
-  - Seasonal forecast
+  - Seasonal climate prediction
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -45,8 +45,8 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/2014_Manzanas_EGU_Viena_abstract.pdf'
-url_slides: 'files/posters/2014_Manzanas_EGU_Viena_poster.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/2014_Manzanas_EGU_Viena_abstract.pdf'
+url_slides: 'https://meteo.unican.es/files/posters/2014_Manzanas_EGU_Viena_poster.pdf'
 url_video: ''
 
 # Markdown Slides (optional).

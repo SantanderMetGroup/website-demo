@@ -31,7 +31,7 @@ authors:
   - C. Fernández
 tags: 
   - WRF model
-  - GRID computing
+  - Grid computing
   - CAM model
 
 # Is this a featured talk? (true/false)
@@ -44,7 +44,7 @@ featured: false
 
 url_code: ''
 url_pdf: ''
-url_slides: 'files/private/vo.meteo.es-ngi.eu.ppt'
+url_slides: 'https://meteo.unican.es/files/private/vo.meteo.es-ngi.eu.ppt'
 url_video: ''
 
 # Markdown Slides (optional).

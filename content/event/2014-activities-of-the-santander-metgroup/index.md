@@ -40,8 +40,8 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/290940_Fernandez.pdf'
-url_slides: 'files/posters/290940_Fernandez.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/290940_Fernandez.pdf'
+url_slides: 'https://meteo.unican.es/files/posters/290940_Fernandez.pdf'
 url_video: ''
 
 # Markdown Slides (optional).

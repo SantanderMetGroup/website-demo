@@ -28,8 +28,8 @@ authors:
   - valvanuz-fernandez
   - V.  Cofiño
 tags: 
-  - Grid
-  - HPC
+  - Grid computing
+  - high-performance computing
   - LRMS
   - metascheduler
   - GridWay
@@ -43,7 +43,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/2011_Blanco_ICCSA.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/2011_Blanco_ICCSA.pdf'
 url_slides: ''
 url_video: ''
 

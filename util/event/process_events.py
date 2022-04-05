@@ -7,19 +7,23 @@ import yaml
 
 SQLITE_FILE = 'util/mdmdrupal.sqlite'
 
-with open('util/author_map.yml') as fp:
-  namedict = yaml.load(fp, Loader=yaml.FullLoader)
-# Drop None's from name dictionary
-namedict = {k: v for k, v in namedict.items() if v is not None}
+maps = {}
+for m in ['util/author_map.yml', 'util/keyword_map.yml']:
+  map_name = m.split('/')[-1].split('_')[0]
+  print(map_name)
+  with open(m) as fp:
+    maps[map_name] = yaml.load(fp, Loader=yaml.FullLoader)
+  # Drop None's from name dictionary
+  maps[map_name] = {k: v for k, v in maps[map_name].items() if v is not None}
 
 def tolist(text):
   return('\n  - '+'\n  - '.join(text))
 
-def tonamelist(lst):
+def tomappedlist(lst, mapdict):
   rval = ''
   for i in lst:
-    fullname = namedict[i] if i in namedict else i
-    if ',' in fullname:
+    fullname = mapdict[i] if i in mapdict else i
+    if ',' in fullname: # is an author name
       surn, name = tuple(fullname.split(',')[:2])
       rval += '\n  - ' + name.strip() + ' ' + surn.strip()
     else:
@@ -180,11 +184,13 @@ for contrib_row in conn.execute(CONTRIB_SQL):
   if not contrib['contrib_title'].startswith('A'):
     continue
 
-  contrib['authors'] = tonamelist(contrib['contrib_authors'])
-  contrib['tags'] = tolist(contrib['contrib_keywords'])
+  contrib['authors'] = tomappedlist(contrib['contrib_authors'], maps['author'])
+  contrib['tags'] = tomappedlist(contrib['contrib_keywords'], maps['keyword'])
   contrib['research_lines'] = tolist(contrib['contrib_research'])
   contrib['institutions'] = tolist(contrib['contrib_entities'])
   contrib['projects'] = tolist(contrib['contrib_projects'])
+  for tag in ['contrib_pdf_file','contrib_poster-talk_file']:
+    contrib[tag] = 'https://meteo.unican.es/' + contrib[tag] if contrib[tag] else ''
   dirname = str(contrib['contrib_year']) + '-' + remove_odd_chars('-'.join(contrib['contrib_title'].strip().lower().split(' ')[:5]))
   pathname = 'content/event/' + dirname
   os.makedirs(pathname, exist_ok = True)

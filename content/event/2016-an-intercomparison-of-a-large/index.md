@@ -39,7 +39,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/EGU2016-gutierrez.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/EGU2016-gutierrez.pdf'
 url_slides: ''
 url_video: ''
 

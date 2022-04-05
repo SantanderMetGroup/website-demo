@@ -48,7 +48,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/2011_menendez_et_al_OCEANS.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/2011_menendez_et_al_OCEANS.pdf'
 url_slides: ''
 url_video: ''
 

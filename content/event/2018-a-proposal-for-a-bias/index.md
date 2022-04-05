@@ -33,7 +33,7 @@ authors:
 tags: 
   - data provenance
   - metadata
-  - bias correction
+  - bias adjustment
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -45,7 +45,7 @@ featured: false
 
 url_code: ''
 url_pdf: ''
-url_slides: 'files/posters/METACLIP_poster.pdf'
+url_slides: 'https://meteo.unican.es/files/posters/METACLIP_poster.pdf'
 url_video: ''
 
 # Markdown Slides (optional).

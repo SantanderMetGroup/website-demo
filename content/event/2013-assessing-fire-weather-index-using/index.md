@@ -45,7 +45,7 @@ featured: false
 #  focal_point: Right
 
 url_code: ''
-url_pdf: 'files/pdfs/2013_karali_EGU.pdf'
+url_pdf: 'https://meteo.unican.es/files/pdfs/2013_karali_EGU.pdf'
 url_slides: ''
 url_video: ''
 
