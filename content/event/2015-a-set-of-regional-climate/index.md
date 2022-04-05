@@ -66,21 +66,22 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+  - ESCENA
+research_lines: 
+  - Climate change and regional scenarios
+  - Numerical weather and climate modelling
+collab_institutions: 
+  - UC
+  - Universidad de Castilla-La Mancha
+  - Universidad de Murcia
+  - Universidad de Alcalá de Henares
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'national'
 conf_deadline: '2014-12-15T00:00:00'
 contrib_type: 'poster'
-contrib_institutions: 
-  - UC
-  - Universidad de Castilla-La Mancha
-  - Universidad de Murcia
-  - Universidad de Alcalá de Henares
-contrib_research_lines: 
-  - Climate change and regional scenarios
-  - Numerical weather and climate modelling
 contrib_doi: ''
 contrib_abstract_url: ''
 contrib_abstract_urltitle: ''

@@ -54,6 +54,9 @@ taxonomies:
   category: categories
   publication_type: publication_types
   author: authors
+  research_line: research_lines
+  institution: institutions
+  collab_institution: collab_institutions
 markup:
   _merge: deep
 related:

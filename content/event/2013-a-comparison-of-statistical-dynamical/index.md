@@ -57,20 +57,24 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+  - EXTREMBLES
+  - ESTCENA
+  - ESCENA
+  - ENSEMBLES
+research_lines: 
+  - Statistical downscaling and local weather forecast
+  - Climate change and regional scenarios
+collab_institutions: 
+  - IFCA
+  - Predictia
+  - UC
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: ''
 conf_deadline: '2013-04-17T00:00:00'
 contrib_type: 'poster'
-contrib_institutions: 
-  - IFCA
-  - Predictia
-  - UC
-contrib_research_lines: 
-  - Statistical downscaling and local weather forecast
-  - Climate change and regional scenarios
 contrib_doi: ''
 contrib_abstract_url: ''
 contrib_abstract_urltitle: ''

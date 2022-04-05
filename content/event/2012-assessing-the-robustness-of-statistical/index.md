@@ -63,17 +63,19 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+  - VALUE
+  - ESTCENA
+research_lines: 
+  - 
+collab_institutions: 
+  - IFCA
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'international'
 conf_deadline: '2012-04-26T00:00:00'
 contrib_type: 'oral'
-contrib_institutions: 
-  - IFCA
-contrib_research_lines: 
-  - 
 contrib_doi: ''
 contrib_abstract_url: ''
 contrib_abstract_urltitle: ''

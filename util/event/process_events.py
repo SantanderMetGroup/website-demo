@@ -10,7 +10,6 @@ SQLITE_FILE = 'util/mdmdrupal.sqlite'
 maps = {}
 for m in ['util/author_map.yml', 'util/keyword_map.yml']:
   map_name = m.split('/')[-1].split('_')[0]
-  print(map_name)
   with open(m) as fp:
     maps[map_name] = yaml.load(fp, Loader=yaml.FullLoader)
   # Drop None's from name dictionary
@@ -250,15 +249,15 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: {projects}
+research_lines: {research_lines}
+collab_institutions: {institutions}
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: '{conf_type}'
 conf_deadline: '{conf_deadline}'
 contrib_type: '{contrib_type}'
-contrib_institutions: {institutions}
-contrib_research_lines: {research_lines}
 contrib_doi: '{contrib_doi}'
 contrib_abstract_url: '{contrib_abstract_url}'
 contrib_abstract_urltitle: '{contrib_abstract_urltitle}'

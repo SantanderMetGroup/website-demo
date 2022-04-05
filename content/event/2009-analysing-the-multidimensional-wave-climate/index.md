@@ -59,20 +59,21 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+  - 
+research_lines: 
+  - Climate change and regional scenarios
+  - Data mining and artificial intelligence: Bayesian and Neural networks
+  - Statistical downscaling and local weather forecast
+collab_institutions: 
+  - UC
+  - Instituto de Hidráulica de Cantabria (IHC)
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'international'
 conf_deadline: '2009-01-11T00:00:00'
 contrib_type: 'oral'
-contrib_institutions: 
-  - UC
-  - Instituto de Hidráulica de Cantabria (IHC)
-contrib_research_lines: 
-  - Climate change and regional scenarios
-  - Data mining and artificial intelligence: Bayesian and Neural networks
-  - Statistical downscaling and local weather forecast
 contrib_doi: ''
 contrib_abstract_url: ''
 contrib_abstract_urltitle: ''

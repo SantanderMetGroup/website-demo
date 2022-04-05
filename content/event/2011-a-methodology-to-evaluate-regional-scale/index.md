@@ -64,18 +64,19 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+  - 
+research_lines: 
+  - Numerical weather and climate modelling
+collab_institutions: 
+  - UC
+  - Environmental Hydraulics Institute (IH Cantabria)
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'international'
 conf_deadline: '2011-04-11T00:00:00'
 contrib_type: 'oral'
-contrib_institutions: 
-  - UC
-  - Environmental Hydraulics Institute (IH Cantabria)
-contrib_research_lines: 
-  - Numerical weather and climate modelling
 contrib_doi: ''
 contrib_abstract_url: 'http://meteo.macc.unican.es/files/pdfs/2011_menendez_et_al_OCEANS.pdf'
 contrib_abstract_urltitle: '2011_menendez_et_al_OCEANS.pdf'

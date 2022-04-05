@@ -61,21 +61,25 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+  - VALUE
+  - CORWES
+  - CORDEX: COordinated Regional  climate Downscaling Experiment
+  - CLIVAR-España thematic network
+research_lines: 
+  - Climate change and regional scenarios
+collab_institutions: 
+  - IFCA
+  - Predictia
+  - UC
+  - Institute for Atmospheric and Climate Sciences
+  - ETH Zurich
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'national'
 conf_deadline: '2014-12-15T00:00:00'
 contrib_type: 'oral'
-contrib_institutions: 
-  - IFCA
-  - Predictia
-  - UC
-  - Institute for Atmospheric and Climate Sciences
-  - ETH Zurich
-contrib_research_lines: 
-  - Climate change and regional scenarios
 contrib_doi: ''
 contrib_abstract_url: ''
 contrib_abstract_urltitle: ''

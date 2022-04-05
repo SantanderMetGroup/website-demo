@@ -59,17 +59,18 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+  - 
+research_lines: 
+  - GRID computing in Earth Sciences
+collab_institutions: 
+  - UC
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'international'
 conf_deadline: '2011-01-10T00:00:00'
 contrib_type: 'poster'
-contrib_institutions: 
-  - UC
-contrib_research_lines: 
-  - GRID computing in Earth Sciences
 contrib_doi: ''
 contrib_abstract_url: ''
 contrib_abstract_urltitle: ''

@@ -57,18 +57,19 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+  - Statistical downscaling techniques for different forecast ranges
+research_lines: 
+  - Statistical downscaling and local weather forecast
+collab_institutions: 
+  - AEMET
+  - UC
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'national'
 conf_deadline: ''
 contrib_type: 'oral'
-contrib_institutions: 
-  - AEMET
-  - UC
-contrib_research_lines: 
-  - Statistical downscaling and local weather forecast
 contrib_doi: ''
 contrib_abstract_url: ''
 contrib_abstract_urltitle: ''

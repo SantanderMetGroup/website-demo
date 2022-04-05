@@ -56,20 +56,23 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+  - CORDEX: COordinated Regional  climate Downscaling Experiment
+  - CORWES
+  - VALUE
+research_lines: 
+  - Climate change and regional scenarios
+  - Numerical weather and climate modelling
+  - Statistical downscaling and local weather forecast
+collab_institutions: 
+  - IFCA
+  - UC
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'workshop'
 conf_deadline: ''
 contrib_type: 'invited'
-contrib_institutions: 
-  - IFCA
-  - UC
-contrib_research_lines: 
-  - Climate change and regional scenarios
-  - Numerical weather and climate modelling
-  - Statistical downscaling and local weather forecast
 contrib_doi: ''
 contrib_abstract_url: ''
 contrib_abstract_urltitle: ''
