@@ -2,7 +2,7 @@
 widget: tag_cloud
 headless: true  # This file represents a page section.
 
-title: Tag cloud
+title: Explore topics
 weight: 15
 
 content:
