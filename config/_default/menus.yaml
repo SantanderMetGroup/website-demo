@@ -10,6 +10,9 @@ main:
   - name: People
     url: people
     weight: 30
+  - name: Research lines
+    url: research_lines
+    weight: 33
   - name: Projects
     url: project
     weight: 35
