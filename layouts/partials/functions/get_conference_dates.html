@@ -1,5 +1,5 @@
-{{/* Function to get event start and end dates/times. */}}
-{{ $t1 := time .date_start }}{{/* Start datetime. */}}
+{{/* Function to get conference start and end dates/times. */}}
+{{ $t1 := time .Params.date_start }}{{/* Start datetime. */}}
 {{ $str := slice (time.Format site.Params.locale.date_format (time $t1)) }}{{/* Init return string with start date. */}}
 {{/* Show start time if not all day event. */}}
 {{ if not .Params.all_day }}{{ $str = $str | append (time.Format site.Params.locale.time_format (time $t1)) }}{{ end }}
