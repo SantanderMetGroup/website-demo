@@ -104,7 +104,7 @@ def remove_odd_chars(text, odd_chars='.,:()'):
     rval = rval.replace(char, '')
   return(rval)
   
-for contrib in CONTRIBUTIONS:
+for contrib in CONTRIBUTIONS():
   clean_text_entries(contrib)
 
   if not contrib['contrib_title'].startswith('A'):

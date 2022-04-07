@@ -169,7 +169,7 @@ def populate_from_query(conn, contrib, sql, field):
 
 import sqlite3
 
-def contributions():
+def CONTRIBUTIONS():
   conn = sqlite3.connect(SQLITE_FILE)
   conn.row_factory = sqlite3.Row  
   for contrib_row in conn.execute(CONTRIB_SQL):
@@ -190,6 +190,6 @@ def contributions():
 ## Example
 if __name__ == '__main__':
   import pprint
-  for contrib in contributions():
+  for contrib in CONTRIBUTIONS():
     pprint.pprint(contrib)
 
