@@ -9,7 +9,7 @@ short_name: J. Gutierrez
 superuser: false
 
 # Role/position
-role: Research Professor
+role: 'Research Professor'
 
 # Organizations/Affiliations
 organizations:

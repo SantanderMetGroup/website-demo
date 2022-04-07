@@ -9,7 +9,7 @@ short_name: J. Bedia
 superuser: false
 
 # Role/position
-role: Assistant professor
+role: 'Assistant professor'
 
 # Organizations/Affiliations
 organizations:

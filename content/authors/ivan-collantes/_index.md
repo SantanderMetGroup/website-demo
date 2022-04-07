@@ -9,7 +9,7 @@ short_name: I. Collantes
 superuser: false
 
 # Role/position
-role: Pre-graduate Student
+role: 'Pre-graduate Student'
 
 # Organizations/Affiliations
 organizations:

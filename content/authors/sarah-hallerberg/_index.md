@@ -9,7 +9,7 @@ short_name: S. Hallerberg
 superuser: false
 
 # Role/position
-role: 
+role: ''
 
 # Organizations/Affiliations
 organizations:

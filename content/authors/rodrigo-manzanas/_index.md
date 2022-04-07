@@ -9,7 +9,7 @@ short_name: R. Manzanas
 superuser: false
 
 # Role/position
-role: 
+role: ''
 
 # Organizations/Affiliations
 organizations:

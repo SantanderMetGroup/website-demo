@@ -9,7 +9,7 @@ short_name: C. Primo
 superuser: false
 
 # Role/position
-role: 
+role: ''
 
 # Organizations/Affiliations
 organizations:

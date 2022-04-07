@@ -9,7 +9,7 @@ short_name: Á. Lavin
 superuser: false
 
 # Role/position
-role: PhD. Student
+role: 'PhD. Student'
 
 # Organizations/Affiliations
 organizations:

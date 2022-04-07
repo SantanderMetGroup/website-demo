@@ -9,7 +9,7 @@ short_name: E. Gaitan
 superuser: false
 
 # Role/position
-role: Master student: "Geophysics and Meteorology"
+role: 'Master student: "Geophysics and Meteorology"'
 
 # Organizations/Affiliations
 organizations:

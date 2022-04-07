@@ -9,7 +9,7 @@ short_name: J. Fernandez-Granja
 superuser: false
 
 # Role/position
-role: 
+role: ''
 
 # Organizations/Affiliations
 organizations:

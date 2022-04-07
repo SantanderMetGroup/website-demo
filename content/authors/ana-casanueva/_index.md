@@ -9,7 +9,7 @@ short_name: A. Casanueva
 superuser: false
 
 # Role/position
-role: Assistant Professor
+role: 'Assistant Professor'
 
 # Organizations/Affiliations
 organizations:

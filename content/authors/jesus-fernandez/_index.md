@@ -9,7 +9,7 @@ short_name: J. Fernandez
 superuser: false
 
 # Role/position
-role: Senior scientist
+role: 'Senior scientist'
 
 # Organizations/Affiliations
 organizations:

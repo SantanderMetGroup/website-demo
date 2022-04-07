@@ -9,7 +9,7 @@ short_name: M. Magarino
 superuser: false
 
 # Role/position
-role: 
+role: ''
 
 # Organizations/Affiliations
 organizations:

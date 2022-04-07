@@ -9,7 +9,7 @@ short_name: C. Sordo
 superuser: false
 
 # Role/position
-role: Associate Professor
+role: 'Associate Professor'
 
 # Organizations/Affiliations
 organizations:

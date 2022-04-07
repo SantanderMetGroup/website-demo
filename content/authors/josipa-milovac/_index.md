@@ -9,7 +9,7 @@ short_name: J. Milovac
 superuser: false
 
 # Role/position
-role: 
+role: ''
 
 # Organizations/Affiliations
 organizations:

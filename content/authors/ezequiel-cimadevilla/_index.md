@@ -9,7 +9,7 @@ short_name: E. Cimadevilla
 superuser: false
 
 # Role/position
-role: 
+role: ''
 
 # Organizations/Affiliations
 organizations:

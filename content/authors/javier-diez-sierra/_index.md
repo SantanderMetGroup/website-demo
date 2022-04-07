@@ -9,7 +9,7 @@ short_name: J. Diez Sierra
 superuser: false
 
 # Role/position
-role: 
+role: ''
 
 # Organizations/Affiliations
 organizations:

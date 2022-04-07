@@ -9,7 +9,7 @@ short_name: M. Vega
 superuser: false
 
 # Role/position
-role: Master student: "Computer Science"
+role: 'Master student: "Computer Science"'
 
 # Organizations/Affiliations
 organizations:

@@ -9,7 +9,7 @@ short_name: C. Graafland
 superuser: false
 
 # Role/position
-role: 
+role: ''
 
 # Organizations/Affiliations
 organizations:

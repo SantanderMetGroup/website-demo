@@ -9,7 +9,7 @@ short_name: D. San Martin
 superuser: false
 
 # Role/position
-role: Phd. student
+role: 'Phd. student'
 
 # Organizations/Affiliations
 organizations:

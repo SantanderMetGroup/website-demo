@@ -9,7 +9,7 @@ short_name: M. Pons
 superuser: false
 
 # Role/position
-role: Meteorologist
+role: 'Meteorologist'
 
 # Organizations/Affiliations
 organizations:

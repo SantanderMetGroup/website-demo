@@ -9,7 +9,7 @@ short_name: M. Tuni
 superuser: false
 
 # Role/position
-role: Master student: "Mathematics and Computation"
+role: 'Master student: "Mathematics and Computation"'
 
 # Organizations/Affiliations
 organizations:

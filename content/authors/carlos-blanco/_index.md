@@ -9,7 +9,7 @@ short_name: C. Blanco
 superuser: false
 
 # Role/position
-role: Postdoc
+role: 'Postdoc'
 
 # Organizations/Affiliations
 organizations:

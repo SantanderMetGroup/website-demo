@@ -9,7 +9,7 @@ short_name: A. Cofino
 superuser: false
 
 # Role/position
-role: Associate Professor
+role: 'Associate Professor'
 
 # Organizations/Affiliations
 organizations:

@@ -9,7 +9,7 @@ short_name: M. Rodriguez
 superuser: false
 
 # Role/position
-role: Senior Researcher
+role: 'Senior Researcher'
 
 # Organizations/Affiliations
 organizations:
