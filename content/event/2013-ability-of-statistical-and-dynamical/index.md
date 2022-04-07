@@ -26,7 +26,7 @@ publishDate: '2022-03-24T00:00:00Z'
 
 authors: 
   - ana-casanueva
-  - Kotlarski S.
+  - S. Kotlarski
   - sixto-herrera
   - jesus-fernandez
   - jose-manuel-gutierrez
@@ -60,21 +60,27 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+  - ESTCENA
+  - CORWES
+  - CORDEX: COordinated Regional  climate Downscaling Experiment
+  - CLIM-RUN
+  - EXTREMBLES
+  - VALUE
+research_lines: 
+  - Climate change and regional scenarios
+collab_institutions: 
+  - IFCA
+  - Predictia
+  - UC
+  - Institute for Atmospheric and Climate Science
+  - ETH Zurich
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: ''
 conf_deadline: '2013-04-17T00:00:00'
 contrib_type: 'oral'
-contrib_institutions: 
-  - IFCA
-  - Predictia
-  - UC
-  - Institute for Atmospheric and Climate Science
-  - ETH Zurich
-contrib_research_lines: 
-  - Climate change and regional scenarios
 contrib_doi: ''
 contrib_abstract_url: ''
 contrib_abstract_urltitle: ''

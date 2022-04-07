@@ -65,17 +65,18 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+  - EELA-2
+research_lines: 
+  - GRID computing in Earth Sciences
+collab_institutions: 
+  - UC
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'international'
 conf_deadline: ''
 contrib_type: 'oral'
-contrib_institutions: 
-  - UC
-contrib_research_lines: 
-  - GRID computing in Earth Sciences
 contrib_doi: ''
 contrib_abstract_url: 'http://indico.eu-eela.eu/materialDisplay.py?contribId=14&amp;sessionId=0&amp;materialId=paper&amp;confId=132'
 contrib_abstract_urltitle: 'A cloud-computing system on the grid through virtualization'

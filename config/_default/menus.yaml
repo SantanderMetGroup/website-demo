@@ -10,15 +10,21 @@ main:
   - name: People
     url: people
     weight: 30
+  - name: Research lines
+    url: research_lines
+    weight: 33
   - name: Projects
     url: project
     weight: 35
-  - name: Events
-    url: event
-    weight: 40
   - name: Publications
     url: publication
+    weight: 40
+  - name: Events (old)
+    url: event
     weight: 50
+  - name: Events
+    url: conference
+    weight: 55
   - name: Contact
     url: contact
     weight: 60

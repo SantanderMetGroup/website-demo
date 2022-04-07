@@ -60,4 +60,16 @@ slides:
 #   Otherwise, set `projects = []`.
 projects: 
   - cordys
+
+# Extra metadata
+#   Not in hugo/wowchemy templates
+conf_type: 'workshop'
+conf_deadline: ''
+contrib_type: 'oral'
+contrib_institutions:
+  - IFCA
+contrib_research_lines: []
+contrib_doi: ''
+contrib_abstract_url: ''
+contrib_abstract_urltitle: ''
 ---

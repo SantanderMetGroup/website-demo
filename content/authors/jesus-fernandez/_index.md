@@ -2,6 +2,9 @@
 # Display name
 title: Jesús Fernández
 
+# Custom keyword (e.g. to be used by md2bib.py)
+short_name: J. Fernandez
+
 # Is this the primary user of the site?
 superuser: false
 
@@ -64,7 +67,6 @@ highlight_name: true
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Principal Investigators
-  - Researchers
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.

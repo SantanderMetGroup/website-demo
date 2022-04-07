@@ -59,21 +59,24 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: 
+  - EELA-2
+  - ESCENA
+  - Spanish e-Science Network
+research_lines: 
+  - GRID computing in Earth Sciences
+  - Numerical weather and climate modelling
+collab_institutions: 
+  - UC
+  - CESGA
+  - USC
+  - MeteoGalicia
 
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'project'
 conf_deadline: ''
 contrib_type: 'invited'
-contrib_institutions: 
-  - UC
-  - CESGA
-  - USC
-  - MeteoGalicia
-contrib_research_lines: 
-  - GRID computing in Earth Sciences
-  - Numerical weather and climate modelling
 contrib_doi: ''
 contrib_abstract_url: 'http://www.e-ciencia.es/indico/contributionDisplay.py?contribId=22&sessionId=10&confId=11'
 contrib_abstract_urltitle: 'Ciencias de la Tierra'

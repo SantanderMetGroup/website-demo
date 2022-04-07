@@ -1,0 +1,9 @@
+{{ $taxonomy := "research_lines" }}
+{{ if .Param $taxonomy }}
+<div class="article-tags">
+  Research lines: 
+  {{ range $index, $value := (.GetTerms $taxonomy) }}
+  <a class="badge badge-light" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+  {{ end }}
+</div>
+{{ end }}
