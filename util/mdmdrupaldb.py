@@ -45,7 +45,7 @@
 #    field_contributions computed
 #    field_noderef_proj  nodereference_select
 
-SQLITE_FILE = '../mdmdrupal.sqlite'
+SQLITE_FILE = './mdmdrupal.sqlite'
 
 CONTRIB_SQL = '''
   SELECT 
@@ -160,33 +160,36 @@ RESEARCH_SQL='''
     p.nid = :nid
 '''
 
-def populate_from_vocabularies(contrib, sql, field):
+def populate_from_query(conn, contrib, sql, field):
   # Empty list just in case there is not values
   contrib[field] = [] 
   for row in conn.execute(sql, contrib):
     dic = dict(row)
     contrib[field].append(dic['name'])
-  
-## Example
-if __name__ == '__main__':
-  import sqlite3
-  import pprint
+
+import sqlite3
+
+def contributions():
   conn = sqlite3.connect(SQLITE_FILE)
   conn.row_factory = sqlite3.Row  
-
   for contrib_row in conn.execute(CONTRIB_SQL):
     contrib = dict(contrib_row)
     ## Populate authors
-    populate_from_vocabularies(contrib, AUTHORS_SQL, 'contrib_authors')
+    populate_from_query(conn, contrib, AUTHORS_SQL,  'contrib_authors' )
     ## Populate entities and institutions
-    populate_from_vocabularies(contrib, ENTITIES_SQL, 'contrib_entities')
+    populate_from_query(conn, contrib, ENTITIES_SQL, 'contrib_entities')
     ## Populate KEYWORDS
-    populate_from_vocabularies(contrib, KEYWORDS_SQL, 'contrib_keywords')
+    populate_from_query(conn, contrib, KEYWORDS_SQL, 'contrib_keywords')
     ## Populate projects
-    populate_from_vocabularies(contrib, PROJECTS_SQL, 'contrib_projects')
+    populate_from_query(conn, contrib, PROJECTS_SQL, 'contrib_projects')
     ## Populate research activities
-    populate_from_vocabularies(contrib, RESEARCH_SQL, 'contrib_research')
+    populate_from_query(conn, contrib, RESEARCH_SQL, 'contrib_research')
+    yield contrib
 
-    ###########
+
+## Example
+if __name__ == '__main__':
+  import pprint
+  for contrib in contributions():
     pprint.pprint(contrib)
 

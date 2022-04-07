@@ -6,16 +6,7 @@ import unidecode
 import yaml
 import textwrap
 
-from ..testdb.testdb import (
-    SQLITE_FILE, 
-    CONTRIB_SQL, 
-    AUTHORS_SQL, 
-    KEYWORDS_SQL, 
-    ENTITIES_SQL, 
-    PROJECTS_SQL, 
-    RESEARCH_SQL, 
-    populate_from_vocabularies
-  )
+from mdmdrupaldb import CONTRIBUTIONS
 EVENT_TEMPLATE=textwrap.dedent('''\
   ---
   title: '{contrib_title}'
@@ -35,17 +26,7 @@ EVENT_TEMPLATE=textwrap.dedent('''\
   #abstract: ''
   
   # Talk start and end times.
-  #   End time can optionally be hidden by prefixing the line with `#`.
-  date: '{conf_startdate}'
-  date_end: '{conf_enddate}'
-  all_day: false
-  
-  # Schedule page publish date (NOT talk date).
-  publishDate: '2022-03-24T00:00:00Z'
-  
-  authors: {authors}
-  tags: {tags}
-  
+  #   End time can optionally be hidden by prefixing thsantandermetgroup.github.io
   # Is this a featured talk? (true/false)
   featured: false
   
@@ -88,7 +69,7 @@ EVENT_TEMPLATE=textwrap.dedent('''\
   {contrib_body}
 ''')
 maps = {}
-for m in ['util/author_map.yml', 'util/keyword_map.yml']:
+for m in ['author_map.yml', 'keyword_map.yml']:
   map_name = m.split('/')[-1].split('_')[0]
   print(map_name)
   with open(m) as fp:
@@ -123,22 +104,7 @@ def remove_odd_chars(text, odd_chars='.,:()'):
     rval = rval.replace(char, '')
   return(rval)
   
-conn = sqlite3.connect(SQLITE_FILE)
-conn.row_factory = sqlite3.Row  
-
-for contrib_row in conn.execute(CONTRIB_SQL):
-  contrib = dict(contrib_row)
-  ## Populate authors
-  populate_from_vocabularies(contrib, AUTHORS_SQL, 'contrib_authors')
-  ## Populate entities and institutions
-  populate_from_vocabularies(contrib, ENTITIES_SQL, 'contrib_entities')
-  ## Populate KEYWORDS
-  populate_from_vocabularies(contrib, KEYWORDS_SQL, 'contrib_keywords')
-  ## Populate projects
-  populate_from_vocabularies(contrib, PROJECTS_SQL, 'contrib_projects')
-  ## Populate research activities
-  populate_from_vocabularies(contrib, RESEARCH_SQL, 'contrib_research')
-
+for contrib in CONTRIBUTIONS:
   clean_text_entries(contrib)
 
   if not contrib['contrib_title'].startswith('A'):
