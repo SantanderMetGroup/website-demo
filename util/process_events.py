@@ -7,6 +7,7 @@ import yaml
 import textwrap
 
 from mdmdrupaldb import CONTRIBUTIONS
+
 EVENT_TEMPLATE=textwrap.dedent('''\
   ---
   title: '{contrib_title}'
@@ -26,7 +27,14 @@ EVENT_TEMPLATE=textwrap.dedent('''\
   #abstract: ''
   
   # Talk start and end times.
-  #   End time can optionally be hidden by prefixing thsantandermetgroup.github.io
+  #   End time can optionally be hidden by prefixing the line with `#`.
+  date: '{conf_startdate}'
+  date_end: '{conf_enddate}'
+  all_day: false
+  # Schedule page publish date (NOT talk date).
+  publishDate: '2022-03-24T00:00:00Z'
+  authors: {authors}
+  tags: {tags}
   # Is this a featured talk? (true/false)
   featured: false
   
@@ -118,10 +126,8 @@ for contrib in CONTRIBUTIONS():
   for tag in ['contrib_pdf_file','contrib_poster-talk_file']:
     contrib[tag] = 'https://meteo.unican.es/' + contrib[tag] if contrib[tag] else ''
   dirname = str(contrib['contrib_year']) + '-' + remove_odd_chars('-'.join(contrib['contrib_title'].strip().lower().split(' ')[:5]))
-  pathname = 'content/event/' + dirname
+  pathname = '../content/event/' + dirname
   os.makedirs(pathname, exist_ok = True)
 
   with open(pathname+'/index.md', 'w', errors='surrogateescape') as f:
-    f.write(
-      EVENT_TEMPLATE.format(**contrib)
-  )
+    f.write( EVENT_TEMPLATE.format(**contrib) )
