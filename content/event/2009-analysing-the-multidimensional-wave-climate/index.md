@@ -20,10 +20,8 @@ summary: ''
 date: '2009-05-11T00:00:00'
 date_end: '2009-05-14T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - F. Méndez
   - P. Camus
@@ -33,7 +31,6 @@ tags:
   - Data mining
   - Self-Organizing Maps
   - Wave Climate
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -68,7 +65,6 @@ research_lines:
 collab_institutions: 
   - UC
   - Instituto de Hidráulica de Cantabria (IHC)
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'international'

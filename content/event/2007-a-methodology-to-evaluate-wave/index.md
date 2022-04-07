@@ -20,10 +20,8 @@ summary: ''
 date: '2007-09-11T00:00:00'
 date_end: '2007-09-14T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - P. Camus
   - C. Vidal
@@ -32,7 +30,6 @@ authors:
   - C. Izaguirre
   - jose-manuel-gutierrez
 tags: 
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -64,7 +61,6 @@ research_lines:
   - 
 collab_institutions: 
   - 
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: ''

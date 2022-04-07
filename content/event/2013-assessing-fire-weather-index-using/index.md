@@ -20,10 +20,8 @@ summary: ''
 date: '2013-04-07T00:00:00'
 date_end: '2013-04-12T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - A. Karali
   - C. Giannakopoulos
@@ -35,7 +33,6 @@ tags:
   - Statistical downscaling
   - wild fires
   - fire weather index
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -68,7 +65,6 @@ research_lines:
 collab_institutions: 
   - UC
   - NOA
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'international'

@@ -20,16 +20,13 @@ summary: ''
 date: '2016-04-17T00:00:00'
 date_end: '2016-04-22T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - jose-manuel-gutierrez
   - the VALUE team
 tags: 
   - Statistical downscaling
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -61,7 +58,6 @@ research_lines:
   - Statistical downscaling and local weather forecast
 collab_institutions: 
   - IFCA
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: ''

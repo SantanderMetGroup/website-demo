@@ -20,10 +20,8 @@ summary: ''
 date: '2015-03-11T00:00:00'
 date_end: '2015-03-13T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - jesus-fernandez
   - L. Fita
@@ -40,7 +38,6 @@ authors:
 tags: 
   - Dynamical downscaling
   - Regional climate projections
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -76,7 +73,6 @@ collab_institutions:
   - Universidad de Castilla-La Mancha
   - Universidad de Murcia
   - Universidad de Alcalá de Henares
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'national'

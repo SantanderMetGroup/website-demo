@@ -9,7 +9,7 @@ short_name: J. Fernandez
 superuser: false
 
 # Role/position
-role: Senior Scientist
+role: Senior scientist
 
 # Organizations/Affiliations
 organizations:
@@ -17,21 +17,20 @@ organizations:
     url: 'https://ifca.unican.es'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include regional climate variability and change, modelling uncertainty and downscaling.
+bio: My research interests include ...
 
 interests:
-  - Regional climate modelling
-  - Modelling uncertainty
-  - Climate variability and change
-  - Climate information distillation
+  - Interest 1
+  - Interest 2
+  - ...
 
 education:
   courses:
-    - course: PhD in Physics
-      institution: Universidad del País Vasco, Spain
+    - course: PhD in 
+      institution: Universidad 
       year: 2004
-    - course: MSc in Physics
-      institution: Universidad del País Vasco, Spain
+    - course: MSc in 
+      institution: Universidad 
       year: 2000
 
 # Social/Academic Networking
@@ -39,18 +38,18 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-#  - icon: envelope
-#    icon_pack: fas
-#    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/jfernandez_uc
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?hl=en&user=otvNU1UAAAAJ&view_op=list_works&sortby=pubdate
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/jesusff
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:jesus.fernandez@unican.es'
+#  - icon: twitter
+#    icon_pack: fab
+#    link: https://twitter.com/jfernandez_uc
+#  - icon: google-scholar
+#    icon_pack: ai
+#    link: https://scholar.google.com/citations?hl=en&user=otvNU1UAAAAJ&view_op=list_works&sortby=pubdate
+#  - icon: github
+#    icon_pack: fab
+#    link: https://github.com/jesusff
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,9 +65,8 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Permanent staff
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+ResearcherID: <a href="http://www.researcherid.com/rid/F-5189-2011">F-5189-2011</a>
+ORCID: <a href="https://orcid.org/0000-0002-3483-0008">0000-0002-3483-0008</a>

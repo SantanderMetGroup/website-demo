@@ -20,17 +20,14 @@ summary: ''
 date: '2016-08-29T00:00:00'
 date_end: '2016-09-01T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - M. Iturbide
   - joaquin-bedia
   - jose-manuel-gutierrez
 tags: 
   - species distribution models
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -62,7 +59,6 @@ research_lines:
   - Climate change and regional scenarios
 collab_institutions: 
   - IFCA
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'international'

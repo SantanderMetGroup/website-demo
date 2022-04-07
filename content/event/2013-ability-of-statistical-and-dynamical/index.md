@@ -20,10 +20,8 @@ summary: ''
 date: '2013-11-04T00:00:00'
 date_end: '2013-11-07T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - ana-casanueva
   - S. Kotlarski
@@ -34,7 +32,6 @@ tags:
   - Regional Climate Model
   - Statistical downscaling
   - daily precipitation
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -75,7 +72,6 @@ collab_institutions:
   - UC
   - Institute for Atmospheric and Climate Science
   - ETH Zurich
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: ''

@@ -20,10 +20,8 @@ summary: ''
 date: '2011-06-06T00:00:00'
 date_end: '2011-06-09T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - M. Menéndez
   - A. Tomás
@@ -38,7 +36,6 @@ tags:
   - MARUCA
   - offshore wind
   - wind energy
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -71,7 +68,6 @@ research_lines:
 collab_institutions: 
   - UC
   - Environmental Hydraulics Institute (IH Cantabria)
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'international'

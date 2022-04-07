@@ -1,0 +1,76 @@
+---
+# Display name
+title: Ana Casanueva
+
+# Custom keyword (e.g. to be used by md2bib.py)
+short_name: A. Casanueva
+
+# Is this the primary user of the site?
+superuser: false
+
+# Role/position
+role: Assistant Professor
+
+# Organizations/Affiliations
+organizations:
+  - name: IFCA
+    url: 'https://ifca.unican.es'
+
+# Short bio (displayed in user profile at end of posts)
+bio: My research interests include ...
+
+interests:
+  - Interest 1
+  - Interest 2
+  - ...
+
+education:
+  courses:
+    - course: PhD in 
+      institution: Universidad 
+      year: 2004
+    - course: MSc in 
+      institution: Universidad 
+      year: 2000
+
+# Social/Academic Networking
+# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:ana.casanueva@unican.es'
+#  - icon: twitter
+#    icon_pack: fab
+#    link: https://twitter.com/jfernandez_uc
+#  - icon: google-scholar
+#    icon_pack: ai
+#    link: https://scholar.google.com/citations?hl=en&user=otvNU1UAAAAJ&view_op=list_works&sortby=pubdate
+#  - icon: github
+#    icon_pack: fab
+#    link: https://github.com/jesusff
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: ''
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups:
+  - Post-doc Researchers
+---
+
+Research ID: <a href="http://www.researcherid.com/rid/L-4055-2015">L-4055-2015</a>
+Scopus Author ID: <a href="http://www.scopus.com/inward/authorDetails.url?authorID=6602290607&partnerID=MN8TOARS">6602290607</a>
+ORCID: <a href="https://orcid.org/0000-0002-7568-0229">0000-0002-7568-0229</a>
+Google Scholar: <a href="https://scholar.google.es/citations?user=whZkXUEAAAAJ&hl">Ana Casanueva</a>
+
+ResearchGate: <a href="https://www.researchgate.net/profile/A_Casanueva">Ana Casanueva</a>

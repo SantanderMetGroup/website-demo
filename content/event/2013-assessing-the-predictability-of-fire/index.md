@@ -20,10 +20,8 @@ summary: ''
 date: '2013-11-26T00:00:00'
 date_end: '2013-11-29T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - joaquin-bedia
   - sixto-herrera
@@ -35,7 +33,6 @@ tags:
   - Multivariate Adaptive Regression Splines
   - Generalized Linear Model
   - wild fires
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -68,7 +65,6 @@ research_lines:
 collab_institutions: 
   - IFCA
   - UC
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: ''

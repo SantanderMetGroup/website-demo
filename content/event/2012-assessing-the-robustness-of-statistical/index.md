@@ -20,10 +20,8 @@ summary: ''
 date: '2012-09-10T00:00:00'
 date_end: '2012-09-14T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - R. Manzanas
   - jose-manuel-gutierrez
@@ -37,7 +35,6 @@ tags:
   - Spain
   - Maximum Temperature
   - Minimum Temperature
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -70,7 +67,6 @@ research_lines:
   - 
 collab_institutions: 
   - IFCA
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'international'

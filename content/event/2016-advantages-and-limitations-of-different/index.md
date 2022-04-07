@@ -20,10 +20,8 @@ summary: ''
 date: '2016-10-05T00:00:00'
 date_end: '2016-10-07T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - R. Manzanas
   - jose-manuel-gutierrez
@@ -35,7 +33,6 @@ tags:
   - Statistical downscaling
   - bias adjustment
   - reliability
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -71,7 +68,6 @@ collab_institutions:
   - Predictia
   - UC
   - University of Oxford
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: ''

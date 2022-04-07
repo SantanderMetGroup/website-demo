@@ -20,17 +20,14 @@ summary: ''
 date: '2014-10-29T00:00:00'
 date_end: '2014-10-31T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - jesus-fernandez
 tags: 
   - Statistical downscaling
   - Dynamical downscaling
   - Reanalysis uncertainty
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -67,7 +64,6 @@ research_lines:
 collab_institutions: 
   - IFCA
   - UC
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'workshop'

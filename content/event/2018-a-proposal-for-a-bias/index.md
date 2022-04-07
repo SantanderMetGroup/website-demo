@@ -20,10 +20,8 @@ summary: ''
 date: '2018-05-14T00:00:00'
 date_end: '2018-05-16T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - joaquin-bedia
   - D. San-Martín
@@ -34,7 +32,6 @@ tags:
   - data provenance
   - metadata
   - bias adjustment
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -69,7 +66,6 @@ collab_institutions:
   - IFCA
   - Predictia
   - UC
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'workshop'

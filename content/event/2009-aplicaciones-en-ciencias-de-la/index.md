@@ -20,10 +20,8 @@ summary: ''
 date: '2009-10-29T00:00:00'
 date_end: '2009-10-30T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - jesus-fernandez
   - valvanuz-fernandez
@@ -33,7 +31,6 @@ tags:
   - WRF model
   - Grid computing
   - CAM model
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -71,7 +68,6 @@ collab_institutions:
   - CESGA
   - USC
   - MeteoGalicia
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'project'

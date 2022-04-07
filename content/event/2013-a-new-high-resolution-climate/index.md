@@ -20,10 +20,8 @@ summary: ''
 date: '2013-09-18T00:00:00'
 date_end: '2013-09-20T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - M. Iturbide
   - joaquin-bedia
@@ -36,7 +34,6 @@ tags:
   - Regional climate projections
   - species distribution models
   - Regional impacts
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -70,7 +67,6 @@ collab_institutions:
   - IFCA
   - UC
   - Neiker
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'project'

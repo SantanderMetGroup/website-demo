@@ -20,10 +20,8 @@ summary: ''
 date: '2015-03-11T00:00:00'
 date_end: '2015-03-13T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - ana-casanueva
   - S. Kotlarski
@@ -35,7 +33,6 @@ tags:
   - Global Climate Model
   - bias adjustment
   - Climate change
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -74,7 +71,6 @@ collab_institutions:
   - UC
   - Institute for Atmospheric and Climate Sciences
   - ETH Zurich
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'national'

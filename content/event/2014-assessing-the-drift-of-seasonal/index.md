@@ -20,10 +20,8 @@ summary: ''
 date: '2014-04-27T00:00:00'
 date_end: '2014-05-02T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - R. Manzanas
   - jesus-fernandez
@@ -35,7 +33,6 @@ authors:
 tags: 
   - Drift
   - Seasonal climate prediction
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -72,7 +69,6 @@ collab_institutions:
   - IC3
   - SMHI
   - UK Met Office
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: ''

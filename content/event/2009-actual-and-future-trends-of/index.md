@@ -20,10 +20,8 @@ summary: ''
 date: '2009-09-28T00:00:00'
 date_end: '2009-10-02T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - J. Taboada
   - S. Brands
@@ -34,7 +32,6 @@ tags:
   - Statistical downscaling
   - Analogs
   - Temperature
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -68,7 +65,6 @@ collab_institutions:
   - IFCA
   - MeteoGalicia
   - Universidade de Vigo
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'international'

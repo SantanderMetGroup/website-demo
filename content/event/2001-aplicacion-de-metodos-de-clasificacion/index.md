@@ -20,10 +20,8 @@ summary: ''
 date: '2001-11-20T00:00:00'
 date_end: '2001-11-23T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - R. Ancell
   - antonio-s-cofino
@@ -31,7 +29,6 @@ authors:
   - M.A. Rodríguez
 tags: 
   - Statistical downscaling
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -64,7 +61,6 @@ research_lines:
 collab_institutions: 
   - AEMET
   - UC
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'national'

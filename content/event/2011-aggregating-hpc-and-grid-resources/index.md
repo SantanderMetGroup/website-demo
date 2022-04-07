@@ -20,10 +20,8 @@ summary: ''
 date: '2011-06-20T00:00:00'
 date_end: '2011-06-23T00:00:00'
 all_day: false
-
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
-
 authors: 
   - valvanuz-fernandez
   - V.  Cofiño
@@ -33,7 +31,6 @@ tags:
   - LRMS
   - metascheduler
   - GridWay
-
 # Is this a featured talk? (true/false)
 featured: false
 
@@ -66,7 +63,6 @@ research_lines:
   - GRID computing in Earth Sciences
 collab_institutions: 
   - UC
-
 # Extra metadata
 #   Not in hugo/wowchemy templates
 conf_type: 'international'
