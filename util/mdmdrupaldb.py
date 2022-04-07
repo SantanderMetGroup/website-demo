@@ -160,36 +160,97 @@ RESEARCH_SQL='''
     p.nid = :nid
 '''
 
-def populate_from_query(conn, contrib, sql, field):
-  # Empty list just in case there is not values
-  contrib[field] = [] 
-  for row in conn.execute(sql, contrib):
-    dic = dict(row)
-    contrib[field].append(dic['name'])
+
+#SELECT field_name,widget_type FROM node_field_instance WHERE type_name='staff'
+#field_name	            text
+#field_personal_picture	image
+#field_telephone	        text
+#field_mobile	          text
+#field_position	        text
+#field_emailuser	        text
+#field_surname	          text
+#field_emaildomain	      text
+#field_web	              link
+#field_stafftype	        options_select
+
+#STAFF_SQL
+STAFF_SQL = '''
+  SELECT 
+    n1.nid                            AS nid     ,
+    n1.type                           AS type    ,
+    datetime(n1.created, 'unixepoch') AS created ,   
+    datetime(n1.changed, 'unixepoch') AS changed ,   
+    u1.name                           AS user    ,
+    n1.title                          AS staff_title ,
+    t1.field_name_value               AS staff_name ,
+    t1.field_surname_value            AS staff_surname ,
+    t1.field_position_value           AS staff_position ,
+    t1.field_stafftype_value          AS staff_stafftype ,
+    f6.filepath                       AS staff_personal_picture_file,
+    t1.field_emaildomain_value        AS staff_emaildomain,
+    t1.field_emailuser_value          AS staff_emailuser,
+    t1.field_telephone_value          AS staff_telephone,
+    f3.field_web_url                  AS staff_web,
+    r1.body                           AS staff_body  
+  FROM      node                      n1 
+  LEFT JOIN node_revisions            r1 
+    ON n1.nid = r1.nid
+  LEFT JOIN users                     u1
+    ON n1.uid = u1.uid
+  LEFT JOIN content_type_staff        t1
+    ON n1.nid = t1.nid
+  LEFT JOIN content_field_web         f3
+    ON n1.nid = f3.nid
+  LEFT JOIN files                     f6
+    ON t1.field_personal_picture_fid = f6.fid
+  WHERE 
+    n1.type = 'staff'
+'''
+
+
+
 
 import sqlite3
 
+CONN = sqlite3.connect(SQLITE_FILE)
+CONN.row_factory = sqlite3.Row  
+
+def populate_from_query(contrib, sql, field):
+  # Empty list just in case there is not values
+  contrib[field] = [] 
+  for row in CONN.execute(sql, contrib):
+    dic = dict(row)
+    contrib[field].append(dic['name'])
+
 def CONTRIBUTIONS():
-  conn = sqlite3.connect(SQLITE_FILE)
-  conn.row_factory = sqlite3.Row  
-  for contrib_row in conn.execute(CONTRIB_SQL):
+  for contrib_row in CONN.execute(CONTRIB_SQL):
     contrib = dict(contrib_row)
     ## Populate authors
-    populate_from_query(conn, contrib, AUTHORS_SQL,  'contrib_authors' )
+    populate_from_query(contrib, AUTHORS_SQL,  'contrib_authors' )
     ## Populate entities and institutions
-    populate_from_query(conn, contrib, ENTITIES_SQL, 'contrib_entities')
+    populate_from_query(contrib, ENTITIES_SQL, 'contrib_entities')
     ## Populate KEYWORDS
-    populate_from_query(conn, contrib, KEYWORDS_SQL, 'contrib_keywords')
+    populate_from_query(contrib, KEYWORDS_SQL, 'contrib_keywords')
     ## Populate projects
-    populate_from_query(conn, contrib, PROJECTS_SQL, 'contrib_projects')
+    populate_from_query(contrib, PROJECTS_SQL, 'contrib_projects')
     ## Populate research activities
-    populate_from_query(conn, contrib, RESEARCH_SQL, 'contrib_research')
+    populate_from_query(contrib, RESEARCH_SQL, 'contrib_research')
     yield contrib
+
+def STAFF():
+  for staff_row in CONN.execute(STAFF_SQL):
+    person = dict(staff_row)
+    ## Populate authors
+    yield person
 
 
 ## Example
 if __name__ == '__main__':
   import pprint
+  
   for contrib in CONTRIBUTIONS():
     pprint.pprint(contrib)
+  
+  for person in STAFF():
+    pprint.pprint(person)
 
