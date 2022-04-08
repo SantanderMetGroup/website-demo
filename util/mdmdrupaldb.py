@@ -241,6 +241,9 @@ def STAFF():
   for staff_row in CONN.execute(STAFF_SQL):
     person = dict(staff_row)
     ## Populate authors
+    populate_from_query(person, AUTHORS_SQL,  'staff_alias' )
+    ## Populate entities and institutions
+    populate_from_query(person, ENTITIES_SQL, 'staff_institutions')
     yield person
 
 
