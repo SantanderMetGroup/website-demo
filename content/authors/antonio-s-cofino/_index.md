@@ -1,4 +1,5 @@
 ---
+editable: true
 # Display name
 title: Antonio S. Cofiño
 
