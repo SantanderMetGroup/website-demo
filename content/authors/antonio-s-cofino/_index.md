@@ -3,13 +3,13 @@
 title: Antonio S. Cofiño
 
 # Custom keyword (e.g. to be used by md2bib.py)
-short_name: A. Cofino
+short_name: A.S. Cofino
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: 'Associate Professor'
+role: 'Associate Scientist'
 
 # Organizations/Affiliations
 organizations:
@@ -38,26 +38,56 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:antonio.cofino@unican.es'
-#  - icon: twitter
-#    icon_pack: fab
-#    link: https://twitter.com/jfernandez_uc
-#  - icon: google-scholar
-#    icon_pack: ai
-#    link: https://scholar.google.com/citations?hl=en&user=otvNU1UAAAAJ&view_op=list_works&sortby=pubdate
-#  - icon: github
-#    icon_pack: fab
-#    link: https://github.com/jesusff
+#  - icon: envelope
+#    icon_pack: fas
+#    link: 'mailto:antonio.cofino@unican.es'
+
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/cofinoa
+
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/cofinoa
+
+  - icon: stack-overflow
+    icon_pack: fab
+    link: https://stackoverflow.com/users/2565896/
+
+  - icon: zotero
+    icon_pack: ai
+    link: https://www.zotero.org/cofinoa
+
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0001-7719-979X
+
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?hl=en&user=F0pwcosAAAAJ&view_op=list_works&sortby=pubdate
+  
+  - icon: publons
+    icon_pack: ai
+    link: https://publons.com/researcher/2820263/antonio-s-cofino/
+
+  - icon: scopus
+    icon_pack: ai
+    link:  https://www.scopus.com/authid/detail.uri?authorId=6505838419
+
+  - icon: zenodo
+    icon_pack: ai
+    link:  https://zenodo.org/communities/cofinoa
+
+  #Portal del Investigador
+  - icon: cv
+    icon_pack: ai
+    link: 'https://web.unican.es/portal-investigador/personal-investigador/detalle-investigador?i=3152C03C87229549'
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
