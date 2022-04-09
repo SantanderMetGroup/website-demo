@@ -3,6 +3,7 @@ import mdmdrupalutil as mdu
 import os
 import textwrap
 import urllib.request
+from urllib.parse import urljoin
 
 from mdmdrupaldb import STAFF
 
@@ -83,14 +84,18 @@ AUTHOR_TEMPLATE=textwrap.dedent('''\
 maps = mdu.get_maps(['author_map.yml', 'keyword_map.yml'])
 
 ug_map = {
- 'former': 'Former group members',
- 'mstudent': 'MSc Students',
- 'permanent': 'Permanent staff',
- 'phdstudent': 'PhD Students',
- 'postdoc': 'Post-doc Researchers',
- 'student': 'Grad Students',
- 'support': 'Support staff'
+ 'former'     : 'Former group members',
+ 'mstudent'   : 'MSc Students',
+ 'permanent'  : 'Permanent staff',
+ 'phdstudent' : 'PhD Students',
+ 'postdoc'    : 'Post-doc Researchers',
+ 'student'    : 'Grad Students',
+ 'support'    : 'Support staff'
 }
+
+#PIC_BASEURL = 'http://meteo.unican.es/'
+PIC_BASEURL = 'file:///DATA/Users/Antonio/CV/dev/meteo.unican.es/cygdrive/d/Services/drupal_merge/files/'
+CONTENT_BASEPATH = './content/'
 
 for author in STAFF():
   #clean_text_entries(author)
@@ -99,15 +104,18 @@ for author in STAFF():
   dirname = mdu.remove_odd_chars(
     '-'.join(' '.join([author['staff_name'], author['staff_surname']]).split(' '))
   ).strip().lower()
-  pathname = '../content/authors/' + dirname
+  
+  pathname = CONTENT_BASEPATH + 'authors/' + dirname
   print(f'Creating content in {pathname}')
   os.makedirs(pathname, exist_ok = True)
   # get pic
   if author['staff_personal_picture_file']:
-    pic_url = 'http://meteo.unican.es/' + author['staff_personal_picture_file']
+    pic_url = urljoin(PIC_BASEURL, author['staff_personal_picture_file']) 
+    print('  Pic retrieval: ' + PIC_BASEURL)
     try:
       urllib.request.urlretrieve(pic_url, f'{pathname}/avatar.jpg')
+      print('    SUCCEED')
     except:
-      print('Pic retreval failed')
+      print('    FAILED')
   with open(pathname+'/_index.md', 'w', errors='surrogateescape') as f:
     f.write( AUTHOR_TEMPLATE.format(**author) )

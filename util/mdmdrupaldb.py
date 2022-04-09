@@ -207,6 +207,13 @@ STAFF_SQL = '''
     n1.type = 'staff'
 '''
 
+#FILES_SQL
+FILES_SQL = '''
+  SELECT 
+    fid,nid,filename,filepath,filemime,filesize
+  FROM files
+'''
+
 
 
 
@@ -245,6 +252,11 @@ def STAFF():
     ## Populate entities and institutions
     populate_from_query(person, ENTITIES_SQL, 'staff_institutions')
     yield person
+
+def FILES():
+  for file_row in CONN.execute(FILES_SQL):
+    file = dict(file_row)
+    yield file
 
 
 ## Example
