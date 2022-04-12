@@ -1,11 +1,11 @@
 ---
 title: 'Exploring the limits of the Jenkinson-Collison classification scheme for atmospheric circulation: A global assessment based on various reanalyses'
 authors:
-  - Juan Antonio Fernández-Granja
-  - Swen Brands
-  - Joaquín Bedia
-  - Ana Casanueva
-  - Jesús Fernández
+  - juan-antonio-fernandez
+  - swen-brands
+  - joaquin-bedia
+  - ana-casanueva
+  - jesus-fernandez
 #author_notes:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
