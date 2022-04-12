@@ -19,15 +19,19 @@
       {{ partial $widget $params }}
     {{end}}
 
-    {{ $query := where .Pages ".IsNode" false }}
-    {{ $count := len $query }}
-    {{ if $count }}
+    {{ $page := . }}
+    {{ $author := .File.ContentBaseName }}
+
+    {{ $items := where (where site.RegularPages "Type" "publication") ".Params.authors" "intersect" (slice $author) }}
+    {{ $pubs_len := len $items }}
+
+    {{ if $pubs_len }}
     <div class="article-widget content-widget-hr">
       <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
       <ul>
-        {{ range $query }}
+        {{ range $items }}
         <li>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <a href="{{ .RelPermalink }}">{{ .Title }} (Publication)</a>
         </li>
         {{ end }}
       </ul>
