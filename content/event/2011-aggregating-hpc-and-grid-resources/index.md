@@ -24,7 +24,7 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 authors: 
   - valvanuz-fernandez
-  - V.  Cofiño
+  - antonio-s-cofino
 tags: 
   - Grid computing
   - high-performance computing

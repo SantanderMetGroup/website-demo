@@ -24,7 +24,7 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 authors: 
   - S. Brands
-  - R. Manzanas
+  - rodrigo-manzanas
   - sixto-herrera
   - jose-manuel-gutierrez
 tags: 

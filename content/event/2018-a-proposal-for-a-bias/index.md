@@ -24,7 +24,7 @@ all_day: false
 publishDate: '2022-03-24T00:00:00Z'
 authors: 
   - joaquin-bedia
-  - D. San-Martín
+  - daniel-san-martin
   - sixto-herrera
   - M. Iturbide
   - jose-manuel-gutierrez

@@ -46,15 +46,15 @@
 "and others.": "et al."
 "Angelos Charalambidis": "Charalambidis, A."
 "Antonella, S.":
-"Antonio Cofiño": "antonio-s-cofino"
-"Antonio S. Cofiño": "antonio-s-cofino"
-"Antonio S. Coﬁno": "antonio-s-cofino"
+"Antonio Cofiño": antonio-s-cofino
+"Antonio S. Cofiño": antonio-s-cofino
+"Antonio S. Coﬁno": antonio-s-cofino
 "A. R.": ""
 "Araya-Osses, D.":
 "Arce, E.":
 "Arribas C.":
 "Arteche, J.L.":
-"A.S. Cofiño": "antonio-s-cofino"
+"A.S. Cofiño": antonio-s-cofino
 "A.S. French":
 "A. Soret":
 "Asrar, G.":
@@ -257,7 +257,7 @@
 "Eduardo Penabad":
 "Eiras-Barça J":
 "Eiras J":
-"E. J.":
+"E. J.": ""
 "E. Jennings":
 "Eleni Katragkou":
 "Encinas, A.H.":
@@ -622,17 +622,17 @@
 "Mercogliano":
 "Mercogliano, P.":
 "Messeri, A.":
-"M. García Diez":
-"M. H.":
+"M. García Diez": markel-garcia
+"M. H.": ""
 "Middleham, R.":
 "Miguel Martínez-Conde Salamanca":
 "Miguel Traspuesto Abascal":
 "Miguez-Macho G":
-"Mikel Legasa Ríos":
-"Milovac":
-"Milovac J.":
-"Milovac, J.":
-"Mínguez R.":
+"Mikel Legasa Ríos": mikel-legasa
+"Milovac": josipa-milovac
+"Milovac J.": josipa-milovac
+"Milovac, J.": josipa-milovac
+"Mínguez R.": "Mínguez, R."
 "Mínguez, R.":
 "Minondo": antonio-minondo
 "Mirasso, C.":
@@ -644,7 +644,7 @@
 "Mohino, E.":
 "Molina Edesa, M.": "Molina-Edesa, M."
 "Molina, M.": "Molina-Edesa, M."
-"Montávez":
+"Montávez": "Montávez, J.P."
 "Montávez, J.P.":
 "Moore, T.N.":
 "Morabito, M.":
@@ -712,7 +712,7 @@
 "Pons, M.R.":
 "Poorthuis, L.":
 "Pozo":
-"P. Quintana-Seguí":
+"P. Quintana-Seguí": "Quintana-Seguí, P."
 "Pradas M.":
 "Preko":
 "Priego, R":
@@ -725,12 +725,12 @@
 "Pryor, M.":
 "Pytharoulis I.":
 "Quindos, L.":
-"Quintana-Seguí":
+"Quintana-Seguí": "Quintana-Seguí, P."
 "Quintana-Seguí, P.":
 "Qu, Z.":
-"R.":
+"R.": ""
 "Rábago, D.":
-"Raffa":
+"Raffa": "Raffa, M."
 "Raffaele, F.":
 "Raffa, M.":
 "Rajczak, J.":
@@ -754,8 +754,8 @@
 "Rinke, K.":
 "Rita Margarida Cardoso": "Cardoso, R.M."
 "Rivas, V.":
-"R. Jr.":
-"R.M.":
+"R. Jr.": ""
+"R.M.": ""
 "R.Manzanas": rodrigo-manzanas
 "R. Manzanas": rodrigo-manzanas
 "R. Marce":
@@ -837,15 +837,15 @@
 "Sierra":
 "Simmer, C.":
 "Sixto Herrera": sixto-herrera
-"Soares":
+"Soares": "Soares, P.M.M."
 "Soares, M.B":
-"Soares, P.":
-"Soares, P. M.":
-"Soares P.M.M.":
-"Soares, P. M. M.":
+"Soares, P.": "Soares, P.M.M."
+"Soares, P. M.": "Soares, P.M.M."
+"Soares P.M.M.": "Soares, P.M.M."
+"Soares, P. M. M.": "Soares, P.M.M."
 "Soares, P.M.M.":
-"Sobolowski":
-"Sobolowski S.":
+"Sobolowski": "Sobolowski, S."
+"Sobolowski S.": "Sobolowski, S."
 "Sobolowski, S.":
 "Soerland, S. L.":
 "Solís":
@@ -881,7 +881,7 @@
 "Szendro, I.":
 "Szepszo, G.":
 "Szturc, J.":
-"T.":
+"T.": ""
 "Taboada, J.":
 "Taboada J.J.":
 "Taboada, J.J.":

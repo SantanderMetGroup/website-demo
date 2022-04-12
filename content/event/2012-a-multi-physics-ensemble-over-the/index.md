@@ -26,7 +26,7 @@ authors:
   - ana-casanueva
   - jesus-fernandez
   - M. García-Díez
-  - M.E. Magariño
+  - m-eugenia-magarino
 tags: 
   - CORDEX
   - WRF model

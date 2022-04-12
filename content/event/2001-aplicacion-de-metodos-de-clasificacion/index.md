@@ -23,7 +23,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
 authors: 
-  - R. Ancell
+  - rafael-ancell
   - antonio-s-cofino
   - jose-manuel-gutierrez
   - M.A. Rodríguez

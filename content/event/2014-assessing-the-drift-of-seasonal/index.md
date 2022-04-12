@@ -23,9 +23,9 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: '2022-03-24T00:00:00Z'
 authors: 
-  - R. Manzanas
+  - rodrigo-manzanas
   - jesus-fernandez
-  - M.E. Magariño
+  - m-eugenia-magarino
   - jose-manuel-gutierrez
   - F.J. Doblas-Reyes
   - G. Nikulin
