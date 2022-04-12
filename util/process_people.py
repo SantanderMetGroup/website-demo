@@ -137,6 +137,7 @@ for author in STAFF():
       shutil.copy2(pic_url, pathname/'avatar.jpg')
       print('    SUCCEED')
     except:
+      shutil.copy2(here() / PIC_BASEURL / 'files/personal_pictures/default.jpg', pathname/'avatar.jpg')
       print('    FAILED')
   with open(pathname / '_index.md', 'w', errors='surrogateescape') as f:
     f.write( AUTHOR_TEMPLATE.format(**author) )
