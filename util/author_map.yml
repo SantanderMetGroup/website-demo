@@ -39,7 +39,7 @@
 "Amekudzi":
 "Anaya, E":
 "Anca Brookshaw": "Brookshaw, A."
-"Ancell, R.":
+"Ancell, R.": rafael-ancell
 "Anders": "Anders, I."
 "Anders, I.":
 "and M. A. Gaertner": "Gaertner, M.A."
@@ -143,7 +143,7 @@
 "Camia, A.":
 "Camus, P.":
 "Canales, I.":
-"Cano, R.":
+"Cano, R.": rafael-ancell
 "Cardoso":
 "Cardoso R. M.": "Cardoso, R.M."
 "Cardoso, R.M": "Cardoso, R.M."
@@ -180,6 +180,7 @@
 "Christensen, O.B.":
 "Chuvieco, E.":
 "Cimadevilla-Alvarez, E.": ezequiel-cimadevilla
+"Cimadevilla, E.": ezequiel-cimadevilla
 "Ciszak, M.":
 "Ciuha U.":
 "Ciuha, U.":
@@ -320,8 +321,8 @@
 "Fuente, I.":
 "Fuente, M.":
 "Fujibe, F.":
-"G.":
-"G. A.":
+"G.": ""
+"G. A.": ""
 "Gaertner, M. A.": "Gaertner, M.A."
 "Gaitán, E.":
 "Gallardo, J.":
@@ -330,14 +331,14 @@
 "García-Bustamante, E.":
 "García-Casado, L.A.":
 "García-Codrón, J.C":
-"García-Díez M.": "García-Díez, M."
+"García-Díez M.": markel-garcia
 "García-Díez, M.":
 "García‐Díez, M.":
 "García-Herrero S.":
-"García, M.": "García-Díez, M."
+"García, M.": markel-garcia
 "García-Moya, J.A.":
 "García-Pineda, L.S":
-"García-Torre, F.":
+"García-Torre, F.": fernando-garcia
 "Garmendia, C":
 "Gašparac":
 "Gašparac, G.":
@@ -405,7 +406,7 @@
 "Hou, W.":
 "Huth, R.":
 "Hyodae S":
-"I.":
+"I.": ""
 "Ibarra-Berastegi, G.":
 "I. Christel":
 "Iglesias I":
@@ -422,8 +423,8 @@
 "Izaguirre": "Izaguirre, C."
 "Izaguirre, C.":
 "Izús, G.G.":
-"J.":
-"J.A.":
+"J.": ""
+"J.A.": ""
 "Jackson-Blake, L.":
 "Jacob, D.":
 "Jacobeit, J.":
@@ -520,10 +521,10 @@
 "Lange":
 "Lange, S.":
 "Laura Romero Pulido":
-"Lavin-Gullon":
-"Lavin-Gullon, A.":
-"Legasa, M.":
-"Legasa, M.N.":
+"Lavin-Gullon": alvaro-lavin
+"Lavin-Gullon, A.": alvaro-lavin
+"Legasa, M.": mikel-legasa
+"Legasa, M.N.": mikel-legasa
 "Lehmann, A.":
 "Lemke, B.":
 "Lenderink":
@@ -537,7 +538,7 @@
 "Limbo, C.":
 "Liniger, M.A.":
 "Lippmann, T.":
-"L.K.":
+"L.K.": ""
 "Llasat, C:":
 "Llasat, M.C.":
 "Ll. Lledó":
@@ -557,7 +558,7 @@
 "Lorenzo N":
 "Lorenzo N.":
 "Lorenzo, N.":
-"Lorenz T.":
+"Lorenz T.": "Lorenz, T."
 "Lorenz, T.":
 "Losada, I.":
 "Losada, I. J.":
@@ -570,17 +571,17 @@
 "Lukas Poorthuis":
 "Lussana, C.":
 "Lüterbacher, J.":
-"M.":
-"Machado":
+"M.": ""
+"Machado": "Machado, L."
 "Machado, L.":
-"Magariño, M.":
-"Magariño M.E.":
-"Magariño, M. E.":
-"Magariño, M.E.":
-"Maialen Iturbide":
+"Magariño, M.": m-eugenia-magarino
+"Magariño M.E.": m-eugenia-magarino
+"Magariño, M. E.": m-eugenia-magarino
+"Magariño, M.E.": m-eugenia-magarino
+"Maialen Iturbide": maialen-iturbide
 "Majumdar, S.":
 "M.A. Liniger":
-"Manzanas, R.":
+"Manzanas, R.": rodrigo-manzanas
 "Maraun":
 "Maraun, D.":
 "Maraun, M.":
@@ -589,10 +590,10 @@
 "Marcos Valle":
 "Marcos Valle Miñón":
 "Mares, I.":
-"Marı́a Dolores Frı́as":
+"Marı́a Dolores Frı́as": maria-dolores-frias
 "Mario Santa Cruz López":
 "Mariscal M.A.":
-"Markel García-Díez":
+"Markel García-Díez": markel-garcia
 "Mark Liniger":
 "Marsh, K.":
 "Marta Bruno Soares":
@@ -604,7 +605,7 @@
 "Mayol, M.":
 "M. Bermejo":
 "M.C. Llasat":
-"M.D. Frías":
+"M.D. Frías": maria-dolores-frias
 "M. Dillane":
 "MDM":
 "M. Domínguez":
@@ -633,16 +634,16 @@
 "Milovac, J.":
 "Mínguez R.":
 "Mínguez, R.":
-"Minondo":
+"Minondo": antonio-minondo
 "Mirasso, C.":
 "Mirones":
-"M. Iturbide":
-"M.Kolax":
-"M. Kolax":
+"M. Iturbide": maialen-iturbide
+"M.Kolax": "Kolax, M."
+"M. Kolax": "Kolax, M."
 "Mohamadi F.":
 "Mohino, E.":
-"Molina Edesa, M.":
-"Molina, M.":
+"Molina Edesa, M.": "Molina-Edesa, M."
+"Molina, M.": "Molina-Edesa, M."
 "Montávez":
 "Montávez, J.P.":
 "Moore, T.N.":
@@ -669,28 +670,28 @@
 "Noti, P.":
 "Nurmi, P.":
 "Nybo, L.":
-"O.":
-"O. B.":
+"O.": ""
+"O. B.": ""
 "O.E. Adeyeri":
-"Olmo, M. E.":
-"Olmo, M. E.,":
+"Olmo, M. E.": "Olmo, M.E."
+"Olmo, M. E.,": "Olmo, M.E."
 "Orfila, B.":
 "Orlandini, S.":
 "Ortin, S.":
 "Ovakoglou G.":
 "Ovakoglou, G.":
 "Oviedo, L.M.":
-"P.":
+"P.": ""
 "Pagé, C":
 "Palacio Hoz, Aida":
 "Palomino, J.A.":
 "Paneque, M.":
-"Panitz":
-"Panitz, H. J.":
+"Panitz": "Panitz, H.J."
+"Panitz, H. J.": "Panitz, H.J."
 "Pattnayak, K.":
 "Pazó":
 "Pazó, D.":
-"Pedro Soares":
+"Pedro Soares": "Soares, P.M.M."
 "Penabad, E.":
 "Pereira, M.":
 "Pereira, M.G.":
@@ -702,8 +703,8 @@
 "Pichelli, E.":
 "Pinto, M.":
 "P. Jiménez-Guerrero":
-"P. M. M.":
-"P.M.M. Soares":
+"P. M. M.": ""
+"P.M.M. Soares": "Soares, P.M.M."
 "Pogačar T.":
 "Pogačar, T.":
 "Pohlmann, H.":
@@ -738,7 +739,7 @@
 "Ramos A.":
 "Ramos, P.":
 "Ramos, R":
-"R. Ancell":
+"R. Ancell": rafael-ancell
 "Rasilla, D.":
 "Räty, O":
 "Reder A.":
@@ -751,19 +752,19 @@
 "Ribalaygua, J.":
 "Rieiro, I.":
 "Rinke, K.":
-"Rita Margarida Cardoso":
+"Rita Margarida Cardoso": "Cardoso, R.M."
 "Rivas, V.":
 "R. Jr.":
 "R.M.":
-"R.Manzanas":
-"R. Manzanas":
+"R.Manzanas": rodrigo-manzanas
+"R. Manzanas": rodrigo-manzanas
 "R. Marce":
-"R.M. Cardoso":
+"R.M. Cardoso": "Cardoso, R.M."
 "R. Minguez":
 "Roberts, M. J.":
 "Rob Lokers":
 "RodrÃ­guez-Puebla, C.":
-"Rodrigo Manzanas":
+"Rodrigo Manzanas": rodrigo-manzanas
 "Rodrigo Manzanas and José Manuel Gutiérrez":
 "Rodríguez, E.":
 "Rodriguez, F":
@@ -802,9 +803,9 @@
 "Sánchez-Gómez, E.":
 "Sandoval":
 "Sandoval, R. Jr.":
-"San-Martín, D.":
-"San-Martín, R.M.":
-"San-Matín, D.":
+"San-Martín, D.": daniel-san-martin
+"San-Martín, R.M.": 
+"San-Matín, D.": daniel-san-martin
 "San-Miguel-Ayanz, J.":
 "Sanna, A.":
 "Santos, C.":
@@ -829,13 +830,13 @@
 "Sergio Natal Pérez":
 "Serra-Varela, MJ.":
 "S. Hemri":
-"S.Herrera":
-"S. Herrera":
+"S.Herrera": sixto-herrera
+"S. Herrera": sixto-herrera
 "Shikhani, M.":
 "Shonk, J.":
 "Sierra":
 "Simmer, C.":
-"Sixto Herrera":
+"Sixto Herrera": sixto-herrera
 "Soares":
 "Soares, M.B":
 "Soares, P.":
@@ -850,7 +851,7 @@
 "Solís":
 "Solís, A.":
 "Solman, S.":
-"Sordo, C.M.":
+"Sordo, C.M.": carmen-sordo
 "Sousa, P.":
 "Sousa, P.M.":
 "Spirig, Ch.":
@@ -913,22 +914,22 @@
 "Uribe, J.M.":
 "V.":
 "VALUE Team":
-"Valvanuz Fernandez-Quiruelas":
-"Valvanuz Fernández Quiruelas":
+"Valvanuz Fernandez-Quiruelas": valvanuz-fernandez
+"Valvanuz Fernández Quiruelas": valvanuz-fernandez
 "Vangelis Karkaletsis":
-"van Meigaard, E.":
+"van Meigaard, E.": "van Meijgaard, E."
 "van Meijgaard, E.":
 "van Vloten":
 "Vanya, C.":
 "Vasquez, H.":
 "Vautard, R.":
-"Vautard,R.":
-"V.  Cofiño":
-"Vega":
+"Vautard,R.": "Vautard, R."
+"V.  Cofiño": antonio-s-cofino
+"Vega": "Vega, M."
 "Vega, M.":
 "Vehviläinen, B.":
 "Vendramin, G.G.":
-"Vergara-Temprado":
+"Vergara-Temprado": "Vergara-Temprado, J."
 "Vergara-Temprado, J.":
 "Vianna Cuadra, S.":
 "Vidal, C.":
@@ -941,12 +942,12 @@
 "von Hardenberg, J.":
 "Vrac, M.":
 "Wang, S.":
-"Warach-Sagi, K.":
-"Warrach-Sagi":
+"Warach-Sagi, K.": "Warrach-Sagi, K."
+"Warrach-Sagi": "Warrach-Sagi, K."
 "Warrach-Sagi, K.":
-"Warrach‐Sagi, K.":
-"W. D. Cabos":
-"WD. Cabos":
+"Warrach‐Sagi, K.": "Warrach-Sagi, K."
+"W. D. Cabos": "Cabos, W.D."
+"WD. Cabos": "Cabos, W.D."
 "Weber, R.":
 "Weisheimer, A.":
 "Wibig, J.":

@@ -90,6 +90,9 @@ social:
 #   icon_pack: ai
 #   link: files/cv.pdf
 
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: ''
+
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 

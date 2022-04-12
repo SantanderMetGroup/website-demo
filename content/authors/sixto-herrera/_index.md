@@ -1,15 +1,15 @@
 ---
 # Display name
-title: Jorge Baño Medina
+title: Sixto Herrera Garcia
 
 # Custom keyword (e.g. to be used by md2bib.py)
-short_name: J. Bano Medina
+short_name: S. Herrera
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: 'PhD. Student '
+role: 'Associate Professor'
 
 # Organizations/Affiliations
 organizations:
@@ -40,16 +40,34 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:bmedina@ifca.unican.es'
+    link: 'mailto:herreras@unican.es'
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/jfernandez_uc
+#  - icon: orcid
+#    icon_pack: ai
+#    link: https://orcid.org/0000-0001-7719-979X
 #  - icon: google-scholar
 #    icon_pack: ai
 #    link: https://scholar.google.com/citations?hl=en&user=otvNU1UAAAAJ&view_op=list_works&sortby=pubdate
+#  - icon: publons
+#    icon_pack: ai
+#    link: https://publons.com/researcher/2820263/antonio-s-cofino/
+#  - icon: scopus
+#    icon_pack: ai
+#    link:  https://www.scopus.com/authid/detail.uri?authorId=6505838419
+#  - icon: zotero
+#    icon_pack: ai
+#    link: https://www.zotero.org/cofinoa
+#  - icon: zenodo
+#    icon_pack: ai
+#    link:  https://zenodo.org/communities/cofinoa
 #  - icon: github
 #    icon_pack: fab
 #    link: https://github.com/jesusff
+#  - icon: stack-overflow
+#    icon_pack: fab
+#    link: https://stackoverflow.com/users/2565896/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -65,7 +83,14 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - PhD Students
+  - Former group members
 ---
 
+Research ID: <a href="http://www.researcherid.com/rid/A-2573-2015">A-2573-2015</a>
+Scopus Author ID: <a href="https://www.scopus.com/authid/detail.uri?authorId=36752370400">36752370400</a>
+ORCID: <a href="http://orcid.org/0000-0002-5384-179X">0000-0002-5384-179X</a>
+Google Scholar: <a href="https://scholar.google.es/citations?user=yV03lm0AAAAJ">Sixto Herrera García</a>
+
+ResearchGate: <a href="https://www.researchgate.net/profile/Sixto_Herrera_Garcia">Sixto Herrera García</a>
+CVN-FECYT: <a href="https://cvn.fecyt.es/editor/cvnOnline/0000-0002-5384-179X">Sixto Herrera García</a>
 

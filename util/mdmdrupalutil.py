@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 import unidecode
 import yaml
+from pyprojroot import here
 
 def get_maps(mapfiles):
   maps = {}
-  for m in mapfiles:
-    map_name = m.split('/')[-1].split('_')[0]
+  for map_name in mapfiles:
+    m = here() / f'util/{map_name}_map.yml'
     with open(m) as fp:
       maps[map_name] = yaml.load(fp, Loader=yaml.FullLoader)
     # Drop None's from name dictionary

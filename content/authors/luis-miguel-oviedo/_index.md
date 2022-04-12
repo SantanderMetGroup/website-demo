@@ -3,7 +3,7 @@
 title: Luis Miguel Oviedo
 
 # Custom keyword (e.g. to be used by md2bib.py)
-short_name: L. Oviedo
+short_name: L.M. Oviedo
 
 # Is this the primary user of the site?
 superuser: false
@@ -44,12 +44,30 @@ social:
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/jfernandez_uc
+#  - icon: orcid
+#    icon_pack: ai
+#    link: https://orcid.org/0000-0001-7719-979X
 #  - icon: google-scholar
 #    icon_pack: ai
 #    link: https://scholar.google.com/citations?hl=en&user=otvNU1UAAAAJ&view_op=list_works&sortby=pubdate
+#  - icon: publons
+#    icon_pack: ai
+#    link: https://publons.com/researcher/2820263/antonio-s-cofino/
+#  - icon: scopus
+#    icon_pack: ai
+#    link:  https://www.scopus.com/authid/detail.uri?authorId=6505838419
+#  - icon: zotero
+#    icon_pack: ai
+#    link: https://www.zotero.org/cofinoa
+#  - icon: zenodo
+#    icon_pack: ai
+#    link:  https://zenodo.org/communities/cofinoa
 #  - icon: github
 #    icon_pack: fab
 #    link: https://github.com/jesusff
+#  - icon: stack-overflow
+#    icon_pack: fab
+#    link: https://stackoverflow.com/users/2565896/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

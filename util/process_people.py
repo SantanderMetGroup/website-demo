@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 import mdmdrupalutil as mdu
 import os
+import shutil
 import textwrap
-import urllib.request
-from urllib.parse import urljoin
 
+from pyprojroot import here
 from mdmdrupaldb import STAFF
 
 AUTHOR_TEMPLATE=textwrap.dedent('''\
@@ -54,12 +54,30 @@ AUTHOR_TEMPLATE=textwrap.dedent('''\
   #  - icon: twitter
   #    icon_pack: fab
   #    link: https://twitter.com/jfernandez_uc
+  #  - icon: orcid
+  #    icon_pack: ai
+  #    link: https://orcid.org/0000-0001-7719-979X
   #  - icon: google-scholar
   #    icon_pack: ai
   #    link: https://scholar.google.com/citations?hl=en&user=otvNU1UAAAAJ&view_op=list_works&sortby=pubdate
+  #  - icon: publons
+  #    icon_pack: ai
+  #    link: https://publons.com/researcher/2820263/antonio-s-cofino/
+  #  - icon: scopus
+  #    icon_pack: ai
+  #    link:  https://www.scopus.com/authid/detail.uri?authorId=6505838419
+  #  - icon: zotero
+  #    icon_pack: ai
+  #    link: https://www.zotero.org/cofinoa
+  #  - icon: zenodo
+  #    icon_pack: ai
+  #    link:  https://zenodo.org/communities/cofinoa
   #  - icon: github
   #    icon_pack: fab
   #    link: https://github.com/jesusff
+  #  - icon: stack-overflow
+  #    icon_pack: fab
+  #    link: https://stackoverflow.com/users/2565896/
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   # - icon: cv
@@ -81,7 +99,7 @@ AUTHOR_TEMPLATE=textwrap.dedent('''\
   {staff_body}
 ''')
 
-maps = mdu.get_maps(['author_map.yml', 'keyword_map.yml'])
+maps = mdu.get_maps(['author', 'keyword'])
 
 ug_map = {
  'former'     : 'Former group members',
@@ -94,28 +112,31 @@ ug_map = {
 }
 
 #PIC_BASEURL = 'http://meteo.unican.es/'
-PIC_BASEURL = 'file:///DATA/Users/Antonio/CV/dev/meteo.unican.es/cygdrive/d/Services/drupal_merge/files/'
+PIC_BASEURL = 'util/mdmdrupal'
 CONTENT_BASEPATH = './content/'
 
 for author in STAFF():
-  #clean_text_entries(author)
-  author['short_name'] = author['staff_name'][0] + '. ' + mdu.remove_odd_chars(author['staff_surname'])
+  alias = ''.join(author['staff_alias'])
+  author['short_name'] = ' '.join(alias.replace(',','').split(' ')[::-1])
   author['user_group'] = ug_map[author['staff_stafftype']]
-  dirname = mdu.remove_odd_chars(
-    '-'.join(' '.join([author['staff_name'], author['staff_surname']]).split(' '))
-  ).strip().lower()
+  if alias in maps['author'] and not ' ' in maps['author'][alias]:
+    dirname = maps['author'][alias]
+  else:
+    dirname = mdu.remove_odd_chars(
+      '-'.join(' '.join([author['staff_name'], author['staff_surname']]).split(' '))
+    ).strip().lower()
   
-  pathname = CONTENT_BASEPATH + 'authors/' + dirname
+  pathname = here() / 'content/authors' / dirname
   print(f'Creating content in {pathname}')
   os.makedirs(pathname, exist_ok = True)
   # get pic
   if author['staff_personal_picture_file']:
-    pic_url = urljoin(PIC_BASEURL, author['staff_personal_picture_file']) 
-    print('  Pic retrieval: ' + PIC_BASEURL)
+    pic_url = here() / PIC_BASEURL / author['staff_personal_picture_file'] 
+    print(f'  Pic retrieval: {pic_url}')
     try:
-      urllib.request.urlretrieve(pic_url, f'{pathname}/avatar.jpg')
+      shutil.copy2(pic_url, pathname/'avatar.jpg')
       print('    SUCCEED')
     except:
       print('    FAILED')
-  with open(pathname+'/_index.md', 'w', errors='surrogateescape') as f:
+  with open(pathname / '_index.md', 'w', errors='surrogateescape') as f:
     f.write( AUTHOR_TEMPLATE.format(**author) )

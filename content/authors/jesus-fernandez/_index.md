@@ -3,7 +3,7 @@
 title: Jesús Fernández
 
 # Custom keyword (e.g. to be used by md2bib.py)
-short_name: J. Fernandez
+short_name: J. Fernández
 
 # Is this the primary user of the site?
 superuser: false
@@ -17,20 +17,21 @@ organizations:
     url: 'https://ifca.unican.es'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include ...
+bio: My research interests include regional climate variability and change, modelling uncertainty and downscaling.
 
 interests:
-  - Interest 1
-  - Interest 2
-  - ...
+  - Regional climate modelling
+  - Modelling uncertainty
+  - Climate variability and change
+  - Climate information distillation
 
 education:
   courses:
-    - course: PhD in 
-      institution: Universidad 
+    - course: PhD in Physics
+      institution: Universidad del País Vasco, Spain
       year: 2004
-    - course: MSc in 
-      institution: Universidad 
+    - course: MSc in Physics
+      institution: Universidad del País Vasco, Spain
       year: 2000
 
 # Social/Academic Networking
@@ -38,18 +39,36 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:jesus.fernandez@unican.es'
-#  - icon: twitter
-#    icon_pack: fab
-#    link: https://twitter.com/jfernandez_uc
-#  - icon: google-scholar
+#  - icon: envelope
+#    icon_pack: fas
+#    link: 'mailto:'
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/jfernandez_uc
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0002-3483-0008
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?hl=en&user=otvNU1UAAAAJ&view_op=list_works&sortby=pubdate
+  - icon: publons
+    icon_pack: ai
+    link: https://publons.com/researcher/1457167/jesus-fernandez
+  - icon: scopus
+    icon_pack: ai
+    link:  https://www.scopus.com/authid/detail.uri?authorId=57188751935
+#  - icon: zotero
 #    icon_pack: ai
-#    link: https://scholar.google.com/citations?hl=en&user=otvNU1UAAAAJ&view_op=list_works&sortby=pubdate
-#  - icon: github
+#    link: https://www.zotero.org/jesusff
+#  - icon: zenodo
+#    icon_pack: ai
+#    link:  https://zenodo.org/communities/jesusff
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/jesusff
+#  - icon: stack-overflow
 #    icon_pack: fab
-#    link: https://github.com/jesusff
+#    link: https://stackoverflow.com/users/2565896/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -67,6 +86,3 @@ highlight_name: true
 user_groups:
   - Permanent staff
 ---
-
-ResearcherID: <a href="http://www.researcherid.com/rid/F-5189-2011">F-5189-2011</a>
-ORCID: <a href="https://orcid.org/0000-0002-3483-0008">0000-0002-3483-0008</a>
