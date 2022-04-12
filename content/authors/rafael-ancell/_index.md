@@ -13,8 +13,8 @@ role: 'Meteorologist'
 
 # Organizations/Affiliations
 organizations:
-  - name: IFCA
-    url: 'https://ifca.unican.es'
+  - name: AEMET
+    url: 'https://www.aemet.es'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include ...

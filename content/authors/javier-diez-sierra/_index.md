@@ -13,8 +13,8 @@ role: ''
 
 # Organizations/Affiliations
 organizations:
-  - name: IFCA
-    url: 'https://ifca.unican.es'
+  - name: Predictia
+    url: 'https://www.predictia.es'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include ...

@@ -23,8 +23,8 @@ AUTHOR_TEMPLATE=textwrap.dedent('''\
   
   # Organizations/Affiliations
   organizations:
-    - name: IFCA
-      url: 'https://ifca.unican.es'
+    - name: {organization_name}
+      url: '{organization_url}'
   
   # Short bio (displayed in user profile at end of posts)
   bio: My research interests include ...
@@ -111,6 +111,13 @@ ug_map = {
  'support'    : 'Support staff'
 }
 
+org_urls = {
+ 'UC'        : 'https://web.unican.es',
+ 'IFCA'      : 'https://ifca.unican.es',
+ 'AEMET'     : 'https://www.aemet.es',
+ 'Predictia' : 'https://www.predictia.es'
+}
+
 #PIC_BASEURL = 'http://meteo.unican.es/'
 PIC_BASEURL = 'util/mdmdrupal'
 CONTENT_BASEPATH = './content/'
@@ -119,6 +126,8 @@ for author in STAFF():
   alias = ''.join(author['staff_alias'])
   author['short_name'] = ' '.join(alias.replace(',','').split(' ')[::-1])
   author['user_group'] = ug_map[author['staff_stafftype']]
+  author['organization_name'] = author['staff_institutions'][0]
+  author['organization_url'] = org_urls[author['organization_name']]
   if alias in maps['author'] and not ' ' in maps['author'][alias]:
     dirname = maps['author'][alias]
   else:

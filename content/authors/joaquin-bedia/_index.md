@@ -13,8 +13,8 @@ role: 'Assistant professor'
 
 # Organizations/Affiliations
 organizations:
-  - name: IFCA
-    url: 'https://ifca.unican.es'
+  - name: UC
+    url: 'https://web.unican.es'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include ...
