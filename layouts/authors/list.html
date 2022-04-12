@@ -29,13 +29,38 @@
 
         {{ $items := where (where site.RegularPages "Type" "publication") ".Params.authors" "intersect" (slice $author) }}
         {{ $pubs_len := len $items }}
-
         {{ if $pubs_len }}
-          Publications {{ $author }}
+          Publications
           <ul>
             {{ range $items }}
             <li>
-              <a href="{{ .RelPermalink }}">{{ .Title }} (Publication)</a>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+
+        {{ $items := where (where site.RegularPages "Type" "event") ".Params.authors" "intersect" (slice $author) }}
+        {{ $events_len := len $items }}
+        {{ if $events_len }}
+          Events
+          <ul>
+            {{ range $items }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+
+        {{ $items := where (where site.RegularPages "Type" "project") ".Params.authors" "intersect" (slice $author) }}
+        {{ $projs_len := len $items }}
+        {{ if $projs_len }}
+          Projects
+          <ul>
+            {{ range $items }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
             </li>
             {{ end }}
           </ul>
@@ -55,7 +80,7 @@
         <ul>
           {{ range $query }}
           <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }} ({{ .Type }})</a>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ .Type }})
           </li>
           {{ end }}
         </ul>
