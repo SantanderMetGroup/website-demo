@@ -20,7 +20,8 @@ tags:
   - Statistical downscaling
   - Statistical emulator
   - Climate Information Distillation
-date: 2021-01-01T00:00:00
+date_start: 2021-01-01T00:00:00
+date_end: 2023-12-31T00:00:00
 #external_link: https://www.meteo.unican.es/cordys
 authors: 
   - jesus-fernandez
@@ -32,10 +33,10 @@ authors:
   - E. Cimadevilla-Alvarez
   - V. Fernández-Quiruelas
 # extra tags:
-id: PID2020-116595RB-I00
-status: In progress
-category: Regular project
-type: National project
+proj_id: PID2020-116595RB-I00
+proj_status: In progress
+proj_category: Regular project
+proj_type: National project
 funder: Ministerio de Ciencia e Innovación / Agencia Estatal de Investigación
 funder_program: 
 collab_entities: 
