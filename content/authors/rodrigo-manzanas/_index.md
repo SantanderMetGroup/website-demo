@@ -46,6 +46,12 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/RodrigoManzanas
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0002-0001-3448
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.es/citations?user=mL8pFp4AAAAJ&hl=es&oi=ao
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/jfernandez_uc
