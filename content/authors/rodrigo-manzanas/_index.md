@@ -43,6 +43,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:rodrigo.manzanas@unican.es'
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/RodrigoManzanas
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/jfernandez_uc
