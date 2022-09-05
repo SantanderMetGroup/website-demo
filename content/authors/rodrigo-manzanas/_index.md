@@ -20,18 +20,20 @@ organizations:
 bio: My research interests include ...
 
 interests:
-  - Interest 1
-  - Interest 2
-  - ...
+  - Climate change and variability
+  - Evaluation of climate models
+  - Seasonal forecasting
+  - Statistical downscaling
+  - Machine learning
 
 education:
   courses:
-    - course: PhD in 
-      institution: Universidad 
-      year: 2004
-    - course: MSc in 
-      institution: Universidad 
-      year: 2000
+    - course: PhD in Science, Technology and Computation
+      institution: University of Cantabria
+      year: 2016
+    - course: MSc in Mathematics and Computer Science
+      institution: University of Cantabria
+      year: 2012
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
