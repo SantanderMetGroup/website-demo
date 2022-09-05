@@ -97,11 +97,11 @@ user_groups:
   - Post-doc Researchers
 ---
 
-# <a href="http://orcid.org/0000-0002-0001-3448">ORCID</a>
+<a href="http://orcid.org/0000-0002-0001-3448">ORCID</a>
 <a href="https://www.scopus.com/authid/detail.uri?authorId=55340091000">Scopus</a>
 <a href="https://publons.com/researcher/2677226/r-manzanas/">Publons</a>
 <a href="https://www.mendeley.com/profiles/rodrigo-manzanas/">Mendeley</a>
-# <a href="https://scholar.google.es/citations?user=mL8pFp4AAAAJ&hl=es&oi=ao">Google Scholar</a>
+<a href="https://scholar.google.es/citations?user=mL8pFp4AAAAJ&hl=es&oi=ao">Google Scholar</a>
 <a href="https://www.researchgate.net/profile/Rodrigo_Manzanas">ResearchGate</a>
 <a href="https://www.growkudos.com/profile/rodrigo_manzanas">Kudos</a>
 <a href="http://sciprofiles.com/profile/rmanzanas">SciProfiles</a>
