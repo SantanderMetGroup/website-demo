@@ -46,6 +46,9 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/RodrigoManzanas
+  - icon: scopus
+    icon_pack: ai
+    link: https://www.scopus.com/authid/detail.uri?authorId=55340091000
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0002-0001-3448
