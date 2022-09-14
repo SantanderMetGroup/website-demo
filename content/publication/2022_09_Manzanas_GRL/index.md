@@ -8,11 +8,11 @@ authors:
 #author_notes:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
-date: '2022-09-16'
+date: '2022-09-16T00:00:00Z'
 doi: '10.1029/2021GL094662'
 
 # Schedule page publish date (NOT publication's date).
-#publishDate: '2022-03-25'
+publishDate: '2022-09-16T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
