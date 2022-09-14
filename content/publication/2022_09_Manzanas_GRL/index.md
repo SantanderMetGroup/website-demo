@@ -4,15 +4,15 @@ authors:
   - rodrigo-manzanas
   - V. Torralba
   - Ll. Lledó
-  - P.A. Bretonnière
+  - P.A. Bretonnière  
 #author_notes:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
-date: '2022-09-16T00:00:00Z'
+date: '2022-09-03T00:00:00Z'
 doi: '10.1029/2021GL094662'
 
 # Schedule page publish date (NOT publication's date).
-#publishDate: '2022-09-16T00:00:00Z'
+publishDate: '2022-03-25T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -25,21 +25,43 @@ publication: '*Geophysical Research Letters*'
 publication_short: 'GRL'
 
 abstract: >
-  One of the key quality aspects in a probabilistic prediction is its reliability. However, this property is difficult to estimate in the case of seasonal forecasts due to the limited size of most of the hindcasts that are available nowadays. To shed light on this issue, this work presents a detailed analysis of how the ensemble size, the hindcast length and the number of points pooled together within a particular region affect the resulting reliability estimates. To do so, we build on 42 land reference regions recently defined for the IPCC-AR6 and assess the reliability of global seasonal forecasts of temperature and precipitation from the European Center for Medium Weather Forecasts SEAS5 prediction system, which is compared against its predecessor, System4. Our results indicate that whereas longer hindcasts and larger ensembles lead to increased reliability estimates, the number of points that are pooled together within a homogeneous climate region is much less relevant.
+  The Jenkinson-Collison weather typing scheme (JC-WT) is an automated method
+  used to classify the regional atmospheric circulation into a reduced number of
+  typical recurrent patterns, identified in the early 1970ies on the basis of
+  expert knowledge. Originally developed for the British Isles, the method since
+  then has seen many applications. Encouraged by the estimate that the JC-WT
+  approach can in principle be applied to any mid-to-high latitude region(Jones
+  et al, 2013), the present study explores whether it can be used anywhere in the
+  extratropics, including the Southern Hemisphere. To this aim, JC-WT is applied
+  at each grid-box of a global 2.5° regular grid excluding the inner tropics ( ±
+  5° band) where the method cannot be applied. Thereby, 6-hourly JC-WT catalogues
+  are obtained for 5 distinct reanalyses, covering the period 1979-2005, which
+  are then applied to explore 1) the method's limits of applicability and 2)
+  observational uncertainties inherent to reanalysis datasets. Using evaluation
+  criteria such as the diversity of occurring circulation types and the frequency
+  of unclassified situations, we extract empirically derived applicability
+  thresholds which suggest that JC-WT can be generally used anywhere polewards of
+  22.5°. Seasonal variations compromise this finding along the equatorward limits
+  of the domain, and so does the effect of large orographic barriers such as the
+  Tibetan Plateau, the Andes, Greenland and Antarctica. In some regions, the
+  JC-WT classifications obtained from the distinct reanalyses substantially
+  differ from each other and this should be taken into account by further
+  applications of the method.
 
 # Summary. An optional shortened abstract.
-#summary: We explore 
+summary: We explore whether the Jenkinson-Collison weather typing (JC-WT) scheme can be used anywhere in the extratropics, including the Southern Hemisphere. JC-WT catalogues are obtained for 5 distinct reanalyses.
 
 tags:
-  - Seasonal forecasting
-  - Reliability
+  - Global Climate Model
+  - Observational Uncertainty
+  - Weather Typing
 
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2021GL094662'
+url_pdf: 'https://assets.researchsquare.com/files/rs-1415588/v1_covered.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -61,7 +83,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-#  - cordys
+  - cordys
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
