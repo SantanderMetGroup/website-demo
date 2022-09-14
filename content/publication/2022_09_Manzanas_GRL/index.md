@@ -30,10 +30,9 @@ abstract: >
 # Summary. An optional shortened abstract.
 #summary: We explore 
 
-#tags:
-  - Global Climate Model
-  - Observational Uncertainty
-  - Weather Typing
+tags:
+  - Seasonal forecasting
+  - Reliability
 
 featured: false
 
