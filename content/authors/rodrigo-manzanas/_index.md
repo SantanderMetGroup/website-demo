@@ -52,6 +52,9 @@ social:
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0002-0001-3448
+  - icon: researcherid
+    icon_pack: ai
+    link: https://www.webofscience.com/wos/author/record/1197169
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.es/citations?user=mL8pFp4AAAAJ&hl=es&oi=ao
