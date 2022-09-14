@@ -31,9 +31,9 @@ abstract: >
 summary: We explore whether the Jenkinson-Collison weather typing (JC-WT) scheme can be used anywhere in the extratropics, including the Southern Hemisphere. JC-WT catalogues are obtained for 5 distinct reanalyses.
 
 tags:
-  - Global Climate Model
-  - Observational Uncertainty
-  - Weather Typing
+#  - Global Climate Model
+#  - Observational Uncertainty
+#  - Weather Typing
 
 featured: false
 
