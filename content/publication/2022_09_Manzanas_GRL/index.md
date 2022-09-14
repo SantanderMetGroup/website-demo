@@ -40,7 +40,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://assets.researchsquare.com/files/rs-1415588/v1_covered.pdf'
+url_pdf: 'https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2021GL094662'
 url_code: ''
 url_dataset: ''
 url_poster: ''
