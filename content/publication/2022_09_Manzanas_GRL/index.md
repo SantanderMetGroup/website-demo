@@ -25,28 +25,7 @@ publication: '*Geophysical Research Letters*'
 publication_short: 'GRL'
 
 abstract: >
-  The Jenkinson-Collison weather typing scheme (JC-WT) is an automated method
-  used to classify the regional atmospheric circulation into a reduced number of
-  typical recurrent patterns, identified in the early 1970ies on the basis of
-  expert knowledge. Originally developed for the British Isles, the method since
-  then has seen many applications. Encouraged by the estimate that the JC-WT
-  approach can in principle be applied to any mid-to-high latitude region(Jones
-  et al, 2013), the present study explores whether it can be used anywhere in the
-  extratropics, including the Southern Hemisphere. To this aim, JC-WT is applied
-  at each grid-box of a global 2.5° regular grid excluding the inner tropics ( ±
-  5° band) where the method cannot be applied. Thereby, 6-hourly JC-WT catalogues
-  are obtained for 5 distinct reanalyses, covering the period 1979-2005, which
-  are then applied to explore 1) the method's limits of applicability and 2)
-  observational uncertainties inherent to reanalysis datasets. Using evaluation
-  criteria such as the diversity of occurring circulation types and the frequency
-  of unclassified situations, we extract empirically derived applicability
-  thresholds which suggest that JC-WT can be generally used anywhere polewards of
-  22.5°. Seasonal variations compromise this finding along the equatorward limits
-  of the domain, and so does the effect of large orographic barriers such as the
-  Tibetan Plateau, the Andes, Greenland and Antarctica. In some regions, the
-  JC-WT classifications obtained from the distinct reanalyses substantially
-  differ from each other and this should be taken into account by further
-  applications of the method.
+  One of the key quality aspects in a probabilistic prediction is its reliability. However, this property is difficult to estimate in the case of seasonal forecasts due to the limited size of most of the hindcasts that are available nowadays. To shed light on this issue, this work presents a detailed analysis of how the ensemble size, the hindcast length and the number of points pooled together within a particular region affect the resulting reliability estimates. To do so, we build on 42 land reference regions recently defined for the IPCC-AR6 and assess the reliability of global seasonal forecasts of temperature and precipitation from the European Center for Medium Weather Forecasts SEAS5 prediction system, which is compared against its predecessor, System4. Our results indicate that whereas longer hindcasts and larger ensembles lead to increased reliability estimates, the number of points that are pooled together within a homogeneous climate region is much less relevant.
 
 # Summary. An optional shortened abstract.
 summary: We explore whether the Jenkinson-Collison weather typing (JC-WT) scheme can be used anywhere in the extratropics, including the Southern Hemisphere. JC-WT catalogues are obtained for 5 distinct reanalyses.
