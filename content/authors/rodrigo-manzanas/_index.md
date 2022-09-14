@@ -55,7 +55,7 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.es/citations?user=mL8pFp4AAAAJ&hl=es&oi=ao
-  - icon: research-gate
+  - icon: researchgate
     icon_pack: ai
     link: https://www.researchgate.net/profile/Rodrigo-Manzanas
 #  - icon: twitter
