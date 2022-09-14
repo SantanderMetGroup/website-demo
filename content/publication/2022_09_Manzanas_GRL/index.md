@@ -12,7 +12,7 @@ date: '2022-09-16T00:00:00Z'
 doi: '10.1029/2021GL094662'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-09-16T00:00:00Z'
+#publishDate: '2022-03-25T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -71,3 +71,9 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides:
 ---
+
+{{% callout note %}}
+Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
+
+Supplementary notes can be added here, including [code and math](https://wowchemy.com/docs/content/writing-markdown-latex/).
