@@ -17,7 +17,7 @@ organizations:
     url: 'https://web.unican.es'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include ...
+bio: My research focuses on the analysis of climate variability, the development of climate services, the evaluation of global and regional dynamical climate models and the statistical downscaling of seasonal forecasts and climate change projections.
 
 interests:
   - Climate change and variability
