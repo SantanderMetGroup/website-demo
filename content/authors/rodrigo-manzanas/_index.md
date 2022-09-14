@@ -9,7 +9,7 @@ short_name: R. Manzanas
 superuser: false
 
 # Role/position
-role: 'Assistant professor'
+role: 'Assistant Professor'
 
 # Organizations/Affiliations
 organizations:
@@ -58,33 +58,13 @@ social:
   - icon: researchgate
     icon_pack: ai
     link: https://www.researchgate.net/profile/Rodrigo-Manzanas
-#  - icon: twitter
-#    icon_pack: fab
-#    link: https://twitter.com/jfernandez_uc
-#  - icon: orcid
-#    icon_pack: ai
-#    link: https://orcid.org/0000-0001-7719-979X
-#  - icon: google-scholar
-#    icon_pack: ai
-#    link: https://scholar.google.com/citations?hl=en&user=otvNU1UAAAAJ&view_op=list_works&sortby=pubdate
-#  - icon: publons
-#    icon_pack: ai
-#    link: https://publons.com/researcher/2820263/antonio-s-cofino/
-#  - icon: scopus
-#    icon_pack: ai
-#    link:  https://www.scopus.com/authid/detail.uri?authorId=6505838419
-#  - icon: zotero
-#    icon_pack: ai
-#    link: https://www.zotero.org/cofinoa
-#  - icon: zenodo
-#    icon_pack: ai
-#    link:  https://zenodo.org/communities/cofinoa
-#  - icon: github
-#    icon_pack: fab
-#    link: https://github.com/jesusff
-#  - icon: stack-overflow
-#    icon_pack: fab
-#    link: https://stackoverflow.com/users/2565896/
+  - icon: kudos
+    icon_pack: ai
+    link: https://www.growkudos.com/profile/rodrigo_manzanas
+  - icon: sciprofiles
+    icon_pack: ai
+    link: https://sciprofiles.com/profile/rmanzanas
+    
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -103,12 +83,8 @@ user_groups:
   - Post-doc Researchers
 ---
 
-<a href="http://orcid.org/0000-0002-0001-3448">ORCID</a>
-<a href="https://www.scopus.com/authid/detail.uri?authorId=55340091000">Scopus</a>
 <a href="https://publons.com/researcher/2677226/r-manzanas/">Publons</a>
 <a href="https://www.mendeley.com/profiles/rodrigo-manzanas/">Mendeley</a>
-<a href="https://scholar.google.es/citations?user=mL8pFp4AAAAJ&hl=es&oi=ao">Google Scholar</a>
-<a href="https://www.researchgate.net/profile/Rodrigo_Manzanas">ResearchGate</a>
 <a href="https://www.growkudos.com/profile/rodrigo_manzanas">Kudos</a>
 <a href="http://sciprofiles.com/profile/rmanzanas">SciProfiles</a>
 
